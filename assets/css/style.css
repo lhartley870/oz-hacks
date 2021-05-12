@@ -18,6 +18,7 @@
 
 /* absolute positioning used for compass logo within the box as using padding to vertically centre the compass within the box creates issues with applying the border */
 #compass-logo {
+    animation: rotation 30s infinite linear; /*added for compass rotation animation */
     border: 5px solid #ff901a; 
     border-radius: 50%;
     height: 120px;
@@ -26,4 +27,14 @@
     position: absolute; 
     top: 50%; 
     width: 120px;
+}
+
+/* compass rotation animation */
+@keyframes rotation {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
