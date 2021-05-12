@@ -4,21 +4,28 @@
     border: none; 
 }
 
+/* header */
+
+#header-container {
+    margin: 15px auto; 
+    width: 95%;
+}
+
 /* compass logo */
 
  #compass-container {
     background-color: #fff6e8; 
     border: 2px solid #2f4858; 
+    box-sizing: border-box; 
     display: inline-block;
     height: 150px; 
-    margin: 10px 0 0 10px;
     position: relative; 
-    width: 150px;  
+    width: 15%;     
 }
 
 /* absolute positioning used for compass logo within the box as using padding to vertically centre the compass within the box creates issues with applying the border */
 #compass-logo {
-    animation: rotation 30s infinite linear; /*added for compass rotation animation */
+    animation: rotation 30s; /* infinite linear; added for compass rotation animation */
     border: 5px solid #ff901a; 
     border-radius: 50%;
     height: 120px;
@@ -26,8 +33,8 @@
     margin: -65px 0 0 -65px; 
     position: absolute; 
     top: 50%; 
-    width: 120px;
-}
+    width: 120px; 
+} 
 
 /* compass rotation animation */
 @keyframes rotation {
@@ -38,3 +45,27 @@
         transform: rotate(359deg);
     }
 }
+
+/* oz hacks logo */
+
+#ozhacks-container {
+    border: 2px solid #2f4858; 
+    border-left: none;
+    box-sizing: border-box;  
+    display: inline-block;
+    height: 150px; 
+    margin-left: -4px; 
+    width: 35%;  
+}
+
+#navbar-container {
+    border: 2px solid #2f4858; 
+    border-left: none; 
+    box-sizing: border-box; 
+    display: inline-block;
+    height: 150px; 
+    margin-left: -4px;  
+    overflow: hidden; 
+    width: 50%; 
+}
+
