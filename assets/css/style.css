@@ -1,0 +1,29 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+}
+
+/* compass logo */
+
+ #compass-container {
+    background-color: #fff6e8; 
+    border: 2px solid #2f4858; 
+    display: inline-block;
+    height: 150px; 
+    margin: 10px 0 0 10px;
+    position: relative; 
+    width: 150px;  
+}
+
+/* absolute positioning used for compass logo within the box as using padding to vertically centre the compass within the box creates issues with applying the border */
+#compass-logo {
+    border: 5px solid #ff901a; 
+    border-radius: 50%;
+    height: 120px;
+    left: 50%;
+    margin: -65px 0 0 -65px; 
+    position: absolute; 
+    top: 50%; 
+    width: 120px;
+}
