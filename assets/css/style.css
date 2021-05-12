@@ -13,12 +13,15 @@
 
 /* compass logo */
 
- #compass-container {
-    background-color: #fff6e8; 
+.container {
     border: 2px solid #2f4858; 
     box-sizing: border-box; 
     display: inline-block;
     height: 150px; 
+}
+
+ #compass-container {
+    background-color: #fff6e8; 
     position: relative; 
     width: 15%;     
 }
@@ -49,21 +52,13 @@
 /* oz hacks logo */
 
 #ozhacks-container {
-    border: 2px solid #2f4858; 
     border-left: none;
-    box-sizing: border-box;  
-    display: inline-block;
-    height: 150px; 
     margin-left: -4px; 
     width: 35%;  
 }
 
 #navbar-container {
-    border: 2px solid #2f4858; 
     border-left: none; 
-    box-sizing: border-box; 
-    display: inline-block;
-    height: 150px; 
     margin-left: -4px;  
     overflow: hidden; 
     width: 50%; 
