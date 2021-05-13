@@ -57,10 +57,32 @@
     width: 35%;  
 }
 
+/* navigation bar */
+
 #navbar-container {
+    background: #ac2c00 url("../../assets/images/header/uluru_wide.jpg") center / cover no-repeat scroll; 
     border-left: none; 
     margin-left: -4px;  
-    overflow: hidden; 
+    overflow: hidden;
+    text-align: center; 
     width: 50%; 
 }
 
+nav li {
+    display: inline-block; 
+    margin: 15px 10px 0 0;
+}
+
+a {
+    color: #fff5ed; 
+    text-decoration: none; 
+} 
+
+a:hover, 
+a:focus {
+    font-style: italic; 
+}
+
+nav a:visited {
+    color: #025;  
+}
