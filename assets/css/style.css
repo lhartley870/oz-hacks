@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto&family=Waiting+for+the+Sunrise&display=swap');
 
 * {
+    border: none; 
     margin: 0; 
     padding: 0; 
-    border: none; 
+    text-decoration: none; 
+    
 }
 
 body {
+    color: #025; 
     font-family: Roboto, sans-serif; 
 }
 
@@ -58,9 +61,23 @@ body {
 /* oz hacks logo */
 
 #ozhacks-container {
+    background-color: #dc9c85; 
     border-left: none;
     margin-left: -4px; 
-    width: 35%;  
+    overflow: hidden; 
+    padding: 30px 0 40px 0; 
+    text-align: center; 
+    width: 35%; 
+}
+
+h1, h2 {
+    color: #025;
+    font-family: 'Fontdiner Swanky', cursive; 
+    text-transform: uppercase; 
+}
+
+#ozhacks-container p {
+    text-decoration: overline #ac2c00 solid 2px; 
 }
 
 /* navigation bar */
@@ -79,16 +96,15 @@ nav li {
     margin: 15px 10px 0 0;
 }
 
-a {
+.links a {
     color: #fff5ed; 
-    text-decoration: none; 
 } 
 
-a:hover, 
-a:focus {
+.links a:hover, 
+.links a:focus {
     font-style: italic; 
 }
 
-nav a:visited {
-    color: #025;  
+.links a:visited {
+    color: #025; 
 }
