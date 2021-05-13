@@ -9,6 +9,7 @@
 }
 
 body {
+    background-color: #fff5ed; 
     color: #025; 
     font-family: Roboto, sans-serif; 
 }
@@ -23,14 +24,14 @@ body {
 /* compass logo */
 
 .container {
-    border: 2px solid #2f4858; 
+    border: 2px solid #025;; 
     box-sizing: border-box; 
     display: inline-block;
     height: 150px; 
 }
 
  #compass-container {
-    background-color: #fff6e8; 
+    background-color: #88aee1; 
     position: relative; 
     width: 15%;     
 }
@@ -38,7 +39,7 @@ body {
 /* absolute positioning used for compass logo within the box as using padding to vertically centre the compass within the box creates issues with applying the border */
 #compass-logo {
     animation: rotation 30s; /* infinite linear; added for compass rotation animation */
-    border: 5px solid #ff901a; 
+    border: 5px solid #d2b48c;
     border-radius: 50%;
     height: 120px;
     left: 50%;
