@@ -113,14 +113,11 @@ nav a {
 /* footer */
 
 #footer-container {
-    background: #d2b48c url("../../assets/images/footer/beach_footer.jpg") center / cover no-repeat scroll; 
-    border: 2px solid #025;
+    background: #88aee1; 
     bottom: 0;  
-    box-sizing: border-box; 
     height: 17vh; 
     position: absolute; 
-    margin: 0 2.5vw 1vh 2.5vw; 
-    width: 95vw;
+    width: 100vw;
 }
 
 table {
