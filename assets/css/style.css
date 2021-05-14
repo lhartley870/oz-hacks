@@ -96,9 +96,10 @@ nav li {
     margin: 15px 10px 0 0;
 }
 
-.links a {
+nav a {
     color: #fff5ed; 
-} 
+    font-weight: bold; 
+}
 
 .links a:hover, 
 .links a:focus {
@@ -127,5 +128,7 @@ table {
     text-align: center; 
     width: 100%; 
 }
+
+
 
 
