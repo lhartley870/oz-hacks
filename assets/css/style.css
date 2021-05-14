@@ -117,8 +117,7 @@ nav a {
     bottom: 0;  
     height: 17vh; 
     position: absolute; 
-    margin: 0 2.5vw 1vh 2.5vw; 
-    width: 95vw;
+    width: 100vw;
 }
 
 table {
