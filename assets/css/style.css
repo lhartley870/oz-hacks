@@ -120,8 +120,13 @@ nav a {
     width: 100vw;
 }
 
+#footer-icons {
+    vertical-align: bottom; 
+}
+
 #footer-labels {
     font-size: 60%; 
+    vertical-align: top; 
 }
 
 table {
