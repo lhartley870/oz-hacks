@@ -126,8 +126,13 @@ nav a {
 
 table {
     font-size: 130%; 
+    height: 100px; 
     text-align: center;
     width: 100%; 
+}
+
+td {
+    width: 25%;
 }
 
 
