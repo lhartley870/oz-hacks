@@ -109,3 +109,15 @@ nav li {
 .links a:visited {
     color: #025; 
 }
+
+/* footer */
+
+#footer-container {
+    border: 2px solid #025;
+    bottom: 0;  
+    box-sizing: border-box; 
+    height: 17vh; 
+    position: absolute; 
+    margin: 0 2.5vw 1vh 2.5vw; 
+    width: 95vw;
+}
