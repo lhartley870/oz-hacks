@@ -37,7 +37,7 @@ body {
 
 /* absolute positioning used for compass logo within the box as using padding to vertically centre the compass within the box creates issues with applying the border */
 #compass-logo {
-    animation: rotation 30s; /* infinite linear; added for compass rotation animation */
+    animation: rotation 30s infinite linear; /* added for compass rotation animation */
     border: 5px solid #d2b48c;
     border-radius: 50%;
     height: 120px;
