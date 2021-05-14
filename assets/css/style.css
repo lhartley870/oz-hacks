@@ -5,7 +5,6 @@
     margin: 0; 
     padding: 0; 
     text-decoration: none; 
-    
 }
 
 body {
@@ -113,6 +112,7 @@ nav li {
 /* footer */
 
 #footer-container {
+    background: #d2b48c url("../../assets/images/footer/beach_footer.jpg") center / cover no-repeat scroll; 
     border: 2px solid #025;
     bottom: 0;  
     box-sizing: border-box; 
@@ -121,3 +121,11 @@ nav li {
     margin: 0 2.5vw 1vh 2.5vw; 
     width: 95vw;
 }
+
+table {
+    margin: 5px auto; 
+    text-align: center; 
+    width: 100%; 
+}
+
+
