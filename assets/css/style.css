@@ -113,11 +113,12 @@ nav a {
 /* footer */
 
 #footer-container {
-    background: #88aee1; 
+    background: #88aee1;
     bottom: 0;  
     height: 17vh; 
     position: absolute; 
-    width: 100vw;
+    margin: 0 2.5vw 1vh 2.5vw; 
+    width: 95vw;
 }
 
 table {
