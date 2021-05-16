@@ -15,6 +15,10 @@ body {
 
 /* header */
 
+header {
+    background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
+}
+
 /* compass logo */
 
 .container {
