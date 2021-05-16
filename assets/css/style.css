@@ -15,11 +15,6 @@ body {
 
 /* header */
 
-#header-container {
-    margin: 15px auto; 
-    width: 95%;
-}
-
 /* compass logo */
 
 .container {
@@ -98,7 +93,7 @@ nav li {
 
 nav a {
     color: #fff5ed; 
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .links a:hover, 
@@ -108,7 +103,7 @@ nav a {
 
 .links a:visited {
     color: #025; 
-}
+} 
 
 /* footer */
 
