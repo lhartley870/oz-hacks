@@ -20,31 +20,32 @@ header {
     height: 150px;  
 } 
 
-/* compass logo */
-
 .container {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     display: inline-block;
     height: 150px; 
-    /* border: 2px solid #025; */
 }
+
+/* compass logo */
 
  #compass-container { 
-    position: relative; 
-    width: 15%;     
+    position: relative;
+    width: 15%;  
 }
 
-/* absolute positioning used for compass logo within the box as using padding to vertically centre the compass within the box creates issues with applying the border */
+/* absolute positioning of the compass logo offers better consistency across most different device sizes than using text-align: center to horizontally centre and padding to 
+vertically centre which also pushes the oz hacks div and nav bar div downwards out of alignment with the header bar */
+
 #compass-logo {
     animation: rotation 30s infinite linear; /* added for compass rotation animation */
-    border: 5px solid #d2b48c;
     border-radius: 50%;
+    box-shadow: 0 0 10px 10px #88aee1; 
     height: 120px;
     left: 50%;
-    margin: -65px 0 0 -65px; 
+    margin: -60px 0 0 -60px; 
     position: absolute; 
     top: 50%; 
-    width: 120px; 
+    width: 120px;
 } 
 
 /* compass rotation animation */
