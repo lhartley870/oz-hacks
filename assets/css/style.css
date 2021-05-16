@@ -23,8 +23,7 @@ body {
     height: 150px; 
 }
 
- #compass-container {
-    background-color: #88aee1; 
+ #compass-container { 
     position: relative; 
     width: 15%;     
 }
@@ -55,7 +54,6 @@ body {
 /* oz hacks logo */
 
 #ozhacks-container {
-    background-color: #dc9c85; 
     border-left: none;
     margin-left: -4px; 
     overflow: hidden; 
