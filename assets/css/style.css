@@ -75,7 +75,6 @@ h1, h2 {
 /* navigation bar */
 
 #navbar-container {
-    background: #ac2c00 url("../../assets/images/header/uluru_wide.jpg") center / cover no-repeat scroll; 
     border-left: none; 
     margin-left: -4px;  
     overflow: hidden;
