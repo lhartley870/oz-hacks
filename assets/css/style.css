@@ -109,7 +109,7 @@ nav a {
 
 /* footer */
 
-#footer-container {
+footer {
     background: #88aee1;
     bottom: 0;  
     height: 100px; 
@@ -117,13 +117,14 @@ nav a {
     width: 100vw;
 }
 
-#footer-icons {
-    vertical-align: bottom; 
+.icon-links > li {
+    font-size: 130%;  
+    display: inline; 
 }
 
-#footer-labels {
+.link-labels > li {
     font-size: 60%; 
-    vertical-align: top; 
+    display: inline; 
 }
 
 table {
@@ -132,11 +133,4 @@ table {
     text-align: center;
     width: 100%; 
 }
-
-td {
-    width: 25%;
-}
-
-
-
 
