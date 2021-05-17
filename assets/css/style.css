@@ -100,7 +100,7 @@ nav a {
 
 .links a:hover, 
 .links a:focus {
-    font-style: italic; 
+    border-bottom: 2px solid #fff5ed;
 }
 
 .links a:visited {
@@ -131,5 +131,4 @@ footer {
     color: #fff5ed; 
     font-size: 160%; 
 }
-
 
