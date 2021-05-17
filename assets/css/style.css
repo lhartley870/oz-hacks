@@ -123,9 +123,13 @@ footer {
 } 
 
 .icon-links > li { 
-    font-size: 160%; 
     display: inline; 
     padding: 0 7%; 
+}
+
+.icon-links a {
+    color: #fff5ed; 
+    font-size: 160%; 
 }
 
 
