@@ -86,7 +86,10 @@ h1, h2 {
     overflow: hidden;
     text-align: center; 
     width: 50%; 
-    border: 2px solid black; 
+}
+
+.header-links {
+    padding: 65.5px 0; 
 }
 
 .header-links > li {
