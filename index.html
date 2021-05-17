@@ -49,32 +49,32 @@
         Image
         Welcome Message
     </section>
-    <footer>
-        <div id="footer-container">
-            <table>
-                <!-- aria-label used for icon links in footer rather than aria-labelledby as the labels that sit underneath the icons are only one word descriptions and not as useful (e.g. they don't confirm that the links open in a new tab) -->   
-                <tr id="footer-icons">
-                    <td>
-                    <a href="https://www.tripadvisor.com" target="_blank" rel="noopener" aria-label="Visit Tripadvisor's page (opens in a new tab)"><i class="fab fa-tripadvisor"></i></a>
-                    </td>
-                    <td>
-                    <a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder" target="_blank" rel="noopener" aria-label="Visit the Australian Government's visa page (opens in a new tab)"><i class="far fa-file-alt"></i></a>
-                    </td>
-                    <td>
-                    <a href="https://www.skyscanner.net" target="_blank" rel="noopener" aria-label="Visit Skyscanner's page (opens in a new tab)"><i class="fas fa-plane"></i></a>
-                    </td>
-                    <td>
-                    <a href="https://www.hostelworld.com/" target="_blank" rel="noopener" aria-label="Visit Hostelworld's page (opens in a new tab)"><i class="fas fa-bed"></i></a>
-                    </td>
-                </tr>
-                <tr id="footer-labels">
-                    <td>Tripadvisor</td>
-                    <td>Visas</td>
-                    <td>Skyscanner</td>
-                    <td>Hostelworld</td>
-                </tr>
-            </table>
-        </div>
+    <footer id="footer-container">
+        <!--
+            aria-label used for icon links in footer rather than linking them to the labels underneath using aria-labelledby 
+            as the labels that sit underneath the icons are only one word descriptions and not as useful (e.g. they don't 
+            confirm that the links open in a new tab) 
+        -->   
+        <ul id="footer-icons">
+            <li>
+                <a href="https://www.tripadvisor.com" target="_blank" rel="noopener" aria-label="Visit Tripadvisor's page (opens in a new tab)"><i class="fab fa-tripadvisor"></i></a>
+            </li>
+            <li>
+                <a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder" target="_blank" rel="noopener" aria-label="Visit the Australian Government's visa page (opens in a new tab)"><i class="far fa-file-alt"></i></a>
+            </li>
+            <li>
+                <a href="https://www.skyscanner.net" target="_blank" rel="noopener" aria-label="Visit Skyscanner's page (opens in a new tab)"><i class="fas fa-plane"></i></a>
+            </li>
+            <li>
+                <a href="https://www.hostelworld.com/" target="_blank" rel="noopener" aria-label="Visit Hostelworld's page (opens in a new tab)"><i class="fas fa-bed"></i></a>
+            </li>
+        </ul>
+        <ul id="footer-labels">
+            <li>Tripadvisor</li>
+            <li>Visas</li>
+            <li>Skyscanner</li>
+            <li>Hostelworld</li>
+        </ul>
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/0c7d1d07bc.js" crossorigin="anonymous"></script>
