@@ -78,6 +78,7 @@ h1, h2 {
 }
 
 #ozhacks-container p {
+    font-weight: bold; 
     text-decoration: overline #ac2c00 solid 2px; 
 }
 
