@@ -89,6 +89,12 @@ h1, h2 {
     border: 2px solid black; 
 }
 
+.header-links a {
+    color: #fff5ed; 
+    font-size: 120%; 
+    font-weight: bold; 
+}
+
 .links a:hover, 
 .links a:focus {
     border-bottom: 2px solid #fff5ed;
