@@ -86,16 +86,7 @@ h1, h2 {
     overflow: hidden;
     text-align: center; 
     width: 50%; 
-}
-
-nav li {
-    display: inline-block; 
-    margin: 15px 10px 0 0;
-}
-
-nav a {
-    color: #fff5ed; 
-    font-weight: bold;
+    border: 2px solid black; 
 }
 
 .links a:hover, 
