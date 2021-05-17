@@ -119,11 +119,13 @@ footer {
 
 .icon-links {
     text-align: center; 
+    padding: 35px 0; 
 } 
 
 .icon-links > li { 
     font-size: 160%; 
     display: inline; 
+    padding: 0 7%; 
 }
 
 
