@@ -117,18 +117,12 @@ footer {
     width: 100vw;
 }
 
-.icon-links,
-.link-labels {
+.icon-links {
     text-align: center; 
-}
+} 
 
-.icon-links > li {
-    font-size: 130%;  
-    display: inline; 
-}
-
-.link-labels > li {
-    font-size: 60%; 
+.icon-links > li { 
+    font-size: 160%; 
     display: inline; 
 }
 
