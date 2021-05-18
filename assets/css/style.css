@@ -132,6 +132,15 @@ h1, h2 {
     width: 90vw; 
 } 
 
+.cover-text {
+    background: rgba(255, 245, 237, 0.8); 
+    bottom: 125px;
+    height: 300px;
+    left: 20px; 
+    position: absolute;
+    width: 40%;
+}
+
 /* footer */
 
 footer {
