@@ -125,6 +125,13 @@ h1, h2 {
     width: 90vw; 
 }
 
+#hero-image {
+    background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
+    height: 550px; 
+    margin: auto;
+    width: 90vw; 
+} 
+
 /* footer */
 
 footer {
