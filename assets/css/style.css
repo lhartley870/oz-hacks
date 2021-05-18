@@ -116,6 +116,15 @@ h1, h2 {
     color: #025; 
 } 
 
+/* hero image and covering text */
+
+.hero-container {
+    height: 550px;
+    margin: 41px auto;
+    width: 90vw; 
+}
+
+
 /* footer */
 
 footer {
