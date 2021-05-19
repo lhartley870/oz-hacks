@@ -66,12 +66,13 @@ of alignment with the header bar
 #ozhacks-container {
     margin-left: -4px; 
     overflow: hidden; 
-    padding: 35px 0; 
+    padding: 49px 0; 
     text-align: center;
-    width: 35%; 
+    width: 50%; 
 }
 
 h1 {
+    font-size: 1.5rem; 
     text-transform: uppercase; 
 }
 
@@ -81,6 +82,7 @@ h1, h2 {
 }
 
 #ozhacks-container p {
+    font-size: 0.8rem; 
     font-weight: bold; 
     text-decoration: overline #ac2c00 solid 2px; 
 }
@@ -197,4 +199,17 @@ footer {
         margin: -60px 0 0 -60px; 
         width: 120px;
     } 
+
+    #ozhacks-container {
+        padding: 35px 0; 
+        width: 35%; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+    
+    #ozhacks-container p {
+        font-size: 1rem; 
+    }
 }
