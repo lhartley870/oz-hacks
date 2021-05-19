@@ -30,7 +30,7 @@ header {
 
  #compass-container { 
     position: relative;
-    width: 15%;  
+    width: 20%;  
 }
 
 /* 
@@ -42,13 +42,13 @@ of alignment with the header bar
 #compass-logo {
     animation: rotation 30s infinite linear; /* added for compass rotation animation */
     border-radius: 50%;
-    box-shadow: 0 0 10px 10px #88aee1; 
-    height: 120px;
+    box-shadow: 0 0 10px 5px #88aee1; 
+    height: 40px;
     left: 50%;
-    margin: -60px 0 0 -60px; 
+    margin: -20px 0 0 -20px; 
     position: absolute; 
     top: 50%; 
-    width: 120px;
+    width: 40px;
 } 
 
 /* compass rotation animation */
@@ -64,7 +64,7 @@ of alignment with the header bar
 /* oz hacks logo */
 
 #ozhacks-container {
-    margin-left: -4px;
+    margin-left: -4px; 
     overflow: hidden; 
     padding: 35px 0; 
     text-align: center;
@@ -161,9 +161,9 @@ h1, h2 {
 
 footer {
     background-color: #88aee1;
-    bottom: 0;
+    bottom: 0; 
     height: 100px; 
-    position: absolute;
+    position: absolute; 
     width: 100vw;
 }
 
@@ -182,3 +182,19 @@ footer {
     font-size: 160%; 
 }
 
+/* media queries */
+
+/* for medium screen sizes of 977px and up */
+@media screen and (min-width:977px) {
+    
+    #compass-container { 
+        width: 15%;  
+    }
+
+    #compass-logo {
+        box-shadow: 0 0 10px 10px #88aee1; 
+        height: 120px;
+        margin: -60px 0 0 -60px; 
+        width: 120px;
+    } 
+}
