@@ -90,11 +90,10 @@ h1, h2 {
 /* navigation bar */
 
 #navbar-container {
-    border-left: none;  
     margin-left: -4px;  
     overflow: hidden;
     text-align: center; 
-    width: 50%; 
+    width: 30%; 
 }
 
 .header-links {
@@ -211,5 +210,9 @@ footer {
     
     #ozhacks-container p {
         font-size: 1rem; 
+    }
+
+    #navbar-container {
+        width: 50%; 
     }
 }
