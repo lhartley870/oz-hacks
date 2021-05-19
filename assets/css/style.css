@@ -97,17 +97,16 @@ h1, h2 {
 }
 
 .header-links {
-    padding: 65.5px 0; 
+    padding: 0; 
 }
 
 .header-links > li {
-    display: inline; 
     padding: 0 1.5%; 
 }
 
 .header-links a {
     color: #fff5ed; 
-    font-size: 110%; 
+    font-size: 0.9rem; 
     font-weight: bold; 
 }
 
