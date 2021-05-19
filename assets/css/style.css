@@ -96,30 +96,6 @@ h1, h2 {
     width: 30%; 
 }
 
-.header-links {
-    padding: 65.5px 0; 
-}
-
-.header-links > li {
-    display: inline; 
-    padding: 0 1.5%; 
-}
-
-.header-links a {
-    color: #fff5ed; 
-    font-size: 110%; 
-    font-weight: bold; 
-}
-
-.links a:hover, 
-.links a:focus {
-    border-bottom: 2px solid #fff5ed;
-}
-
-.links a:visited {
-    color: #025; 
-} 
-
 /* hero image and covering text */
 
 .hero-container {
@@ -215,4 +191,35 @@ footer {
     #navbar-container {
         width: 50%; 
     }
+
+    #navbar-container {
+        margin-left: -4px;  
+        overflow: hidden;
+        text-align: center; 
+        width: 30%; 
+    }
+    
+    .header-links {
+        padding: 65.5px 0; 
+    }
+    
+    .header-links > li {
+        display: inline; 
+        padding: 0 1.5%; 
+    }
+    
+    .header-links a {
+        color: #fff5ed; 
+        font-size: 110%; 
+        font-weight: bold; 
+    }
+    
+    .links a:hover, 
+    .links a:focus {
+        border-bottom: 2px solid #fff5ed;
+    }
+    
+    .links a:visited {
+        color: #025; 
+    } 
 }
