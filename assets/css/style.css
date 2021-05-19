@@ -244,10 +244,6 @@ footer {
 
 /* for medium screen sizes of 977px and up */
 @media screen and (min-width:977px) {
-    
-    #compass-container { 
-        width: 15%;  
-    }
 
     #compass-logo {
         box-shadow: 0 0 10px 10px #88aee1; 
@@ -256,31 +252,8 @@ footer {
         width: 120px;
     } 
 
-    #ozhacks-container {
-        padding: 35px 0; 
-        width: 35%; 
-    }
-
-    h1 {
-        font-size: 2rem; 
-    }
-    
-    #ozhacks-container p {
-        font-size: 1rem; 
-    }
-
-    #navbar-container {
-        text-align: center; 
-        width: 50%; 
-    }
-
     .header-links {
         padding: 65px 0; 
-    }
-
-    .header-links > li {
-        display: inline; 
-        padding: 0 1.5%; 
     }
 
     .header-links a {
