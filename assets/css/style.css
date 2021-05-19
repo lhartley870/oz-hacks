@@ -213,6 +213,27 @@ footer {
     }
 
     #navbar-container {
+        text-align: center; 
         width: 50%; 
     }
+
+    .header-links {
+        padding: 65.5px 0; 
+    }
+
+    .header-links > li {
+        display: inline; 
+        padding: 0 1.5%; 
+    }
+
+    .header-links a {
+        font-size: 110%;  
+    }
 }
+
+
+
+
+
+
+
