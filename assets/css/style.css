@@ -92,12 +92,13 @@ h1, h2 {
 #navbar-container {
     margin-left: -4px;  
     overflow: hidden;
-    text-align: center; 
+    text-align: left; 
     width: 30%; 
 }
 
 .header-links {
-    padding: 17.5px 0; 
+    list-style: none; 
+    padding: 17.5px 0 17.5px 10%; 
 }
 
 .header-links > li ~ li {
