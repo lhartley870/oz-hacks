@@ -40,7 +40,6 @@ vertically centre which also pushes the oz hacks div and nav bar div downwards o
 of alignment with the header bar 
 */
 #compass-logo {
-    animation: rotation 30s infinite linear; /* added for compass rotation animation */
     border-radius: 50%;
     box-shadow: 0 0 10px 5px #88aee1; 
     height: 40px;
@@ -49,9 +48,12 @@ of alignment with the header bar
     position: absolute; 
     top: 50%; 
     width: 40px;
+
+    /* compass rotation animation adapted from https://flaviocopes.com/rotate-image/ */
+    animation: rotation 20s infinite linear; 
 } 
 
-/* compass rotation animation */
+/* sets the compass to a full rotation */
 @keyframes rotation {
     from {
         transform: rotate(0deg); 
