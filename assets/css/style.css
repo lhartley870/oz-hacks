@@ -154,26 +154,35 @@ h1, h2 {
 }
 
 #signature { 
-    font-size: 1.5rem; 
     font-family: 'Waiting for the Sunshine', cursive; 
-     
+    font-size: 1.5rem; 
+    
+/* 
+typewriter animation for signature
+adapted from https://css-tricks.com/snippets/css/typewriter-effect/
+*/ 
     animation: typing 1.25s steps(8, end), blink-caret .75s step-end infinite;
     border-right: .15rem solid #025; 
     letter-spacing: .10rem;
     margin: 0 auto; 
     overflow: hidden; 
-    width: 96px; 
 }
 
+/* creates typing effect */
 @keyframes typing {
     from { 
         width: 0; 
     }
+    /* 
+    'to' width needs to be the width of the signature 
+    otherwise the cursor runs to the edge of the page 
+    */
     to { 
         width: 96px; 
     } 
 }
 
+/* creates typewriter cursor effect */
 @keyframes blink-caret {
     from, to { 
         border-color: transparent; 
