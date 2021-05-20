@@ -142,12 +142,12 @@ h1, h2 {
     background: rgba(255, 245, 237, 0.8); 
     height: 350px;
     position: absolute;
-    top: 0; 
+    top: 0;
     width: 100%;
 } 
 
 .cover-text > h2 {
-    padding-top: 15%; 
+    padding-top: 3rem; 
     text-align: center; 
 }
 
@@ -229,6 +229,30 @@ footer {
 
 /* media queries */
 
+/* for medium mobile screen sizes of 321px and up */
+@media screen and (min-width: 321px) {
+
+    .hero-container {
+        height: 450px;
+    }
+
+    #hero-image {
+        height: 450px; 
+    } 
+
+    .cover-text {
+        height: 450px;
+    } 
+
+    .cover-text > h2 {
+        padding-top: 7rem; 
+    } 
+
+    .cover-text > p {
+        font-size: 1rem;
+    }
+} 
+
 /* for larger mobile screen sizes of 375px and up */
 @media screen and (min-width: 375px) {
 
@@ -238,7 +262,32 @@ footer {
         margin: -30px 0 0 -30px; 
         width: 60px;
     } 
-}
+
+    .hero-container {
+        height: 450px;
+    }
+    
+    #hero-image {
+        height: 450px; 
+    } 
+    
+    .cover-text {
+        height: 450px;
+    } 
+    
+    .cover-text > h2 {
+        padding-top: 15%; 
+        text-align: center; 
+    }
+    
+    .cover-text > p {
+        font-family: 'Courier Prime', monospace; 
+        font-size: 0.9rem;
+        font-weight: bold; 
+        text-align: center; 
+    }
+    
+} 
 
 /* for small to medium screen sizes of 768px and up */
 @media screen and (min-width: 768px) {
