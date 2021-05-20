@@ -240,6 +240,42 @@ footer {
     .header-links a {
         font-size: 90%;  
     }
+
+    .hero-container {
+        height: 550px;
+        margin: auto;
+        position: relative; 
+        width: 100vw; 
+    }
+    
+    #hero-image {
+        background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
+        height: 550px; 
+        margin: auto;
+        width: 100vw; 
+    } 
+    
+    .cover-text {
+        background: rgba(255, 245, 237, 0.8); 
+        bottom: 125px;
+        height: 300px;
+        left: 20px; 
+        position: absolute;
+        width: 40%;
+    }
+    
+    .cover-text > h2 {
+        padding-top: 10px; 
+        text-align: center; 
+    }
+    
+    .cover-text > p {
+        text-align: center; 
+    }
+    
+    #signature {
+        font-family: 'Waiting for the Sunshine', cursive; 
+    }    
 }
 
 /* for medium screen sizes of 977px and up */
