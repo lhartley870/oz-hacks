@@ -126,14 +126,14 @@ h1, h2 {
     height: 550px;
     margin: auto;
     position: relative; 
-    width: 90vw; 
+    width: 100vw; 
 }
 
 #hero-image {
     background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
     height: 550px; 
     margin: auto;
-    width: 90vw; 
+    width: 100vw; 
 } 
 
 .cover-text {
