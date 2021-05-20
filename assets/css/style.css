@@ -144,7 +144,7 @@ h1, h2 {
     position: absolute;
     top: 0; 
     width: 100%;
-}
+} 
 
 .cover-text > h2 {
     padding-top: 10px; 
@@ -320,6 +320,29 @@ footer {
     
     #signature {
         font-family: 'Waiting for the Sunshine', cursive; 
+    }    
+
+    footer {
+        background-color: #88aee1;
+        bottom: 0; 
+        height: 100px; 
+        position: absolute; 
+        width: 100vw;
+    }
+    
+    .icon-links {
+        text-align: center; 
+        padding: 35px 0; 
+    } 
+    
+    .icon-links > li { 
+        display: inline; 
+        padding: 0 7%; 
+    }
+    
+    .icon-links a {
+        color: #fff5ed; 
+        font-size: 160%; 
     }    
 }
 
