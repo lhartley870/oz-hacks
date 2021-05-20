@@ -83,6 +83,10 @@ h1, h2 {
     font-family: 'Fontdiner Swanky', cursive;     
 }
 
+h2 {
+    font-size: 1.5rem; 
+}
+
 #ozhacks-container p {
     font-size: 0.8rem; 
     font-weight: bold; 
@@ -265,32 +269,42 @@ footer {
 }
 
 /* for larger mobile screen sizes of 376px and up */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
     
     .hero-container {
-        height: 450px;
+        height: 680px;
     }
     
     #hero-image {
-        height: 450px; 
+        height: 680px; 
     } 
     
     .cover-text {
-        height: 450px;
+        height: 680px;
     } 
     
     .cover-text > h2 {
-        padding-top: 15%; 
-        text-align: center; 
+        font-size: 1.8rem; 
+        padding-top: 10rem; 
     }
     
     .cover-text > p {
-        font-family: 'Courier Prime', monospace; 
-        font-size: 0.9rem;
-        font-weight: bold; 
-        text-align: center; 
+        font-size: 1.2rem;
     }
-    
+
+    #signature {
+        font-size: 1.8rem; 
+        width: 112px; 
+    }
+
+    @keyframes typing {
+        from { 
+            width: 0; 
+        }
+        to { 
+            width: 112px; 
+        } 
+    }
 } 
 
 /* for small to medium screen sizes of 768px and up */
