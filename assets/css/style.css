@@ -147,13 +147,14 @@ h1, h2 {
 } 
 
 .cover-text > h2 {
-    padding-top: 10px; 
+    padding-top: 15%; 
     text-align: center; 
 }
 
 .cover-text > p {
     font-family: 'Courier Prime', monospace; 
     font-size: 0.9rem;
+    font-weight: bold; 
     text-align: center; 
 }
 
