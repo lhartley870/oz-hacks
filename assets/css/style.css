@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto&family=Waiting+for+the+Sunrise&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fontdiner+Swanky&family=Roboto&display=swap');
 
 * {
     border: none; 
@@ -152,11 +152,12 @@ h1, h2 {
 }
 
 .cover-text > p {
+    font-family: 'Courier Prime', monospace; 
+    font-size: 0.9rem;
     text-align: center; 
 }
 
 #signature { 
-    font-family: 'Waiting for the Sunshine', cursive; 
     font-size: 1.5rem; 
     
 /* 
