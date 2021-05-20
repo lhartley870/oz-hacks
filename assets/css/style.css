@@ -262,7 +262,11 @@ footer {
         margin: -30px 0 0 -30px; 
         width: 60px;
     } 
+}
 
+/* for larger mobile screen sizes of 376px and up */
+@media screen and (min-width: 375px) {
+    
     .hero-container {
         height: 450px;
     }
