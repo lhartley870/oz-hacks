@@ -307,6 +307,21 @@ footer {
     }
 } 
 
+/* for screen sizes between a large mobile and small tablet 426px and up */
+@media screen and (min-width: 426px) {
+    .hero-container {
+        height: 800px;
+    }
+
+    #hero-image {
+        height: 800px; 
+    } 
+
+    .cover-text {
+        height: 800px;
+    } 
+}
+
 /* for small to medium screen sizes of 768px and up */
 @media screen and (min-width: 768px) {
 
