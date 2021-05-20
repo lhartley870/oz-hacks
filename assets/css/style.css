@@ -168,6 +168,12 @@ adapted from https://css-tricks.com/snippets/css/typewriter-effect/
     letter-spacing: .10rem;
     margin: 0 auto; 
     overflow: hidden; 
+    /* 
+    width needs to be the width of the signature 
+    otherwise the cursor runs to the edge of the cover text box
+    instead of stopping at the end of the word
+    */
+    width: 96px; 
 }
 
 /* creates typing effect */
@@ -175,9 +181,11 @@ adapted from https://css-tricks.com/snippets/css/typewriter-effect/
     from { 
         width: 0; 
     }
-    /* 
-    'to' width needs to be the width of the signature 
-    otherwise the cursor runs to the edge of the page 
+    /*
+    'to' width needs to match the width of the signature as
+    including a width of 100% makes the cursor bounce over 
+    the word to the edge of the cover text box and then
+    back to the end of the word
     */
     to { 
         width: 96px; 
