@@ -162,6 +162,7 @@ h1, h2 {
     letter-spacing: .10rem;
     margin: 0 auto; 
     overflow: hidden; 
+    width: 96px; 
 }
 
 @keyframes typing {
@@ -169,7 +170,7 @@ h1, h2 {
         width: 0; 
     }
     to { 
-        width: 100%; 
+        width: 96px; 
     } 
 }
 
