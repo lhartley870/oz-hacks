@@ -207,9 +207,7 @@ adapted from https://css-tricks.com/snippets/css/typewriter-effect/
 
 footer {
     background-color: #88aee1;
-    bottom: 0; 
     height: 75px; 
-    position: absolute; 
     width: 100vw;
 }
 
