@@ -84,7 +84,7 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 1.5rem; 
+    font-size: 1.5em; 
 }
 
 #ozhacks-container p {
@@ -150,17 +150,17 @@ h2 {
 } 
 
 .cover-text > h2 {
-    padding-top: 3rem; 
+    padding-top: 3em; 
 } 
 
 .cover-text > p {
     font-family: 'Courier Prime', monospace; 
-    font-size: 0.9rem;
+    font-size: 0.9em;
     font-weight: bold; 
 }
 
 #signature { 
-    font-size: 1.5rem; 
+    font-size: 1.5em; 
     
 /* 
 typewriter animation for signature
