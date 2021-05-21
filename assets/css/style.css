@@ -23,6 +23,7 @@ header {
 .header-container {
     box-sizing: border-box;
     display: inline-block;
+    font-size: 16px; 
     height: 150px; 
 }
 
@@ -74,7 +75,7 @@ of alignment with the header bar
 }
 
 h1 {
-    font-size: 1.5rem; 
+    font-size: 1.5em; 
     text-transform: uppercase; 
 }
 
@@ -88,7 +89,7 @@ h2 {
 }
 
 #ozhacks-container p {
-    font-size: 0.8rem; 
+    font-size: 0.8em; 
     font-weight: bold; 
     text-decoration: overline #ac2c00 solid 2px; 
 }
@@ -113,7 +114,7 @@ h2 {
 
 .header-links a {
     color: #fff5ed; 
-    font-size: 0.8rem; 
+    font-size: 0.8em; 
     font-weight: bold; 
 }
 
