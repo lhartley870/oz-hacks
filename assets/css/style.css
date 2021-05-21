@@ -243,12 +243,21 @@ footer {
         height: 600px;
     }
 
-    .cover-text > h2 {
-        padding-top: 7rem; 
-    } 
+    .cover-text {
+        font-size: 18px; 
+    }
 
-    .cover-text > p {
-        font-size: 1rem;
+    #signature { 
+        width: 112px; 
+    }
+
+    @keyframes typing {
+        from { 
+            width: 0; 
+        }
+        to { 
+            width: 112px; 
+        } 
     } 
 } 
 
