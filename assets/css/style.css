@@ -288,7 +288,8 @@ footer {
         padding-top: 5em; 
     }
     
-    .header-container {
+    .header-container, 
+    footer {
         font-size: 18px; 
     }
 
@@ -298,6 +299,10 @@ footer {
 
     .header-links {
         padding: 12.5px 0 12.5px 10%; 
+    }
+
+    .icon-links {
+        padding: 27px 0; 
     }
 } 
 
