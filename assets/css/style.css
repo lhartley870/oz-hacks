@@ -306,18 +306,14 @@ footer {
     }
 } 
 
-/* for screen sizes between a large mobile and small tablet 426px and up */
-@media screen and (min-width: 426px) {
-    .hero-container {
-        height: 800px;
-    }
+/* for screen sizes between a large mobile and small tablet 520px and up */
+@media screen and (min-width: 520px) {
 
-    #hero-image {
-        height: 800px; 
-    } 
-
-    .cover-text {
-        height: 800px;
+    #compass-logo {
+        box-shadow: 0 0 10px 7px #88aee1; 
+        height: 75px;
+        margin: -37.5px 0 0 -37.5px; 
+        width: 75px;
     } 
 }
 
