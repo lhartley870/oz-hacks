@@ -211,6 +211,7 @@ adapted from https://css-tricks.com/snippets/css/typewriter-effect/
 
 footer {
     background-color: #88aee1;
+    font-size: 16px; 
     height: 75px; 
     width: 100vw;
 }
@@ -227,7 +228,7 @@ footer {
 
 .icon-links a {
     color: #fff5ed; 
-    font-size: 1rem; 
+    font-size: 1em; 
 }
 
 /* media queries */
