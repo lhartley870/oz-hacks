@@ -232,10 +232,6 @@ footer {
 
 /* for medium mobile screen sizes of 321px and up */
 @media screen and (min-width: 321px) {
-
-    #hero-image {
-        background-attachment: fixed;  
-    } 
     
     .hero-container,
     #hero-image, 
