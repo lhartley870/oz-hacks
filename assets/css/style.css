@@ -17,7 +17,7 @@ body {
 
 header {
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
-    height: 150px;  
+    height: 150px;   
 } 
 
 .header-container {
@@ -129,20 +129,20 @@ h2 {
 /* hero image and covering text */
 
 .hero-container {
-    height: 350px;
+    height: 420px;
     position: relative; 
     width: 100vw; 
 }
 
 #hero-image {
-    background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
-    height: 350px;
+    background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat fixed;  
+    height: 420px;
     width: 100vw; 
 } 
 
 .cover-text {
     background: rgba(255, 245, 237, 0.8); 
-    height: 350px;
+    height: 420px;
     position: absolute;
     text-align: center;
     top: 0;
@@ -235,7 +235,7 @@ footer {
 
     #hero-image {
         background-attachment: fixed;  
-    }
+    } 
     
     .hero-container,
     #hero-image, 
@@ -249,7 +249,7 @@ footer {
 
     .cover-text > p {
         font-size: 1rem;
-    }
+    } 
 } 
 
 /* for larger mobile screen sizes of 375px and up */
