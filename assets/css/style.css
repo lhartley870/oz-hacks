@@ -287,6 +287,17 @@ footer {
         padding-top: 5em; 
     }
     
+    .header-container {
+        font-size: 18px; 
+    }
+
+    #ozhacks-container {
+        padding: 45px 0; 
+    }
+
+    .header-links {
+        padding: 12.5px 0 12.5px 10%; 
+    }
 } 
 
 /* for screen sizes between a large mobile and small tablet 426px and up */
