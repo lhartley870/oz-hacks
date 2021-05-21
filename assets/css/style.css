@@ -130,7 +130,6 @@ h2 {
 
 .hero-container {
     height: 350px;
-    margin: auto;
     position: relative; 
     width: 100vw; 
 }
@@ -138,7 +137,6 @@ h2 {
 #hero-image {
     background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
     height: 350px; 
-    margin: auto;
     width: 100vw; 
 } 
 
@@ -146,20 +144,19 @@ h2 {
     background: rgba(255, 245, 237, 0.8); 
     height: 350px;
     position: absolute;
+    text-align: center; 
     top: 0;
     width: 100%;
 } 
 
 .cover-text > h2 {
     padding-top: 3rem; 
-    text-align: center; 
 }
 
 .cover-text > p {
     font-family: 'Courier Prime', monospace; 
     font-size: 0.9rem;
     font-weight: bold; 
-    text-align: center; 
 }
 
 #signature { 
