@@ -355,19 +355,10 @@ footer {
         padding-top: 0; 
     }
 
-    .hero-container {
-        height: 550px;
-        margin: auto;
-        position: relative; 
-        width: 100vw; 
+    .hero-container,
+    #hero-image{
+        height: 1000px;
     }
-    
-    #hero-image {
-        background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
-        height: 550px; 
-        margin: auto;
-        width: 100vw; 
-    } 
     
     .cover-text {
         background: rgba(255, 245, 237, 0.8); 
