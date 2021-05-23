@@ -351,6 +351,10 @@ footer {
         padding: 0 1.5%; 
     }
 
+    .header-links > li ~ li {
+        padding-top: 0; 
+    }
+
     .hero-container {
         height: 550px;
         margin: auto;
