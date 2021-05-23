@@ -321,7 +321,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     #compass-container { 
-        width: 15%;  
+        width: 15vw;  
     }
 
     #compass-logo {
@@ -333,7 +333,7 @@ footer {
 
     #ozhacks-container {
         padding: 35px 0; 
-        width: 35%; 
+        width: 35vw; 
     }
 
     h1 {
@@ -346,7 +346,7 @@ footer {
 
     #navbar-container {
         text-align: center; 
-        width: 50%; 
+        width: 50vw; 
     }
 
     .header-links {
