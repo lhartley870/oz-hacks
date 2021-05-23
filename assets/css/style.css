@@ -383,23 +383,13 @@ footer {
     }    
 
     footer {
+        font-size: 22px; 
         height: 100px; 
     }
     
     .icon-links {
-        text-align: center; 
-        padding: 35px 0; 
-    } 
-    
-    .icon-links > li { 
-        display: inline; 
-        padding: 0 7%; 
-    }
-    
-    .icon-links a {
-        color: #fff5ed; 
-        font-size: 160%; 
-    }    
+        padding: 37.5px 0; 
+    }   
 }
 
 /* for medium screen sizes of 977px and up */
