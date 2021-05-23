@@ -333,7 +333,7 @@ footer {
 
     #ozhacks-container {
         font-size: 22px; 
-        padding: 35px 0; 
+        padding: 36px 0; 
         width: 35vw; 
     }
 
@@ -343,7 +343,7 @@ footer {
     }
 
     .header-links {
-        padding: 65.5px 0; 
+        padding: 64.5px 0; 
     }
 
     .header-links > li {
@@ -388,11 +388,7 @@ footer {
     }    
 
     footer {
-        background-color: #88aee1;
-        bottom: 0; 
         height: 100px; 
-        position: absolute; 
-        width: 100vw;
     }
     
     .icon-links {
