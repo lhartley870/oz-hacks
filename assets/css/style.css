@@ -332,16 +332,9 @@ footer {
     } 
 
     #ozhacks-container {
+        font-size: 22px; 
         padding: 35px 0; 
         width: 35vw; 
-    }
-
-    h1 {
-        font-size: 2rem; 
-    }
-    
-    #ozhacks-container p {
-        font-size: 1rem; 
     }
 
     #navbar-container {
@@ -356,10 +349,6 @@ footer {
     .header-links > li {
         display: inline; 
         padding: 0 1.5%; 
-    }
-
-    .header-links a {
-        font-size: 90%;  
     }
 
     .hero-container {
