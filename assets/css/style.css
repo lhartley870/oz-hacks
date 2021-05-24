@@ -392,6 +392,10 @@ footer {
         font-size: 20px; 
         text-align: center; 
     }
+
+    .header-links {
+        padding: 63px 0; 
+    }
 }
 
 /* for medium screen sizes of 977px and up */
@@ -404,11 +408,11 @@ footer {
         width: 120px;
     } 
 
-    .header-links {
-        padding: 65px 0; 
+    #navbar-container {
+        font-size: 24px; 
     }
 
-    .header-links a {
-        font-size: 110%;  
+    .header-links {
+        padding: 61px 0; 
     }
 } 
