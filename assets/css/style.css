@@ -356,7 +356,7 @@ footer {
 
     .hero-container,
     #hero-image{
-        height: 1000px;
+        height: 1040px;
     }
 
     .cover-text {
@@ -366,9 +366,9 @@ footer {
         width: 40%; 
     }
 
-    .cover-text > h2 {
+    .cover-text > h2 { 
+        margin-top: 10%;
         padding-top: 0; 
-        margin-top: 10%; 
     }
 
     #signature {
@@ -383,6 +383,15 @@ footer {
     .icon-links {
         padding: 37.5px 0; 
     }   
+}
+
+/* for medium screen sizes of 800px and up */
+@media screen and (min-width:800px) {
+
+    #navbar-container {
+        font-size: 20px; 
+        text-align: center; 
+    }
 }
 
 /* for medium screen sizes of 977px and up */
