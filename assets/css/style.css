@@ -31,7 +31,7 @@ header {
 
  #compass-container { 
     position: relative;
-    width: 20vw;  
+    width: 20vw;   
 }
 
 /* 
@@ -338,7 +338,7 @@ footer {
     }
 
     #navbar-container {
-        text-align: center; 
+        text-align: center;  
         width: 50vw; 
     }
 
@@ -348,7 +348,7 @@ footer {
 
     .header-links > li {
         display: inline; 
-        padding: 0 1.5%; 
+        padding: 0 1.5%;  
     }
 
     .header-links > li ~ li {
@@ -367,19 +367,6 @@ footer {
         left: 20px; 
         width: 40%;
     }
-    
-    .cover-text > h2 {
-        padding-top: 10px; 
-        text-align: center; 
-    }
-    
-    .cover-text > p {
-        text-align: center; 
-    }
-    
-    #signature {
-        font-family: 'Waiting for the Sunshine', cursive; 
-    }    
 
     footer {
         font-size: 22px; 
