@@ -142,7 +142,7 @@ h2 {
 } 
 
 .cover-text {
-    background: rgba(255, 245, 237, 0.8); 
+    background: rgba(255, 245, 237, 0.8);  
     height: 420px;
     position: absolute;
     text-align: center;
@@ -358,7 +358,7 @@ footer {
     #hero-image{
         height: 1000px;
     }
-    
+
     .cover-text {
         font-size: 20px; 
         height: 450px; 
@@ -367,12 +367,13 @@ footer {
     }
 
     .cover-text > h2 {
-        padding-top: 10%;
+        padding-top: 0; 
+        margin-top: 10%; 
     }
 
     #signature {
-        padding-bottom: 10%; 
-    }
+        margin-bottom: 10%; 
+    } 
 
     footer {
         font-size: 22px; 
