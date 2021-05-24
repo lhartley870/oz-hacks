@@ -337,8 +337,7 @@ footer {
         width: 35vw; 
     }
 
-    #navbar-container {
-        text-align: center;  
+    #navbar-container { 
         width: 50vw; 
     }
 
@@ -348,12 +347,12 @@ footer {
 
     .header-links > li {
         display: inline; 
-        padding: 0 1.5%;  
+        padding-right: 2.5%;  
     }
 
     .header-links > li ~ li {
         padding-top: 0; 
-    }
+    } 
 
     .hero-container,
     #hero-image{
