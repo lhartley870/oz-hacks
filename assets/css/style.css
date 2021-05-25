@@ -17,7 +17,7 @@ body {
 
 header {
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
-    height: 150px;   
+    height: 150px; 
 } 
 
 .header-container {
@@ -31,7 +31,7 @@ header {
 
  #compass-container { 
     position: relative;
-    width: 20vw;   
+    width: 20%;   
 }
 
 /* 
@@ -71,7 +71,7 @@ of alignment with the header bar
     overflow: hidden; 
     padding: 49px 0; 
     text-align: center; 
-    width: 50vw; 
+    width: 50%; 
 }
 
 h1 {
@@ -100,7 +100,7 @@ h2 {
     margin-left: -4px;  
     overflow: hidden;
     text-align: left; 
-    width: 30vw; 
+    width: 30%; 
 }
 
 .header-links {
@@ -132,13 +132,13 @@ h2 {
 .hero-container {
     height: 420px;
     position: relative; 
-    width: 100vw; 
+    width: 100%; 
 }
 
 #hero-image {
     background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat fixed;  
     height: 420px;
-    width: 100vw; 
+    width: 100%; 
 } 
 
 .cover-text {
@@ -213,7 +213,7 @@ footer {
     background-color: #88aee1;
     font-size: 16px; 
     height: 75px; 
-    width: 100vw;
+    width: 100%;
 }
 
 .icon-links {
@@ -321,7 +321,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     #compass-container { 
-        width: 15vw;  
+        width: 15%;  
     }
 
     #compass-logo {
@@ -334,11 +334,11 @@ footer {
     #ozhacks-container {
         font-size: 22px; 
         padding: 36px 0; 
-        width: 35vw; 
+        width: 35%; 
     }
 
     #navbar-container { 
-        width: 50vw; 
+        width: 50%; 
     }
 
     .header-links {
@@ -389,7 +389,7 @@ footer {
 @media screen and (min-width:850px) {
 
     #navbar-container {
-        font-size: 20px; 
+        font-size: 20px;   
         text-align: center; 
     }
 
