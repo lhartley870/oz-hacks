@@ -394,7 +394,6 @@ footer {
 
     #navbar-container {
         font-size: 20px;   
-        text-align: center; 
     }
 
     .header-links {
@@ -419,4 +418,21 @@ footer {
     .header-links {
         padding: 62.5px 0; 
     } 
+} 
+
+/* for medium to large screen sizes of 1024px and up */
+@media screen and (min-width:1024px) {
+
+    #navbar-container {
+        font-size: 24px; 
+    }
+
+    .header-links {
+        padding: 61px 0; 
+    } 
+
+    .hero-container,
+    #hero-image{
+        height: 1120px;
+    }
 } 
