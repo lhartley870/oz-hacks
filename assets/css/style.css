@@ -385,8 +385,8 @@ footer {
     }   
 }
 
-/* for medium screen sizes of 800px and up */
-@media screen and (min-width:800px) {
+/* for medium screen sizes of 850px and up */
+@media screen and (min-width:850px) {
 
     #navbar-container {
         font-size: 20px; 
@@ -409,10 +409,10 @@ footer {
     } 
 
     #navbar-container {
-        font-size: 24px; 
+        font-size: 22px; 
     }
 
     .header-links {
-        padding: 61px 0; 
-    }
+        padding: 62.5px 0; 
+    } 
 } 
