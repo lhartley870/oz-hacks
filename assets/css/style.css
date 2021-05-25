@@ -17,7 +17,11 @@ body {
 
 header {
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
-    height: 150px; 
+    height: 150px;
+    position: fixed; 
+    top: 0;  
+    width: 100%;
+    z-index: 1;  
 } 
 
 .header-container {
@@ -132,6 +136,7 @@ h2 {
 .hero-container {
     height: 420px;
     position: relative; 
+    margin-top: 150px; 
     width: 100%; 
 }
 
