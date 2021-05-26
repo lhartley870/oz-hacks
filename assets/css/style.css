@@ -240,12 +240,17 @@ footer {
 /* central content for 'before you go' and 'when in oz pages' */
 
 .hacks-section-container { 
-    display: flex; 
-    justify-content: center; 
     margin-top: 150px; 
     width: 100%;  
 }
 
+.hacks-container {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(16, auto); 
+    margin: 0 auto; 
+    width: 90%;  
+} 
 
 /* media queries */
 
