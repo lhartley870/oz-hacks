@@ -237,6 +237,16 @@ footer {
     font-size: 1em; 
 }
 
+/* central content for 'before you go' and 'when in oz pages' */
+
+.hacks-section-container { 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 150px; 
+    width: 100%;  
+}
+
+
 /* media queries */
 
 /* for medium mobile screen sizes of 321px and up */
