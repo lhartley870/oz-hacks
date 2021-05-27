@@ -246,11 +246,83 @@ footer {
 
 .hacks-container {
     display: grid; 
+    grid-template-areas:
+        "hack-one hack-one hack-one hack-one"
+        ". hack-one-media hack-one-media ."
+        "hack-two hack-two hack-two hack-two"
+        ". hack-two-media hack-two-media ."
+        "hack-three hack-three hack-three hack-three"
+        ". hack-three-media hack-three-media ."
+        "hack-four hack-four hack-four hack-four"
+        ". hack-four-media hack-four-media ."
+        "hack-five hack-five hack-five hack-five"
+        ". hack-five-media hack-five-media ."
+        "hack-six hack-six hack-six hack-six"
+        ". hack-six-media hack-six-media .";
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(16, auto); 
+    grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
     width: 90%;  
 } 
+
+.hack-one {
+    border: 2px solid black; 
+    grid-area: hack-one;
+}
+
+.hack-one-media {
+    border: 2px solid black; 
+    grid-area: hack-one-media; 
+}
+
+.hack-two {
+    border: 2px solid black; 
+    grid-area: hack-two; 
+}
+
+.hack-two-media {
+    border: 2px solid black; 
+    grid-area: hack-two-media; 
+}
+
+.hack-three {
+    border: 2px solid black; 
+    grid-area: hack-three; 
+}
+
+.hack-three-media {
+    border: 2px solid black; 
+    grid-area: hack-three-media; 
+}
+
+.hack-four {
+    border: 2px solid black; 
+    grid-area: hack-four; 
+}
+
+.hack-four-media {
+    border: 2px solid black; 
+    grid-area: hack-four-media; 
+}
+
+.hack-five {
+    border: 2px solid black; 
+    grid-area: hack-five; 
+}
+
+.hack-five-media {
+    grid-area: hack-five-media; 
+}
+
+.hack-six {
+    border: 2px solid black; 
+    grid-area: hack-six; 
+}
+
+.hack-six-media {
+    border: 2px solid black; 
+    grid-area: hack-six-media; 
+}
 
 /* media queries */
 
