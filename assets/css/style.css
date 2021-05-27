@@ -324,6 +324,12 @@ footer {
     grid-area: hack-six-media; 
 }
 
+.hack-photo {
+    object-fit: cover; 
+    max-height: 100%; 
+    max-width: 100%; 
+}
+
 /* media queries */
 
 /* for medium mobile screen sizes of 321px and up */
