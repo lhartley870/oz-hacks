@@ -333,6 +333,15 @@ footer {
     grid-area: hack-six-media; 
 }
 
+.hacks-container p {
+    font-size: 0.8em; 
+}
+
+.hacks-text {
+    box-shadow: 0 0 20px 15px #dc9c85 inset;
+    padding: 5%; 
+}
+
 /* 
 code to remove black bars either side of embedded videos adapted from
 an answer given by Michael Coker on Stack Overflow - 
