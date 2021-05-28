@@ -329,6 +329,11 @@ footer {
     grid-area: hack-six-media; 
 }
 
+.hacks-container > div {
+    border-radius: 15px; 
+    overflow: hidden;  
+}
+
 .hacks-container p {
     font-size: 0.8em; 
 }
@@ -338,9 +343,18 @@ footer {
     padding: 5%; 
 }
 
-.hacks-container > div {
-    border-radius: 15px; 
-    overflow: hidden;  
+.hacks-text a {
+    color: #88aee1; 
+    font-size: 1.3em; 
+}
+
+.hacks-text a:hover,
+.hacks-text a:focus {
+    border-bottom: 2px solid #88aee1;
+}
+
+.hacks-text a:visited {
+    color: #025; 
 }
 
 /* 
