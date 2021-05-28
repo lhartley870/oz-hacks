@@ -271,6 +271,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
+    row-gap: 15px; 
     width: 90%;  
 } 
 
@@ -335,6 +336,11 @@ footer {
 .hacks-text {
     box-shadow: 0 0 20px 15px #dc9c85 inset;
     padding: 5%; 
+}
+
+.hacks-container > div {
+    border-radius: 15px; 
+    overflow: hidden;  
 }
 
 /* 
