@@ -78,21 +78,21 @@ of alignment with the header bar
     width: 50%; 
 }
 
-h1 {
-    font-size: 1.5em; 
-    text-transform: uppercase; 
-}
-
 h1, h2, h3 {
-    color: #025;
     font-family: 'Fontdiner Swanky', cursive;     
 }
 
-h2 {
+h1, h2 {
+    color: #025;
     font-size: 1.5em; 
 }
 
+h1 {   
+    text-transform: uppercase; 
+}
+
 h3 {
+    color: #ac2c00; 
     font-size: 1em; 
 }
 
