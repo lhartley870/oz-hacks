@@ -257,17 +257,17 @@ footer {
     display: grid; 
     grid-template-areas:
         "hack-one hack-one hack-one hack-one"
-        ". hack-one-media hack-one-media ."
+        "hack-one-media hack-one-media hack-one-media hack-one-media"
         "hack-two hack-two hack-two hack-two"
-        ". hack-two-media hack-two-media ."
+        "hack-two-media hack-two-media hack-two-media hack-two-media"
         "hack-three hack-three hack-three hack-three"
-        ". hack-three-media hack-three-media ."
+        "hack-three-media hack-three-media hack-three-media hack-three-media"
         "hack-four hack-four hack-four hack-four"
-        ". hack-four-media hack-four-media ."
+        "hack-four-media hack-four-media hack-four-media hack-four-media"
         "hack-five hack-five hack-five hack-five"
-        ". hack-five-media hack-five-media ."
+        "hack-five-media hack-five-media hack-five-media hack-five-media"
         "hack-six hack-six hack-six hack-six"
-        ". hack-six-media hack-six-media .";
+        "hack-six-media hack-six-media hack-six-media hack-six-media";
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
