@@ -271,6 +271,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
+    padding-bottom: 2.5%; 
     row-gap: 15px; 
     width: 90%;  
 } 
@@ -296,22 +297,18 @@ footer {
 }
 
 .hack-three-media {
-    border: 2px solid black; 
     grid-area: hack-three-media; 
 }
 
 .hack-four {
-    border: 2px solid black; 
     grid-area: hack-four; 
 }
 
 .hack-four-media {
-    border: 2px solid black; 
     grid-area: hack-four-media; 
 }
 
 .hack-five {
-    border: 2px solid black; 
     grid-area: hack-five; 
 }
 
@@ -320,12 +317,10 @@ footer {
 }
 
 .hack-six {
-    border: 2px solid black; 
     grid-area: hack-six; 
 }
 
 .hack-six-media {
-    border: 2px solid black; 
     grid-area: hack-six-media; 
 }
 
@@ -355,6 +350,10 @@ footer {
 
 .hacks-text a:visited {
     color: #025; 
+}
+
+.hacks-text i {
+    font-size: 1.3em; 
 }
 
 /* 
