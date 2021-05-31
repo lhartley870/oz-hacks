@@ -664,5 +664,11 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
             "hack-five-media hack-five-media hack-five hack-five"
             "hack-six hack-six hack-six-media hack-six-media";
         grid-template-rows: repeat(6, auto); 
+        row-gap: 30px; 
     } 
+
+    .hack-photo {
+        height: 100%; 
+        width: 100%; 
+    }
 } 
