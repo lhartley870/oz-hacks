@@ -473,6 +473,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .icon-links {
         padding: 27px 0; 
     }
+
+    .hacks-section-container {
+        font-size: 18px; 
+    }
 } 
 
 /* for screen sizes between a large mobile and small tablet 520px and up */
@@ -556,6 +560,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .icon-links {
         padding: 37.5px 0; 
     }   
+
+    .hacks-section-container {
+        font-size: 20px; 
+    }
 }
 
 /* for medium screen sizes of 850px and up */
