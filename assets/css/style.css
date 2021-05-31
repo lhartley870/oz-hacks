@@ -661,8 +661,8 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
             "hack-two-media hack-two-media hack-two hack-two"
             "hack-three hack-three hack-three-media hack-three-media"
             "hack-four-media hack-four-media hack-four hack-four"
-            "hack-five-media hack-five-media hack-five hack-five"
-            "hack-six hack-six hack-six-media hack-six-media";
+            "hack-five hack-five hack-five-media hack-five-media"
+            "hack-six-media hack-six-media hack-six hack-six";
         grid-template-rows: repeat(6, auto); 
         row-gap: 30px; 
     } 
