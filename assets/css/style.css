@@ -672,3 +672,11 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         width: 100%; 
     }
 } 
+
+/* for extra large screen sizes of 1600px and up */
+@media screen and (min-width:1600px) {
+    
+    .hacks-section-container {
+        font-size: 26px; 
+    } 
+}
