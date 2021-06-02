@@ -333,7 +333,9 @@ footer {
 }
 
 .hacks-text {
+    align-items: center; 
     box-shadow: 0 0 20px 15px #dc9c85 inset;
+    display: flex; 
     padding: 5%; 
 }
 
