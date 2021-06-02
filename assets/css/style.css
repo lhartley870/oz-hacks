@@ -18,7 +18,7 @@ body {
 header {
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
     height: 150px;
-    position: fixed; 
+    position: fixed;
     top: 0;  
     width: 100%;
     z-index: 1;  
@@ -243,14 +243,13 @@ footer {
 
 /* central content for 'before you go' and 'when in oz pages' */
 
-.hacks-section-container {  
+.section-container {  
     margin-top: 150px; 
-    text-align: center;  
-    width: 100%; 
-}
+    text-align: center;
+}    
 
-.hacks-section-container h2 {
-    padding: 2.5% 0;   
+.section-container h2 {
+    padding: 2.5% 0;     
 }
 
 .hacks-container {
@@ -474,7 +473,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         padding: 27px 0; 
     }
 
-    .hacks-section-container {
+    .section-container {
         font-size: 18px; 
     }
 } 
@@ -561,7 +560,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         padding: 37.5px 0; 
     }   
 
-    .hacks-section-container {
+    .section-container {
         font-size: 20px; 
     }
 }
@@ -596,7 +595,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         padding: 62.5px 0; 
     } 
 
-    .hacks-section-container {
+    .section-container {
         font-size: 22px; 
     }
 } 
@@ -695,7 +694,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 /* for extra large screen sizes of 1600px and up */
 @media screen and (min-width:1600px) {
     
-    .hacks-section-container {
+    .section-container {
         font-size: 26px; 
     } 
 }
