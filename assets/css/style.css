@@ -392,6 +392,13 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 #gallery-container {
     display: grid; 
+    grid-template-areas: 
+        "east-heading ."
+        "east-photo-one east-photo-one"
+        "east-photo-two east-photo-three"
+        "east-photo-four east-photo-four"
+        "east-photo-five east-photo-six"
+        "east-photo-seven east-photo-seven";
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(8, auto); 
     margin: 0 auto; 
