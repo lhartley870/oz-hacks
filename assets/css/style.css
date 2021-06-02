@@ -245,8 +245,8 @@ footer {
 
 .section-container {  
     margin-top: 150px; 
-    text-align: center;
-}    
+    text-align: center;  
+}
 
 .section-container h2 {
     padding: 2.5% 0;     
@@ -387,6 +387,59 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     object-fit: cover;  
     vertical-align: bottom; 
 }
+
+/* gallery page */
+
+#gallery-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, auto); 
+    margin: 0 auto; 
+    padding-bottom: 2.5%; 
+    width: 90%;  
+} 
+
+#east-heading {
+    border: 2px solid black; 
+    grid-area: east-heading; 
+}
+
+#east-photo-one {
+    border: 2px solid black; 
+    grid-area: east-photo-one;
+}
+
+#east-photo-two {
+    border: 2px solid black; 
+    grid-area: east-photo-two;
+}
+
+#east-photo-three {
+    border: 2px solid black; 
+    grid-area: east-photo-three;
+}
+
+#east-photo-four {
+    border: 2px solid black; 
+    grid-area: east-photo-four;
+}
+
+#east-photo-five {
+    border: 2px solid black; 
+    grid-area: east-photo-five;
+}
+
+#east-photo-six {
+    border: 2px solid black; 
+    grid-area: east-photo-six;
+}
+
+#east-photo-seven {
+    border: 2px solid black; 
+    grid-area: east-photo-seven;
+}
+
+
 
 /* media queries */
 
