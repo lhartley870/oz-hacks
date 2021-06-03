@@ -706,6 +706,46 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
             "hack-six hack-six hack-six hack-six"
             ". hack-six-media hack-six-media .";
     }
+
+    #gallery-container-east { 
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(16, auto); 
+    }
+
+    #east-photo-one {
+        grid-area: 1 / 1 / 4 / 5; 
+    }
+    
+    #east-photo-two {
+        grid-area: 3 / 4 / 7 / 8; 
+    }
+    
+    #east-photo-three {
+        grid-area: 5 / 2 / 8 / 5; 
+    }
+    
+    #east-photo-four {
+        grid-area: 7 / 4 / 11 / 7; 
+    }
+    
+    #east-photo-five { 
+        grid-area: 8 / 2 / 12 / 5; 
+    }
+    
+    #east-photo-six {
+        grid-area: 11 / 4 / 14 / 7; 
+    }
+    
+    #east-photo-seven {
+        grid-area: 12/ 2 / 16 / 5; 
+    }
+
+    .photo-container {
+        background-color: initial; 
+        border: initial; 
+        box-shadow: initial;  
+        padding: initial; 
+    }
 } 
 
 /* for large screen sizes of 1440px and up */
