@@ -398,51 +398,43 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         "east-photo-two east-photo-three"
         "east-photo-four east-photo-four"
         "east-photo-five east-photo-six"
-        "east-photo-seven east-photo-seven";
+        "east-photo-seven east-photo-seven"; 
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, auto); 
+    grid-template-rows: repeat(6, auto); 
     margin: 0 auto; 
     padding-bottom: 2.5%; 
     width: 90%;  
 } 
 
 #east-heading {
-    border: 2px solid black; 
-    grid-area: east-heading; 
+    grid-area: east-heading;    
 }
 
 #east-photo-one {
-    border: 2px solid black; 
-    grid-area: east-photo-one;
+    grid-area: east-photo-one; 
 }
 
 #east-photo-two {
-    border: 2px solid black; 
     grid-area: east-photo-two;
 }
 
 #east-photo-three {
-    border: 2px solid black; 
     grid-area: east-photo-three;
 }
 
 #east-photo-four {
-    border: 2px solid black; 
     grid-area: east-photo-four;
 }
 
-#east-photo-five {
-    border: 2px solid black; 
+#east-photo-five { 
     grid-area: east-photo-five;
 }
 
 #east-photo-six {
-    border: 2px solid black; 
     grid-area: east-photo-six;
 }
 
 #east-photo-seven {
-    border: 2px solid black; 
     grid-area: east-photo-seven;
 }
 
@@ -450,6 +442,13 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     height: 100%; 
     object-fit: cover; 
     width: 100%; 
+} 
+
+.photo-container {
+    background-color: #eee; 
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;  
+    padding: 5% 5% 15% 5%; 
 }
 
 /* media queries */
