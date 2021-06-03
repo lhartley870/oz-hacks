@@ -402,14 +402,14 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto); 
     margin: 0 auto; 
-    padding-bottom: 2.5%; 
+    padding-bottom: 5%; 
     width: 90%;  
 } 
 
 .left-photo-heading {
-    text-align: left; 
     margin-left: 5%; 
-    padding-bottom: 2.5%; 
+    padding-bottom: 3%; 
+    text-align: left;
 }
 
 #east-photo-one {
