@@ -638,6 +638,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .section-container {
         font-size: 20px; 
     }
+
+    .photo-container > p {
+        font-size: 0.9em; 
+    }
 }
 
 /* for medium screen sizes of 850px and up */
