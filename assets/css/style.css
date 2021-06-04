@@ -711,11 +711,17 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #gallery-container-east { 
         gap: initial; 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
-        grid-template-rows: repeat(13, auto); 
+        grid-template-rows: 5% 5% repeat(11, auto); 
     }
 
     #east-photo-one {
         grid-area: 1 / 1 / 4 / 5; 
+    }
+
+    #east-heading {
+        font-size: 1.3em; 
+        grid-area: 1 / 5 / 3 / 8;   
+        margin: auto;
     }
     
     #east-photo-two {
