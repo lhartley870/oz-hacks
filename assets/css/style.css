@@ -749,6 +749,18 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         flex-direction: column; 
         padding: initial;  
     }
+
+    .photo-container > p { 
+        font-size: 0.7em; 
+    }
+
+    .left-photo-caption {
+        text-align: left; 
+    }
+
+    .right-photo-caption {
+        text-align: right; 
+    }
 } 
 
 /* for large screen sizes of 1440px and up */
