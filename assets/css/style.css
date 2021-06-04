@@ -708,7 +708,8 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
 
     #gallery-container-east { 
-        grid-template-columns: repeat(7, 1fr);
+        gap: initial; 
+        grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
         grid-template-rows: repeat(16, auto); 
     }
 
@@ -744,7 +745,9 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         background-color: initial; 
         border: initial; 
         box-shadow: initial;  
-        padding: initial; 
+        display: flex; 
+        flex-direction: column; 
+        padding: initial;  
     }
 } 
 
