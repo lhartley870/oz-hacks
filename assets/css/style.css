@@ -392,8 +392,13 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 #gallery-container {
     display: grid; 
-    gap: 35px 35px; 
+    row-gap: 35px; 
     grid-template-areas: 
+        "north-heading north-heading north-heading . ."
+        "north-photo-one north-photo-one north-photo-one north-photo-one ."
+        ". north-photo-two north-photo-two north-photo-two north-photo-two"
+        "north-photo-three north-photo-three north-photo-three north-photo-three ."
+        ". north-photo-four north-photo-four north-photo-four north-photo-four"
         "east-heading east-heading . . ."
         "east-photo-one east-photo-one east-photo-one east-photo-one ."
         ". east-photo-two east-photo-two east-photo-two east-photo-two"
@@ -403,7 +408,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         ". east-photo-six east-photo-six east-photo-six east-photo-six"
         "east-photo-seven east-photo-seven east-photo-seven east-photo-seven ."; 
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(8, auto); 
+    grid-template-rows: repeat(13, auto); 
     margin: 0 auto; 
     padding-bottom: 5%; 
     width: 90%;  
@@ -412,6 +417,27 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 .gallery-heading {
     font-size: 1.1em;  
     margin-bottom: -20px; 
+}
+
+#north-heading {
+    grid-area: north-heading; 
+    text-align: left; 
+}
+
+#north-photo-one {
+    grid-area: north-photo-one; 
+}
+
+#north-photo-two {
+    grid-area: north-photo-two;
+}
+
+#north-photo-three {
+    grid-area: north-photo-three; 
+}
+
+#north-photo-four {
+    grid-area: north-photo-four; 
 }
 
 #east-heading {
