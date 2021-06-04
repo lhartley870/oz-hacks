@@ -398,17 +398,16 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         "north-photo-one north-photo-one north-photo-one north-photo-one ."
         ". north-photo-two north-photo-two north-photo-two north-photo-two"
         "north-photo-three north-photo-three north-photo-three north-photo-three ."
-        ". north-photo-four north-photo-four north-photo-four north-photo-four"
-        "east-heading east-heading . . ."
-        "east-photo-one east-photo-one east-photo-one east-photo-one ."
-        ". east-photo-two east-photo-two east-photo-two east-photo-two"
-        "east-photo-three east-photo-three east-photo-three east-photo-three ."
-        ". east-photo-four east-photo-four east-photo-four east-photo-four"
-        "east-photo-five east-photo-five east-photo-five east-photo-five ."
-        ". east-photo-six east-photo-six east-photo-six east-photo-six"
-        "east-photo-seven east-photo-seven east-photo-seven east-photo-seven ."; 
+        ". . east-heading east-heading east-heading"
+        ". east-photo-one east-photo-one east-photo-one east-photo-one"
+        "east-photo-two east-photo-two east-photo-two east-photo-two ."
+        ". east-photo-three east-photo-three east-photo-three east-photo-three"
+        "east-photo-four east-photo-four east-photo-four east-photo-four ."
+        ". east-photo-five east-photo-five east-photo-five east-photo-five"
+        "east-photo-six east-photo-six east-photo-six east-photo-six ."
+        ". east-photo-seven east-photo-seven east-photo-seven east-photo-seven"; 
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(13, auto); 
+    grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
     padding-bottom: 5%; 
     width: 90%;  
@@ -436,13 +435,9 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     grid-area: north-photo-three; 
 }
 
-#north-photo-four {
-    grid-area: north-photo-four; 
-}
-
 #east-heading {
     grid-area: east-heading; 
-    text-align: left; 
+    text-align: right; 
 }
 
 #east-photo-one {
