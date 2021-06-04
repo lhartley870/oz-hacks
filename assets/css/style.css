@@ -759,6 +759,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     .photo-container > p { 
         font-size: 0.7em; 
+        padding: 1% 0;
     }
 
     .left-photo-caption {
