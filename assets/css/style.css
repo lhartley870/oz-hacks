@@ -806,20 +806,24 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
             "hack-six-media hack-six-media hack-six hack-six";
         grid-template-rows: repeat(6, auto); 
         row-gap: 30px; 
-        /* animation for closing grid column gaps and opening grid row gaps */
+        /* animation for closing grid column gaps and opening grid row gaps for hacks pages */
         animation: grid-gaps 2s linear forwards;
     } 
 
     /* 
     adjusted height and width for photos added to 
     prevent photos being smaller than their grid area containers 
+    for hacks pages
     */
     .hack-photo {
         height: 100%; 
         width: 100%; 
     }
 
-    /* creates start and end positions for grid column and row gap animation */
+    /* 
+    creates start and end positions for grid column and row gap animation
+    for hacks pages 
+    */
     @keyframes grid-gaps {
         from {
             column-gap: 30px; 
@@ -830,6 +834,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
             column-gap: 0; 
             row-gap: 30px;  
         }
+    }
+
+    #east-heading {
+        font-size: 1.5em;
     }
 } 
 
