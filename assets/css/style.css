@@ -410,6 +410,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 } 
 
 #east-heading { 
+    font-size: 1.1em; 
     grid-area: east-heading; 
     margin-bottom: -20px; 
     text-align: left; 
