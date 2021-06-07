@@ -797,8 +797,9 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     #gallery-container { 
         gap: initial; 
+        grid-auto-rows: minmax(80px, auto); 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
-        grid-template-rows: 5% 5% repeat(4, auto) 5% 5% repeat(16, auto); 
+        grid-template-rows: initial; 
     }
 
     .gallery-heading {
@@ -819,7 +820,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
     
     #north-photo-three {
-        grid-area: 4 / 1 / 7 / 5; 
+        grid-area: 4 / 2 / 7 / 5; 
     }
     
     #east-heading { 
@@ -827,31 +828,31 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
     
     #east-photo-one {
-        grid-area: 5 / 4 / 11 / 8; 
+        grid-area: 6 / 4 / 10 / 8; 
     }
     
     #east-photo-two {
-        grid-area: 10 / 1 / 12 / 5; 
+        grid-area: 9 / 1 / 11 / 5; 
     }
     
     #east-photo-three {
-        grid-area: 11 / 4 / 13 / 7; 
+        grid-area: 10 / 4 / 12 / 7; 
     }
     
     #east-photo-four {
-        grid-area: 12 / 2 / 16 / 5; 
+        grid-area: 11 / 2 / 15 / 5; 
     }
     
     #east-photo-five { 
-        grid-area: 13 / 4 / 17 / 8; 
+        grid-area: 12 / 4 / 16 / 8; 
     }
     
     #east-photo-six {
-        grid-area: 16 / 2 / 20 / 5; 
+        grid-area: 15 / 2 / 19 / 5; 
     }
     
     #east-photo-seven {
-        grid-area: 17/ 5 / 24 / 7; 
+        grid-area: 16/ 4 / 20 / 7; 
     } 
     
     .photo-container {
