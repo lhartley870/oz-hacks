@@ -798,11 +798,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #gallery-container { 
         gap: initial; 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
-        grid-template-rows: 5% 5% repeat(11, auto); 
-    }
-
-    #east-photo-one {
-        grid-area: 1 / 1 / 4 / 5; 
+        grid-template-rows: 5% 5% repeat(4, auto) 5% 5% repeat(6, auto); 
     }
 
     .gallery-heading {
@@ -810,12 +806,32 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         margin: auto;
     }
 
+    #north-heading {
+        grid-area: 1 / 5 / 3 / 8; 
+    }
+    
+    #north-photo-one {
+        grid-area: 1 / 1 / 4 / 5;  
+    }
+    
+    #north-photo-two {
+        grid-area: 3 / 4 / 5 / 8;
+    }
+    
+    #north-photo-three {
+        grid-area: 4 / 1 / 7 / 5; 
+    }
+    
     #east-heading { 
-        grid-area: 1 / 5 / 3 / 8;   
+        grid-area: 7 / 1 / 9 / 4;   
+    }
+    
+    #east-photo-one {
+        grid-area: 5 / 4 / 11 / 8; 
     }
     
     #east-photo-two {
-        grid-area: 3 / 4 / 7 / 8; 
+        grid-area: 10 / 1 / 12 / 5; 
     }
     
     #east-photo-three {
@@ -836,8 +852,8 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     
     #east-photo-seven {
         grid-area: 12/ 2 / 15 / 5; 
-    }
-
+    } 
+    
     .photo-container {
         background-color: initial; 
         border: initial; 
