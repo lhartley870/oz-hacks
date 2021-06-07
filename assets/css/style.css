@@ -415,7 +415,13 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         "south-photo-one south-photo-one south-photo-one south-photo-one ."
         ". south-photo-two south-photo-two south-photo-two south-photo-two"
         "south-photo-three south-photo-three south-photo-three south-photo-three ."
-        ". south-photo-four south-photo-four south-photo-four south-photo-four"; 
+        ". south-photo-four south-photo-four south-photo-four south-photo-four"
+        "west-heading west-heading west-heading . ."
+        "west-photo-one west-photo-one west-photo-one west-photo-one ."
+        ". west-photo-two west-photo-two west-photo-two west-photo-two"
+        "west-photo-three west-photo-three west-photo-three west-photo-three ."
+        ". west-photo-four west-photo-four west-photo-four west-photo-four"
+        "west-photo-five west-photo-five west-photo-five west-photo-five ."; 
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
@@ -492,6 +498,31 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 #south-photo-four {
     grid-area: south-photo-four;
+}
+
+#west-heading {
+    grid-area: west-heading; 
+    text-align: left; 
+}
+
+#west-photo-one {
+    grid-area: west-photo-one; 
+}
+
+#west-photo-two {
+    grid-area: west-photo-two;
+}
+
+#west-photo-three {
+    grid-area: west-photo-three;
+}
+
+#west-photo-four {
+    grid-area: west-photo-four;
+}
+
+#west-photo-five {
+    grid-area: west-photo-five;
 }
 
 .gallery-photo {
