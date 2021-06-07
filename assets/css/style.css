@@ -390,6 +390,11 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* gallery page */
 
+.gallery-heading {
+    font-size: 1.1em;  
+    margin-bottom: -20px; 
+}
+
 #gallery-container {
     display: grid; 
     row-gap: 35px; 
@@ -405,18 +410,18 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         "east-photo-four east-photo-four east-photo-four east-photo-four ."
         ". east-photo-five east-photo-five east-photo-five east-photo-five"
         "east-photo-six east-photo-six east-photo-six east-photo-six ."
-        ". east-photo-seven east-photo-seven east-photo-seven east-photo-seven"; 
+        ". east-photo-seven east-photo-seven east-photo-seven east-photo-seven"
+        "south-heading south-heading south-heading . ."
+        "south-photo-one south-photo-one south-photo-one south-photo-one ."
+        ". south-photo-two south-photo-two south-photo-two south-photo-two"
+        "south-photo-three south-photo-three south-photo-three south-photo-three ."
+        ". south-photo-four south-photo-four south-photo-four south-photo-four"; 
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
     padding-bottom: 5%; 
     width: 90%;  
 } 
-
-.gallery-heading {
-    font-size: 1.1em;  
-    margin-bottom: -20px; 
-}
 
 #north-heading {
     grid-area: north-heading; 
@@ -466,6 +471,27 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 #east-photo-seven {
     grid-area: east-photo-seven;
+}
+
+#south-heading {
+    grid-area: south-heading; 
+    text-align: left; 
+}
+
+#south-photo-one {
+    grid-area: south-photo-one; 
+}
+
+#south-photo-two {
+    grid-area: south-photo-two;
+}
+
+#south-photo-three {
+    grid-area: south-photo-three;
+}
+
+#south-photo-four {
+    grid-area: south-photo-four;
 }
 
 .gallery-photo {
