@@ -399,7 +399,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     display: grid; 
     row-gap: 35px; 
     grid-template-areas: 
-        "north-heading north-heading north-heading . ."
+        "north-heading north-heading north-heading north-heading ."
         "north-photo-one north-photo-one north-photo-one north-photo-one ."
         ". north-photo-two north-photo-two north-photo-two north-photo-two"
         "north-photo-three north-photo-three north-photo-three north-photo-three ."
@@ -498,6 +498,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 #south-photo-four {
     grid-area: south-photo-four;
+}
+
+#south-photo-five {
+    grid-area: south-photo-five;
 }
 
 #west-heading {
