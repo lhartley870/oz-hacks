@@ -416,12 +416,13 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         ". south-photo-two south-photo-two south-photo-two south-photo-two"
         "south-photo-three south-photo-three south-photo-three south-photo-three ."
         ". south-photo-four south-photo-four south-photo-four south-photo-four"
-        "west-heading west-heading west-heading . ."
-        "west-photo-one west-photo-one west-photo-one west-photo-one ."
-        ". west-photo-two west-photo-two west-photo-two west-photo-two"
-        "west-photo-three west-photo-three west-photo-three west-photo-three ."
-        ". west-photo-four west-photo-four west-photo-four west-photo-four"
-        "west-photo-five west-photo-five west-photo-five west-photo-five ."; 
+        "south-photo-five south-photo-five south-photo-five south-photo-five ."
+        ". . west-heading west-heading west-heading"
+        ". west-photo-one west-photo-one west-photo-one west-photo-one"
+        "west-photo-two west-photo-two west-photo-two west-photo-two ."
+        ". west-photo-three west-photo-three west-photo-three west-photo-three"
+        "west-photo-four west-photo-four west-photo-four west-photo-four ."
+        ". west-photo-five west-photo-five west-photo-five west-photo-five"; 
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(12, auto); 
     margin: 0 auto; 
@@ -506,7 +507,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 #west-heading {
     grid-area: west-heading; 
-    text-align: left; 
+    text-align: right; 
 }
 
 #west-photo-one {
