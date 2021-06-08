@@ -427,7 +427,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 .gallery-heading {
     font-size: 1.1em;     
-    margin-bottom: -20px;  
+    margin: 0 5% -20px 5%;  
 }
 
 #north-heading {
