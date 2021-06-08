@@ -800,7 +800,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         grid-auto-rows: minmax(80px, auto); 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
         grid-template-rows: initial; 
-        padding-bottom: 2.5%; 
+        padding-bottom: 1.5%; 
     }
 
     .gallery-heading {
@@ -1015,6 +1015,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .photo-container > p { 
         font-size: 0.7em; 
         padding: 2% 0;
+    }
+
+    #gallery-container { 
+        padding-bottom: 0.5%; 
     }
 } 
 
