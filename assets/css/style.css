@@ -17,6 +17,8 @@ body {
 
 header {
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
+    display: flex; 
+    flex-direction: row; 
     height: 150px;
     position: fixed;
     top: 0;  
@@ -25,11 +27,8 @@ header {
 } 
 
 .header-container {
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 16px; 
     height: 150px; 
-}
+} 
 
 /* compass logo */
 
