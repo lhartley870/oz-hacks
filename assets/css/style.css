@@ -919,10 +919,12 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
 
     .left-photo-caption {
+        margin-left: 1%; 
         text-align: left; 
     }
 
     .right-photo-caption {
+        margin-right: 1%; 
         text-align: right; 
     }
 
