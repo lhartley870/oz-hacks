@@ -32,25 +32,17 @@ header {
 
 /* compass logo */
 
- #compass-container { 
-    position: relative;
+ #compass-container {
+    align-items: center; 
+    display: flex;  
+    justify-content: center;
     width: 20%;   
 }
 
-/* 
-absolute positioning of the compass logo offers better consistency across most 
-different device sizes than using text-align: center to horizontally centre and padding to 
-vertically centre which also pushes the oz hacks div and nav bar div downwards out 
-of alignment with the header bar 
-*/
 #compass-logo {
     border-radius: 50%;
     box-shadow: 0 0 10px 5px #88aee1; 
     height: 40px;
-    left: 50%;
-    margin: -20px 0 0 -20px; 
-    position: absolute; 
-    top: 50%; 
     width: 40px;
 
     /* compass rotation animation adapted from https://flaviocopes.com/rotate-image/ */
@@ -581,7 +573,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #compass-logo {
         box-shadow: 0 0 10px 6px #88aee1; 
         height: 60px;
-        margin: -30px 0 0 -30px; 
         width: 60px;
     } 
 }
@@ -644,7 +635,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #compass-logo {
         box-shadow: 0 0 10px 7px #88aee1; 
         height: 75px;
-        margin: -37.5px 0 0 -37.5px; 
         width: 75px;
     } 
 }
@@ -659,7 +649,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #compass-logo {
         box-shadow: 0 0 10px 8px #88aee1; 
         height: 90px;
-        margin: -45px 0 0 -45px; 
         width: 90px;
     } 
 
@@ -746,8 +735,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     #compass-logo {
         box-shadow: 0 0 10px 10px #88aee1; 
-        height: 120px;
-        margin: -60px 0 0 -60px; 
+        height: 120px; 
         width: 120px;
     } 
 
