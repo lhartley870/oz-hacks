@@ -993,7 +993,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
 
     .gallery-heading {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     .photo-container > p { 
@@ -1010,11 +1010,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     } 
 
      #gallery-container { 
-        grid-template-rows: 3% 3% repeat(11, auto); 
+        grid-auto-rows: minmax(140px, auto); 
     } 
 
-    .photo-container > p { 
-        font-size: 0.9em;  
+    .photo-container > p {  
         padding: 3% 0; 
     }
 }
