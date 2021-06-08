@@ -21,7 +21,7 @@ header {
     position: fixed;
     top: 0;  
     width: 100%;
-    z-index: 1;  
+    z-index: 2;  
 } 
 
 .header-container {
@@ -924,6 +924,12 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     .right-photo-caption {
         text-align: right; 
+    }
+
+    .photo-container:hover {
+        background-color: #fff5ed;
+        box-shadow: 0 0 30px 20px #dc9c85;  
+        z-index: 1;         
     }
 } 
 
