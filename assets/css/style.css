@@ -628,8 +628,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     #compass-logo {
         box-shadow: 0 0 10px 8px #88aee1; 
-        height: 90px;
-        width: 90px;
+        height: 12vw;
+        max-height: 120px; 
+        max-width: 120px;  
+        width: 12vw; 
     } 
 
     #ozhacks-container {
@@ -712,12 +714,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* for medium screen sizes of 977px and up */
 @media screen and (min-width:977px) {
-
-    #compass-logo {
-        box-shadow: 0 0 10px 10px #88aee1; 
-        height: 120px; 
-        width: 120px;
-    } 
 
     #navbar-container {
         font-size: 22px; 
