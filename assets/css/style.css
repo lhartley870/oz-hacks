@@ -914,7 +914,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
 
     .photo-container > p { 
-        font-size: 0.6em; 
+        font-size: 0.5em; 
         padding: 1% 0;
     }
 
@@ -995,6 +995,11 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .gallery-heading {
         font-size: 1.5em;
     }
+
+    .photo-container > p { 
+        font-size: 0.7em; 
+        padding: 2% 0;
+    }
 } 
 
 /* for extra large screen sizes of 1600px and up */
@@ -1004,11 +1009,12 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         font-size: 26px; 
     } 
 
-    #gallery-container { 
+     #gallery-container { 
         grid-template-rows: 3% 3% repeat(11, auto); 
-    }
+    } 
 
     .photo-container > p { 
         font-size: 0.9em;  
+        padding: 3% 0; 
     }
 }
