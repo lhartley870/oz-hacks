@@ -607,10 +607,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         font-size: 18px; 
     }
 
-    #ozhacks-container {
-        padding: 45px 0; 
-    }
-
     .header-links {
         padding: 12.5px 0 12.5px 10%; 
     }
@@ -641,7 +637,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     #ozhacks-container {
         font-size: 22px; 
-        padding: 36px 0; 
         width: 35%; 
     }
 
@@ -920,10 +915,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #navbar-container, 
     footer {
         font-size: 26px; 
-    }
-
-    #ozhacks-container { 
-        padding: 30px 0; 
     }
 
     .header-links {
