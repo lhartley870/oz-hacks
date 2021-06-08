@@ -62,9 +62,9 @@ header {
 /* oz hacks logo */
 
 #ozhacks-container {
-    overflow: hidden; 
-    padding: 49px 0; 
-    text-align: center; 
+    align-items: center; 
+    display: flex;  
+    justify-content: center; 
     width: 50%; 
 }
 
