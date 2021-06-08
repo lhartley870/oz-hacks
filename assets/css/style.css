@@ -70,7 +70,6 @@ of alignment with the header bar
 /* oz hacks logo */
 
 #ozhacks-container {
-    margin-left: -4px; 
     overflow: hidden; 
     padding: 49px 0; 
     text-align: center; 
@@ -104,7 +103,6 @@ h3 {
 /* navigation bar */
 
 #navbar-container {
-    margin-left: -4px;  
     overflow: hidden;
     text-align: left; 
     width: 30%; 
