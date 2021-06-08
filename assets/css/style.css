@@ -41,7 +41,7 @@ header {
 
 #compass-logo {
     border-radius: 50%;
-    box-shadow: 0 0 10px 5px #88aee1;  
+    box-shadow: 0 0 10px 6px #88aee1;  
     height: 15vw;
     width: 15vw;
 
@@ -617,16 +617,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .section-container {
         font-size: 18px; 
     }
-} 
-
-/* for screen sizes between a large mobile and small tablet 520px and up */
-@media screen and (min-width: 520px) {
-
-    #compass-logo {
-        box-shadow: 0 0 10px 7px #88aee1; 
-        height: 75px;
-        width: 75px;
-    } 
 } 
 
 /* for small to medium screen sizes of 768px and up */
