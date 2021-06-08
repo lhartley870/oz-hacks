@@ -1048,4 +1048,8 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .photo-container:hover {
         box-shadow: 0 0 60px 40px #dc9c85;       
     }
+
+    #gallery-container { 
+        padding-bottom: 0; 
+    }
 }
