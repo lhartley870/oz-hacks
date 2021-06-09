@@ -18,7 +18,8 @@ body {
 header {
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
     display: flex; 
-    height: 150px;
+    height: 20vh;
+    min-height: 150px; 
     position: fixed;
     top: 0;  
     width: 100%;
@@ -29,7 +30,8 @@ header {
     align-items: center; 
     display: flex;  
     justify-content: center;
-    height: 150px; 
+    height: 20vh; 
+    min-height: 150px; 
 } 
 
 /* compass logo */
@@ -215,7 +217,8 @@ footer {
     align-items: center; 
     background-color: #88aee1;
     display: flex;  
-    height: 75px;  
+    height: 10vh;  
+    min-height: 75px; 
     width: 100%;
 }
 
@@ -670,8 +673,9 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     } 
 
     footer {
-        font-size: 22px; 
-        height: 100px; 
+        font-size: 22px;
+        height: 13vh;  
+        min-height: 100px;
     }
 
     .section-container {
