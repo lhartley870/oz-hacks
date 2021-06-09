@@ -645,7 +645,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
 
     .header-links {
-        padding-left: 0; 
+        padding-left: 0;
     } 
 
     .header-links > li {
@@ -721,6 +721,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* for medium to large screen sizes of 1024px and up */
 @media screen and (min-width:1024px) {
+
+    .header-links {
+        text-align: center; 
+    }
 
     .hero-container,
     #hero-image{
@@ -968,6 +972,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* for extra large screen sizes of 1600px and up */
 @media screen and (min-width:1600px) {
+
+    .header-links > li:not(:last-of-type) {
+        padding-right: 8%; 
+    } 
 
     .section-container {
         font-size: 26px; 
