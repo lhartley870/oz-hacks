@@ -602,10 +602,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     } 
     
     .header-container, 
-    footer {
-        font-size: 18px; 
-    }
-
+    footer, 
     .section-container {
         font-size: 18px; 
     }
@@ -697,13 +694,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 /* for medium screen sizes of 977px and up */
 @media screen and (min-width:977px) {
 
-    #navbar-container {
-        font-size: 22px; 
-    } 
-
+    #navbar-container, 
     .section-container {
         font-size: 22px; 
-    }
+    } 
 } 
 
 /* for medium to large screen sizes of 1024px and up */
