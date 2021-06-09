@@ -27,15 +27,15 @@ header {
 } 
 
 .header-container {
+    align-items: center; 
+    display: flex;  
+    justify-content: center;
     height: 150px; 
 } 
 
 /* compass logo */
 
  #compass-container {
-    align-items: center; 
-    display: flex;  
-    justify-content: center;
     width: 20%;   
 }
 
@@ -62,9 +62,6 @@ header {
 /* oz hacks logo */
 
 #ozhacks-container {
-    align-items: center; 
-    display: flex;  
-    justify-content: center; 
     width: 50%; 
 }
 
@@ -100,8 +97,6 @@ h3 {
 /* navigation bar */
 
 #navbar-container {
-    align-items: center; 
-    display: flex;  
     width: 30%;
 }
 
