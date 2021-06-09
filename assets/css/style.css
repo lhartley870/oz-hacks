@@ -705,10 +705,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #navbar-container {
         font-size: 20px;   
     }
-
-    .header-links {
-        padding: 63px 0; 
-    }
 }
 
 /* for medium screen sizes of 977px and up */
@@ -716,10 +712,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     #navbar-container {
         font-size: 22px; 
-    }
-
-    .header-links {
-        padding: 62.5px 0; 
     } 
 
     .section-container {
@@ -916,10 +908,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         font-size: 26px; 
     }
 
-    .header-links {
-        padding: 60px 0; 
-    } 
-
     .icon-links {
         padding: 35px 0; 
     } 
@@ -980,7 +968,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* for extra large screen sizes of 1600px and up */
 @media screen and (min-width:1600px) {
-    
+
     .section-container {
         font-size: 26px; 
     } 
