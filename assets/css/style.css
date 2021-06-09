@@ -18,8 +18,7 @@ body {
 header {
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
     display: flex; 
-    height: 20vh;
-    min-height: 150px;
+    height: max(150px, 20vh);
     position: fixed;
     top: 0;  
     width: 100%;
@@ -29,9 +28,8 @@ header {
 .header-container {
     align-items: center; 
     display: flex;  
+    height: max(150px, 20vh); 
     justify-content: center;
-    height: 20vh; 
-    min-height: 150px; 
 } 
 
 /* compass logo */
@@ -132,16 +130,14 @@ nav {
 /* hero image and covering text */
 
 .hero-container {
-    max-height: 70vh;
-    min-height: calc(100vh-225px); 
+    height: max(calc(100vh - 225px), 70vh);
     margin-top: max(150px, 20vh);  
     width: 100%; 
 }
 
 #hero-image {
     background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat fixed;  
-    max-height: 70vh;
-    min-height: calc(100vh - 225px); 
+    height: max(calc(100vh - 225px), 70vh);
     width: 100%; 
 } 
 
@@ -149,8 +145,7 @@ nav {
     align-items: center; 
     background: rgba(255, 245, 237, 0.8);  
     display: flex; 
-    max-height: 70vh;
-    min-height: calc(100vh - 225px); 
+    height: max(calc(100vh - 225px), 70vh);
     width: 100%;
 } 
 
@@ -217,8 +212,7 @@ footer {
     align-items: center; 
     background-color: #88aee1;
     display: flex;  
-    height: 10vh;  
-    min-height: 75px; 
+    height: max(75px, 10vh);
     width: 100%;
 }
 
