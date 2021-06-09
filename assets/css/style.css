@@ -541,16 +541,16 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* media queries */
 
-/* for medium mobile screen sizes of 321px and up */
-@media screen and (min-width: 321px) {
+/* for larger mobile screen sizes of 376px and up */
+@media screen and (min-width: 376px) {
 
-    .cover-text {
+    .cover-text-inner {
         font-size: 18px; 
     }
 
-    #signature { 
+    #signature {
         width: 112px; 
-    }
+    } 
 
     @keyframes typing {
         from { 
@@ -558,37 +558,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         }
         to { 
             width: 112px; 
-        } 
-    } 
-} 
-
-/* for larger mobile screen sizes of 376px and up */
-@media screen and (min-width: 376px) {
-    
-    .hero-container,
-    #hero-image, 
-    .cover-text {
-        height: 800px;
-    }
-
-    .cover-text {
-        font-size: 22px; 
-    }
-    
-    .cover-text > h2 {
-        padding-top: 5em; 
-    }
-
-    #signature {
-        width: 130px; 
-    }
-
-    @keyframes typing {
-        from { 
-            width: 0; 
-        }
-        to { 
-            width: 130px; 
         } 
     } 
     
