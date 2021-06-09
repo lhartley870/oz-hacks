@@ -212,15 +212,16 @@ adapted from https://css-tricks.com/snippets/css/typewriter-effect/
 /* footer */
 
 footer {
+    align-items: center; 
     background-color: #88aee1;
-    font-size: 16px; 
-    height: 75px; 
+    display: flex;  
+    height: 75px;  
     width: 100%;
 }
 
 .icon-links {
     text-align: center; 
-    padding: 28px 0; 
+    width: 100%; 
 } 
 
 .icon-links > li { 
