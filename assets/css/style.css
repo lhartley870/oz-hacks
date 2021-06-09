@@ -22,7 +22,7 @@ header {
     position: fixed;
     top: 0;  
     width: 100%;
-    z-index: 2;  
+    z-index: 2;   
 } 
 
 .header-container {
@@ -130,14 +130,14 @@ nav {
 /* hero image and covering text */
 
 .hero-container {
-    height: max(calc(100vh - 225px), 70vh);
-    margin-top: max(150px, 20vh);  
+    height: min(calc(100vh - 225px), 70vh);
+    margin-top: max(150px, 20vh); 
     width: 100%; 
 }
 
 #hero-image {
-    background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat fixed;  
-    height: max(calc(100vh - 225px), 70vh);
+    background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
+    height: min(calc(100vh - 225px), 70vh);
     width: 100%; 
 } 
 
@@ -145,7 +145,7 @@ nav {
     align-items: center; 
     background: rgba(255, 245, 237, 0.8);  
     display: flex; 
-    height: max(calc(100vh - 225px), 70vh);
+    height: min(calc(100vh - 225px), 70vh);
     width: 100%;
 } 
 
@@ -543,12 +543,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* for medium mobile screen sizes of 321px and up */
 @media screen and (min-width: 321px) {
-
-    .hero-container,
-    #hero-image, 
-    .cover-text {
-        height: 620px;
-    }
 
     .cover-text {
         font-size: 18px; 
