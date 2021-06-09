@@ -108,6 +108,9 @@ h3 {
 .header-links {
     list-style: none; 
     padding-left: 10%; 
+}
+
+nav {
     width: 100%; 
 }
 
@@ -608,10 +611,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         font-size: 18px; 
     }
 
-    .header-links {
-        padding: 12.5px 0 12.5px 10%; 
-    }
-
     .icon-links {
         padding: 27px 0; 
     }
@@ -642,13 +641,12 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
 
     #navbar-container { 
-        text-align: center; 
         width: 50%; 
     }
 
     .header-links {
-        padding: 64.5px 0; 
-    }
+        padding-left: 0; 
+    } 
 
     .header-links > li {
         display: inline; 
