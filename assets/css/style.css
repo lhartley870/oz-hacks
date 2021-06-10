@@ -658,6 +658,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         text-align: center; 
     }
 
+    .cover-text-outer {
+        margin-left: 5%; 
+    }
+
     .hacks-container {
         grid-template-areas:
             "hack-one hack-one hack-one hack-one"
@@ -834,6 +838,33 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     footer {
         font-size: 26px; 
     }
+
+    .hero-container, 
+    #hero-image {
+        min-height: 550px; 
+    }
+
+    .cover-text-outer {
+        height: 450px;
+        width: 450px;
+    } 
+
+    .cover-text-inner {
+        font-size: 22px; 
+    }
+
+    #signature {
+        width: 130px; 
+    } 
+
+    @keyframes typing {
+        from { 
+            width: 0; 
+        }
+        to { 
+            width: 130px; 
+        } 
+    } 
 
     .hacks-container {
         grid-template-areas:
