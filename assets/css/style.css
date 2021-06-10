@@ -606,6 +606,17 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         padding-right: 2.5%; 
     } 
 
+    .hero-container {
+        align-items: center; 
+        display: flex; 
+    }
+
+    .cover-text-outer {
+        border-radius: 15px; 
+        height: 50vw;
+        width: 50vw;
+    } 
+
     .section-container {
         font-size: 20px; 
     }
