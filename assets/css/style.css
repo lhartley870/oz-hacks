@@ -581,7 +581,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     #compass-logo {
         box-shadow: 0 0 10px 8px #88aee1; 
         height: min(12vw, 120px); 
-        width: min(12vw, 120px);  
+        width: min(12vw, 120px);   
     } 
 
     #ozhacks-container {
@@ -922,6 +922,30 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* for extra large screen sizes of 1600px and up */
 @media screen and (min-width:1600px) {
+
+    header, 
+    .header-container {
+        height: min(215px, 20vh);
+    }
+
+    .hero-container, 
+    #hero-image {
+        height: max(calc(100vh - 323px), 70vh);
+    }
+
+    .hero-container {
+        margin-top: min(215px, 20vh); 
+    }
+    
+    footer {
+        height: min(108px, 10vh);
+    }
+
+    #compass-logo {
+        box-shadow: 0 0 16px 12px #88aee1; 
+        height: min(12vw, 135px); 
+        width: min(12vw, 135px);   
+    } 
 
     .header-links > li:not(:last-of-type) {
         padding-right: 8%; 
