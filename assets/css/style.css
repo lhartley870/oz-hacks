@@ -132,12 +132,14 @@ nav {
 .hero-container {
     height: min(calc(100vh - 225px), 70vh);
     margin-top: max(150px, 20vh); 
+    min-height: 273px; 
     width: 100%; 
 }
 
 #hero-image {
     background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
     height: min(calc(100vh - 225px), 70vh);
+    min-height: 273px; 
     width: 100%; 
 } 
 
@@ -146,6 +148,7 @@ nav {
     background: rgba(255, 245, 237, 0.8);  
     display: flex; 
     height: min(calc(100vh - 225px), 70vh);
+    min-height: 273px; 
     width: 100%;
 } 
 
@@ -648,15 +651,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
     .header-links {
         text-align: center; 
-    }
-
-    .hero-container,
-    #hero-image{
-        height: 1120px;
-    }
-
-    .cover-text {
-        height: 400px; 
     }
 
     .hacks-container {
