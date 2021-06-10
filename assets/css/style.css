@@ -612,12 +612,17 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .hero-container {
         align-items: center; 
         display: flex; 
+        min-height: 500px; 
     }
+
+    #hero-image {
+        min-height: 500px; 
+    } 
 
     .cover-text-outer {
         border-radius: 15px; 
-        height: 50vw;
-        width: 50vw;
+        height: 345px;
+        width: 345px;
     } 
 
     .section-container {
