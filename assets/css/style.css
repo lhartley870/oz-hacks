@@ -129,27 +129,25 @@ nav {
 
 /* hero image and covering text */
 
-.hero-container {
-    height: min(calc(100vh - 225px), 70vh);
+section {
     margin-top: max(150px, 20vh); 
-    min-height: 273px; 
-    width: 100%; 
+}
+
+.hero-container, 
+#hero-image, 
+.cover-text-outer {
+     height: min(calc(100vh - 225px), 70vh);
+     min-height: 273px; 
 }
 
 #hero-image {
     background: #ac2c00 url('../images/home-page-hero/camper_van.jpeg') center center /cover no-repeat;  
-    height: min(calc(100vh - 225px), 70vh);
-    min-height: 273px; 
-    width: 100%; 
 } 
 
 .cover-text-outer {
     align-items: center; 
     background: rgba(255, 245, 237, 0.8);  
     display: flex; 
-    height: min(calc(100vh - 225px), 70vh);
-    min-height: 273px; 
-    width: 100%;
 } 
 
 .cover-text-inner {
