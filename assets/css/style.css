@@ -214,7 +214,6 @@ footer {
     background-color: #88aee1;
     display: flex;  
     height: max(75px, 10vh);
-    width: 100%;
 }
 
 .icon-links {
@@ -235,7 +234,6 @@ footer {
 /* central content for 'before you go' and 'when in oz pages' */
 
 .section-container {  
-    margin-top: 150px; 
     text-align: center;  
 }
 
@@ -610,9 +608,9 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     .hero-container {
         align-items: center; 
         display: flex; 
-        min-height: 500px; 
     }
 
+    .hero-container, 
     #hero-image {
         min-height: 500px; 
     } 
