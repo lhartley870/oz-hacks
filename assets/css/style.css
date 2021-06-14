@@ -793,7 +793,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     }
 
     .photo-container > p { 
-        font-size: 0.5em; 
+        font-size: 0.55em; 
         padding: 1% 0;
     }
 
@@ -813,14 +813,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         z-index: 1;         
     }
 } 
-
-/* for large screen sizes of 1200px and up */
-@media screen and (min-width:1200px) {
-
-    .photo-container > p { 
-        font-size: 0.6em; 
-    }
-}
 
 /* for large screen sizes of 1440px and up */
 @media screen and (min-width:1440px) {
