@@ -317,7 +317,8 @@ footer {
     overflow: hidden;  
 }
 
-.hacks-container p {
+.hacks-container p, 
+.hacks-container li {
     font-size: 0.8em; 
 }
 
@@ -344,6 +345,11 @@ footer {
 
 .hacks-text i {
     font-size: 1.3em; 
+}
+
+.hacks-text ol {
+    padding: 0 5%; 
+    text-align: left; 
 }
 
 /* 
