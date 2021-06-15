@@ -326,7 +326,7 @@ footer {
     align-items: center; 
     box-shadow: 0 0 20px 15px #dc9c85 inset;
     display: flex; 
-    padding: 5%; 
+    padding: 10%; 
 }
 
 .hacks-text a {
@@ -631,6 +631,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         font-size: 20px; 
     }
 
+    .hacks-text {
+        padding: 5%; 
+    }
+    
     .hacks-text ol {
         padding: 0 5%; 
     }
