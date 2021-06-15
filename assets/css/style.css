@@ -360,7 +360,6 @@ https://stackoverflow.com/questions/43954836/disabling-blackbars-on-youtube-embe
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */  
-    padding-top: 1px; 
 }
 
 .video-container > iframe {
@@ -368,7 +367,7 @@ https://stackoverflow.com/questions/43954836/disabling-blackbars-on-youtube-embe
     left: 0; 
     position: absolute; 
     top: 0;  
-    width: 100.1%;
+    width: 100%;
 }
 
 /* 
