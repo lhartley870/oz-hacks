@@ -564,6 +564,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 .contact-text-inner > h2 {
     color: #fff5ed;
+    margin-bottom: 2%; 
     text-align: center; 
 } 
 
@@ -573,15 +574,16 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     font-weight: bold;
 }
 
-.contact-form > div {
-    display: flex; 
+.contact-details {
+    display: flex;  
+    margin-bottom: 10px; 
 }
 
-.contact-form > div > label {
+.contact-details > label {
     flex-basis: 30%; 
 }
 
-.contact-form > div > input {
+.contact-details > input {
     flex-basis: 70%;  
 }
 
