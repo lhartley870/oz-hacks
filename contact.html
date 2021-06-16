@@ -50,12 +50,20 @@
             </nav>
         </div>
     </header>
-    <!-- hero image and cover text -->
+    <!-- hero image and contact form cover text -->
     <section class="hero-container" id="contact-image">
         <div class="cover-text-outer" id="contact-text-outer">
             <div class="cover-text-inner">
-                <h2>Contact <i class="fas fa-envelope"></i></h2>
-                
+                <form action="#" method="POST">
+                    <h2>Contact <i class="fas fa-envelope"></i></h2>
+                    <fieldset>
+                        <legend><i class="fas fa-envelope"></i></legend>
+                        <label for="f-name">First Name</label>
+                        <input type="text" id="f-name" name="first-name" required>
+                        <label for="l-name">Last Name</label>
+                        <input type="text" id="l-name" name="last-name" required>
+                    </fieldset>
+                </form>
             </div>
         </div>
     </section>
