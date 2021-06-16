@@ -558,6 +558,21 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     background: rgba(0, 34, 85, 0.5);  
 }
 
+.contact-text-inner {
+    margin: 0 5%; 
+}
+
+.contact-text-inner > h2 {
+    color: #fff5ed;
+    text-align: center; 
+} 
+
+.contact-form {
+    color: #fff5ed;  
+    font-size: 0.8em; 
+    font-weight: bold;
+}
+
 /* media queries */
 
 /* for larger mobile screen sizes of 376px and up */
