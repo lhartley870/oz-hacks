@@ -129,7 +129,7 @@ nav {
     color: #025; 
 } 
 
-/* hero image and covering text */
+/* hero image and covering text for home page */
 
 section {
     margin-top: max(150px, 20vh); 
@@ -137,7 +137,9 @@ section {
 
 .hero-container, 
 #hero-image, 
-.cover-text-outer {
+#home-text-outer,
+#contact-image,
+#contact-text-outer {
      height: min(calc(100vh - 225px), 70vh);
      min-height: 273px; 
 }
@@ -148,9 +150,12 @@ section {
 
 .cover-text-outer {
     align-items: center; 
-    background: rgba(255, 245, 237, 0.8);  
     display: flex; 
 } 
+
+#home-text-outer {
+    background: rgba(255, 245, 237, 0.8);  
+}
 
 .cover-text-inner {
     margin: 0 5%; 
@@ -541,6 +546,16 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     font-family:'Rock Salt', cursive;
     font-size: 0.5em; 
     padding-top: 1%; 
+}
+
+/* hero image and covering text for contact page */
+
+#contact-image {
+    background: #ac2c00 url('../images/contact-page/bondi.jpeg') center center / cover no-repeat; 
+}
+
+#contact-text-outer {
+    background: rgba(0, 34, 85, 0.5);  
 }
 
 /* media queries */
