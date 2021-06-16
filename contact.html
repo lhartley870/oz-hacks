@@ -58,19 +58,19 @@
                     <h2>Contact <i class="fas fa-envelope"></i></h2>
                     <fieldset>
                         <legend><i class="fas fa-envelope"></i></legend>
-
+                        <!-- first name -->
                         <label for="f-name">First Name</label>
                         <input type="text" id="f-name" name="first-name" required>
-
+                        <!--last name -->
                         <label for="l-name">Last Name</label>
                         <input type="text" id="l-name" name="last-name" required>
-
+                        <!-- email address -->
                         <label for="email">Email Address</label>
                         <input type="email" id="email" name="email-address" required>
-
+                        <!-- message box -->
                         <label for="message">Your Question(s)</label>
                         <textarea name="query" id="message" cols="30" rows="10" placeholder="What advice do you need? Please type your question(s) here." required></textarea>
-                        
+                        <!-- dropdown box for length of stay in Australia -->
                         <label for="length">How long are you planning on staying in Australia?</label>
                         <select name="trip-length" id="length" required>
                             <option value="less-month" selected>Less than 1 Month</option>
@@ -89,7 +89,7 @@
                             <option value="3-years+">Longer than 3 Years</option>
                             <option value="not-sure">Not Sure Yet</option>
                         </select>
-
+                        <!-- radio buttons for type of trip -->
                         <p>What are you planning to do in Australia?</p>
                         <label for="travel">Travel only</label>
                         <input type="radio" id="travel" name="trip-type" value="travel" required>
@@ -97,9 +97,8 @@
                         <input type="radio" id="travel-work" name="trip-type" value="travel-work">
                         <label for="not-sure">Not Sure Yet</label>
                         <input type="radio" id="not-sure" name="trip-type" value="not-sure">
-
+                        <!-- submit button -->
                         <button type="submit">Send! <i class="fas fa-paper-plane"></i></button>
-
                     </fieldset>
                 </form>
             </div>
