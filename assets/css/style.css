@@ -576,7 +576,6 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 .contact-details {
     display: flex;  
-    margin-bottom: 10px; 
 }
 
 .contact-details > label {
@@ -590,6 +589,19 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 textarea {
     height: 100px; 
     width: 100%; 
+}
+
+.contact-form > div {
+    margin-bottom: 10px; 
+}
+
+textarea, 
+select {
+    margin-top: 5px; 
+}
+
+.contact-form > div > p {
+    margin-bottom: 5px; 
 }
 
 /* media queries */
