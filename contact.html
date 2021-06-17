@@ -73,8 +73,8 @@
                     </div>
                     <!-- message box -->
                     <div>
-                        <label for="message">Your Question(s)</label>
-                        <textarea name="query" id="message" placeholder="What advice do you need? Please type your question(s) here." required class="form-answer"></textarea>
+                        <label for="message">What advice do you need?</label>
+                        <textarea name="query" id="message" required class="form-answer"></textarea>
                     </div>
                     <!-- dropdown box for length of stay in Australia -->
                     <div>
@@ -100,12 +100,18 @@
                     <!-- radio buttons for type of trip -->
                     <div>
                         <p>What are you planning to do in Australia?</p>
-                        <label for="travel">Travel only</label>
-                        <input type="radio" id="travel" name="trip-type" value="travel" required>
-                        <label for="travel-work">Travel and Work</label>
-                        <input type="radio" id="travel-work" name="trip-type" value="travel-work">
-                        <label for="not-sure">Not Sure Yet</label>
-                        <input type="radio" id="not-sure" name="trip-type" value="not-sure">
+                        <div class="radio-answers">
+                            <input type="radio" id="travel" name="trip-type" value="travel" required>
+                            <label for="travel">Travel only</label>
+                        </div>
+                        <div class="radio-answers">
+                            <input type="radio" id="travel-work" name="trip-type" value="travel-work">  
+                            <label for="travel-work">Travel and Work</label>
+                        </div>
+                        <div class="radio-answers">
+                            <input type="radio" id="not-sure" name="trip-type" value="not-sure">
+                            <label for="not-sure">Not Sure Yet</label>
+                        </div>
                     </div>
                     <!-- submit button -->
                     <div class="send-button">
