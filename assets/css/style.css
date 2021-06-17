@@ -137,11 +137,9 @@ section {
 
 .hero-container, 
 #hero-image, 
-#home-text-outer,
-#contact-image,
-#contact-text-outer {
+#home-text-outer {
      height: min(calc(100vh - 225px), 70vh);
-     min-height: 273px; 
+     min-height: 300px; 
 }
 
 #hero-image {
@@ -550,8 +548,14 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* hero image and covering text for contact page */
 
+#contact-hero-container, 
+#contact-image,
+#contact-text-outer {
+    height: max(80vh, 520px); 
+}
+
 #contact-image {
-    background: #ac2c00 url('../images/contact-page/bondi.jpeg') center center / cover no-repeat; 
+    background: #ac2c00 url('../images/contact-page/bondi.jpeg') center center / cover no-repeat fixed; 
 }
 
 #contact-text-outer {
