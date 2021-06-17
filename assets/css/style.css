@@ -622,6 +622,8 @@ button {
     border-radius: 5px; 
     border: 2px solid #dc9c85; 
     color: #fff5ed;
+    font-family: Roboto, sans-serif; 
+    font-size: 0.9em; 
 }
 
 .radio-answers {
@@ -640,7 +642,8 @@ button:focus {
 /* for larger mobile screen sizes of 376px and up */
 @media screen and (min-width: 376px) {
 
-    .cover-text-inner {
+    .cover-text-inner,
+    .contact-text-inner {
         font-size: 18px; 
     }
 
