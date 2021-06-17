@@ -963,6 +963,11 @@ button:focus {
         height: 600px; 
         width: 600px; 
     }
+    
+    #contact-hero-container, 
+    #contact-image {
+        min-height: 730px; 
+    }
 
     .cover-text-inner,
     .contact-text-inner {
