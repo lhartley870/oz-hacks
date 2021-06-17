@@ -59,27 +59,27 @@
                     <!-- first name -->   
                     <div class="contact-details"> 
                         <label for="f-name">First Name</label>
-                        <input type="text" id="f-name" name="first-name" required>
+                        <input type="text" id="f-name" name="first-name" required class="form-answer">
                     </div>
                     <!--last name -->
                     <div class="contact-details">
                         <label for="l-name">Last Name</label>
-                        <input type="text" id="l-name" name="last-name" required>
+                        <input type="text" id="l-name" name="last-name" required class="form-answer">
                     </div class="contact-details">
                     <!-- email address -->
                     <div class="contact-details">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email-address" required>
+                        <input type="email" id="email" name="email-address" required class="form-answer">
                     </div>
                     <!-- message box -->
                     <div>
                         <label for="message">Your Question(s)</label>
-                        <textarea name="query" id="message" placeholder="What advice do you need? Please type your question(s) here." required></textarea>
+                        <textarea name="query" id="message" placeholder="What advice do you need? Please type your question(s) here." required class="form-answer"></textarea>
                     </div>
                     <!-- dropdown box for length of stay in Australia -->
                     <div>
                         <label for="length">How long are you planning on staying in Australia?</label>
-                        <select name="trip-length" id="length" required>
+                        <select name="trip-length" id="length" required class="form-answer">
                             <option value="less-month" selected>Less than 1 Month</option>
                             <option value="1-month">1 Month</option>
                             <option value="1-to-3-months">Longer than 1 Month but less than 3 Months</option>
@@ -108,7 +108,9 @@
                         <input type="radio" id="not-sure" name="trip-type" value="not-sure">
                     </div>
                     <!-- submit button -->
-                    <button type="submit">Send! <i class="fas fa-paper-plane"></i></button>
+                    <div class="send-button">
+                        <button type="submit">Send! <i class="fas fa-paper-plane"></i></button>
+                    </div>
                 </form>
             </div>
         </div>
