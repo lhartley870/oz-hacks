@@ -1125,6 +1125,11 @@ button:focus {
         font-size: 28px; 
     }
 
+    #contact-text-outer {
+        height: 700px; 
+        width: 700px; 
+    }
+
     #signature {
         width: 165px; 
     } 
