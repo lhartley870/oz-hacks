@@ -1051,7 +1051,7 @@ button:focus {
 
     .hero-container, 
     #hero-image {
-        height: max(calc(100vh - 323px), 660px);
+        height: max(calc(100vh - 323px), 550px);
     }
 
     section {
