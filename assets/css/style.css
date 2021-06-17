@@ -336,6 +336,10 @@ footer {
     padding: 10%; 
 }
 
+.hacks-text p {
+    padding-top: 1.3em; 
+}
+
 .hacks-text a {
     color: #88aee1; 
     font-size: 1.3em; 
