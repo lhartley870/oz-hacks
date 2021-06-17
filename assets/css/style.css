@@ -591,7 +591,7 @@ textarea {
     width: 100%; 
 }
 
-.contact-form > div {
+.contact-form > div:not(.send-button) {
     margin-bottom: 10px; 
 }
 
@@ -602,6 +602,19 @@ select {
 
 .contact-form > div > p {
     margin-bottom: 5px; 
+}
+
+button {
+    background-color: #dc9c85; 
+    border-radius: 15px; 
+    color: #fff5ed;   
+    font-family: Roboto, sans-serif; 
+    font-size: 1.2em; 
+    padding: 10px; 
+}
+
+.send-button {
+    text-align: center; 
 }
 
 /* media queries */
