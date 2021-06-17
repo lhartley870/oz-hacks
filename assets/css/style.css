@@ -624,6 +624,13 @@ button {
     margin-top: 5px; 
 }
 
+.form-answer:hover,
+.form-answer:focus,
+button:hover,
+button:focus {
+    box-shadow: 0 0 10px 5px #fff5ed;  
+} 
+
 /* media queries */
 
 /* for larger mobile screen sizes of 376px and up */
