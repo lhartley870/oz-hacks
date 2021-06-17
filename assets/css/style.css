@@ -775,7 +775,8 @@ button:focus {
         text-align: center; 
     }
 
-    .cover-text-outer {
+    .cover-text-outer,
+    #contact-text-outer {
         margin-left: 5%; 
     }
 
@@ -958,7 +959,8 @@ button:focus {
         width: 450px;
     } 
 
-    .cover-text-inner {
+    .cover-text-inner,
+    .contact-text-inner {
         font-size: 22px; 
     }
 
