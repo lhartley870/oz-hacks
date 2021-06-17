@@ -775,8 +775,7 @@ button:focus {
         text-align: center; 
     }
 
-    .cover-text-outer,
-    #contact-text-outer {
+    .cover-text-outer {
         margin-left: 5%; 
     }
 
