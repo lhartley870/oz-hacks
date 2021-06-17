@@ -724,9 +724,14 @@ button:focus {
         width: 345px;
     } 
 
-    #contact-text-outer {
+    #contact-text-outer { 
         height: 520px; 
         width: 520px; 
+    }
+
+    #contact-hero-container, 
+    #contact-image {
+        min-height: 650px; 
     }
 
     .section-container {
