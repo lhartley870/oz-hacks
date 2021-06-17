@@ -551,7 +551,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 #contact-hero-container, 
 #contact-image,
 #contact-text-outer {
-    height: max(80vh, 520px); 
+    height: max(70vh, 560px); 
 }
 
 #contact-image {
@@ -716,10 +716,18 @@ button:focus {
     } 
 
     .cover-text-outer {
-        border-radius: 15px; 
+       border-radius: 15px;  
+    }
+
+    #home-text-outer {    
         height: 345px;
         width: 345px;
     } 
+
+    #contact-text-outer {
+        height: 520px; 
+        width: 520px; 
+    }
 
     .section-container {
         font-size: 20px; 
