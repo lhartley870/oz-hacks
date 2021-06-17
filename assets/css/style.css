@@ -1046,20 +1046,20 @@ button:focus {
 
     header, 
     .header-container {
-        height: min(215px, 20vh);
+        height: 215px;
     }
 
     .hero-container, 
     #hero-image {
-        height: max(calc(100vh - 323px), 70vh);
+        height: max(calc(100vh - 323px), 660px);
     }
 
     section {
-        margin-top: min(215px, 20vh); 
+        margin-top: 215px; 
     }
     
     footer {
-        height: min(108px, 10vh);
+        height: 108px;  
     }
 
     #compass-logo {
