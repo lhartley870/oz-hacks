@@ -954,10 +954,15 @@ button:focus {
         min-height: 550px; 
     }
 
-    .cover-text-outer {
+    #home-text-outer {
         height: 450px;
         width: 450px;
     } 
+
+    #contact-text-outer {
+        height: 600px; 
+        width: 600px; 
+    }
 
     .cover-text-inner,
     .contact-text-inner {
