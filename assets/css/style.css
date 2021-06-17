@@ -1115,12 +1115,13 @@ button:focus {
 /* for extra extra large screen sizes of 2500px and up */
 @media screen and (min-width:2500px) {
 
-    .cover-text-outer {
+    #home-text-outer{
         height: 600px;
         width: 600px;
     } 
 
-    .cover-text-inner {
+    .cover-text-inner,
+    .contact-text-inner {
         font-size: 28px; 
     }
 
