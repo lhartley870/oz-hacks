@@ -166,6 +166,10 @@ section {
     font-weight: bold;  
 } 
 
+.cover-text-inner > p:first-of-type {
+    padding: 1.3em 0; 
+}
+
 #signature { 
     font-size: 1.5em; 
     
