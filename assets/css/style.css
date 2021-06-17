@@ -1050,8 +1050,10 @@ button:focus {
     }
 
     .hero-container, 
-    #hero-image {
-        height: max(calc(100vh - 323px), 550px);
+    #hero-image, 
+    #contact-hero-container, 
+    #contact-image {
+        height: calc(100vh - 323px); /* note that min-height from 1440px+ media query still sets a min height */
     }
 
     section {
