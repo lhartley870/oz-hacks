@@ -359,7 +359,7 @@ footer {
 }
 
 .hacks-text ol {
-    padding: 0 15%; 
+    padding: 1.3em 15% 0 15%; 
     text-align: left; 
 }
 
@@ -751,7 +751,7 @@ button:focus {
     }
     
     .hacks-text ol {
-        padding: 0 5%; 
+        padding: 1.3em 5% 0 5%; 
     }
 
     .photo-container > p {
