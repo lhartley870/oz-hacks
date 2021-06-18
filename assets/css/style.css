@@ -787,6 +787,14 @@ button:focus {
         margin-left: 5%; 
     }
 
+    .radio-answers {
+        display: inline-block; 
+    }
+
+    .send-button {
+        margin-top: 20px; 
+    }
+
     .hacks-container {
         grid-template-areas:
             "hack-one hack-one hack-one hack-one"
