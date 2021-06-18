@@ -89,10 +89,10 @@ h3 {
 }
 
 #ozhacks-container p {
+    border-top: 2px solid #ac2c00; 
     color: #025; 
     font-size: 0.8em; 
     font-weight: bold; 
-    text-decoration: overline #ac2c00 solid; 
 }
 
 /* navigation bar */
