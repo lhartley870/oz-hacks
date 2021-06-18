@@ -975,13 +975,13 @@ button:focus {
     } 
 
     #contact-text-outer {
-        height: 600px; 
-        width: 600px; 
+        height: 550px; 
+        width: 700px; 
     }
     
     #contact-hero-container, 
     #contact-image {
-        min-height: 730px; 
+        min-height: 680px; 
     }
 
     .cover-text-inner,
@@ -1142,8 +1142,8 @@ button:focus {
     }
 
     #contact-text-outer {
-        height: 700px; 
-        width: 700px; 
+        height: 650px; 
+        width: 890px; 
     }
 
     #signature {
