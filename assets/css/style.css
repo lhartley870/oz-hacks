@@ -943,12 +943,6 @@ button:focus {
         margin-right: 1%; 
         text-align: right; 
     }
-
-    .photo-container:hover {
-        background-color: #fff5ed;
-        box-shadow: 0 0 30px 20px #dc9c85;  
-        z-index: 1;         
-    }
 } 
 
 /* for large screen sizes of 1440px and up */
@@ -1125,6 +1119,12 @@ button:focus {
 
     #gallery-container { 
         padding-bottom: 0; 
+    }
+
+    .photo-container:hover {
+        background-color: #fff5ed;
+        box-shadow: 0 0 30px 20px #dc9c85;  
+        z-index: 1;         
     }
 }
 
