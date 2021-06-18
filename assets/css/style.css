@@ -13,11 +13,6 @@ body {
     font-family: Roboto, sans-serif; 
 }
 
-html, 
-body {
-    height: 100%; 
-}
-
 /* header */
 
 header {
@@ -25,7 +20,7 @@ header {
     https://mycolor.space/gradient?ori=to+right&hex=%23DC9C85&hex2=%23D2B48C&sub=1 */ 
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
     display: flex; 
-    height: max(150px, 20%);
+    height: max(150px, 20vh);
     position: fixed;
     top: 0;  
     width: 100%;
@@ -35,7 +30,7 @@ header {
 .header-container {
     align-items: center; 
     display: flex;  
-    height: max(150px, 20%); 
+    height: max(150px, 20vh); 
     justify-content: center;
 } 
 
@@ -138,17 +133,14 @@ nav {
 /* hero image and covering text for home page */
 
 section {
-    margin-top: max(150px, 20%); 
+    margin-top: max(150px, 20vh); 
 }
 
 .hero-container, 
-#hero-image {
-     height: min(calc(100% - 225px), 70%);
-     min-height: 300px; 
-}
-
+#hero-image,
 #home-text-outer {
-    height: 100%; 
+     height: min(calc(100vh - 225px), 70vh);
+     min-height: 300px; 
 }
 
 #hero-image {
@@ -228,7 +220,7 @@ footer {
     align-items: center; 
     background-color: #88aee1;
     display: flex;  
-    height: max(75px, 10%);
+    height: max(75px, 10vh);
 }
 
 .icon-links {
