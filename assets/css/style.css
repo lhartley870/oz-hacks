@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fontdiner+Swanky&family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fontdiner+Swanky&family=Roboto:wght@400;500&family=Rock+Salt&display=swap');
 
 * {
     border: none; 
@@ -71,7 +71,8 @@ header {
 }
 
 h1, h2, h3 {
-    font-family: 'Fontdiner Swanky', cursive;     
+    font-family: 'Fontdiner Swanky', cursive;  
+    font-weight: 400;    
 }
 
 h1, h2 {
@@ -92,7 +93,7 @@ h3 {
     border-top: 2px solid #ac2c00; 
     color: #025; 
     font-size: 0.8em; 
-    font-weight: bold; 
+    font-weight: 500; 
 }
 
 /* navigation bar */
@@ -117,7 +118,7 @@ nav {
 .header-links a {
     color: #fff5ed; 
     font-size: 0.8em; 
-    font-weight: bold; 
+    font-weight: 500; 
 }
 
 .links a:hover, 
@@ -163,8 +164,7 @@ section {
 .cover-text-inner > p {
     font-family: 'Courier Prime', monospace; 
     font-size: 0.9em;
-    font-weight: bold;  
-} 
+}
 
 .cover-text-inner > p:first-of-type {
     padding: 1.3em 0; 
@@ -583,7 +583,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 .contact-form {
     color: #fff5ed;   
     font-size: 0.9em; 
-    font-weight: bold;
+    font-weight: 500;  
 }
 
 .contact-details {
@@ -631,7 +631,7 @@ button {
     border: 2px solid #dc9c85; 
     color: #fff5ed;
     font-family: Roboto, sans-serif; 
-    font-size: 0.9em; 
+    font-size: 0.9em;  
 }
 
 .radio-answers {
