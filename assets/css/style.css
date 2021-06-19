@@ -635,16 +635,11 @@ button {
 .radio-answers {
     margin-top: 5px; 
 }
-
-.form-answer:hover, 
+ 
 button:hover {
     box-shadow: 0 0 10px 5px #fff5ed;  
 } 
 
-select:hover {
-    box-shadow: 0 0 10px 5px #fff5ed; 
-    webkit-box-shadow: 0 0 10px 5px #fff5ed;
-}
 /* media queries */
 
 /* for larger mobile screen sizes of 376px and up */
@@ -941,6 +936,12 @@ select:hover {
         margin-right: 1%; 
         text-align: right; 
     }
+
+    .photo-container:hover {
+        background-color: #fff5ed;
+        box-shadow: 0 0 30px 20px #dc9c85;  
+        z-index: 1;         
+    }
 } 
 
 /* for large screen sizes of 1440px and up */
@@ -1120,12 +1121,6 @@ select:hover {
 
     #gallery-container { 
         padding-bottom: 0; 
-    }
-
-    .photo-container:hover {
-        background-color: #fff5ed;
-        box-shadow: 0 0 30px 20px #dc9c85;  
-        z-index: 1;         
     }
 }
 
