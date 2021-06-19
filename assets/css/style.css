@@ -545,7 +545,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     background-color: #eee; 
     border: 1px solid #fff;
     box-shadow: 0px 2px 15px #333;  
-    padding: 5% 5% 15% 5%; 
+    padding: 5% 5% 10% 5%; 
 }
 
 .photo-container > p {
