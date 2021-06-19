@@ -548,7 +548,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     padding: 5% 5% 15% 5%; 
 }
 
-.caption-container > p {
+.photo-container > p {
     font-family:'Rock Salt', cursive;
     font-size: 0.5em; 
     padding-top: 1%; 
@@ -929,7 +929,7 @@ button:focus {
         padding: initial;  
     }
 
-    .caption-container > p { 
+    .photo-container > p { 
         font-size: 0.55em; 
         padding: 1% 0;
     }
@@ -943,10 +943,6 @@ button:focus {
         margin-right: 1%; 
         text-align: right; 
     }
-
-    .caption-container {
-        height: 2em;  
-    } 
 } 
 
 /* for large screen sizes of 1440px and up */
