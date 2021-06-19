@@ -121,8 +121,7 @@ nav {
     font-weight: 500; 
 }
 
-.links a:hover, 
-.links a:focus {
+.links a:hover {
     border-bottom: 2px solid #fff5ed;
 }
 
@@ -345,8 +344,7 @@ footer {
     font-size: 1.3em; 
 }
 
-.hacks-text a:hover,
-.hacks-text a:focus {
+.hacks-text a:hover {
     border-bottom: 2px solid #88aee1;
 }
 
@@ -638,10 +636,8 @@ button {
     margin-top: 5px; 
 }
 
-.form-answer:hover,
-.form-answer:focus,
-button:hover,
-button:focus {
+.form-answer:hover, 
+button:hover {
     box-shadow: 0 0 10px 5px #fff5ed;  
 } 
 
