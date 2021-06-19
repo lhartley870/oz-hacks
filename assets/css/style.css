@@ -924,7 +924,7 @@ button:focus {
         background-color: initial; 
         border: initial; 
         box-shadow: initial;  
-        padding: 0 0 2em 0;  
+        padding: 0 0 3em 0;  
     }
 
     .photo-container > p { 
