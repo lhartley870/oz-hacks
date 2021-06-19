@@ -641,6 +641,10 @@ button:hover {
     box-shadow: 0 0 10px 5px #fff5ed;  
 } 
 
+select:hover {
+    box-shadow: 0 0 10px 5px #fff5ed; 
+    webkit-box-shadow: 0 0 10px 5px #fff5ed;
+}
 /* media queries */
 
 /* for larger mobile screen sizes of 376px and up */
