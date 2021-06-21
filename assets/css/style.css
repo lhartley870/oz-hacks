@@ -321,6 +321,7 @@ footer {
 .hacks-container > div {
     border-radius: 15px; 
     overflow: hidden;  
+    z-index: 1; 
 }
 
 .hacks-container p, 
