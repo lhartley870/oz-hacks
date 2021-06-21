@@ -397,7 +397,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 .hack-photo {
     border-radius: 15px; 
     max-height: 100%; 
-    max-width: 100%; 
+    width: 100vw; 
     object-fit: cover;  
     vertical-align: bottom; 
 }
