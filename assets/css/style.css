@@ -393,6 +393,11 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
     vertical-align: bottom; 
 }
 
+.hack-two-media {
+    width: 100%; 
+}
+
+
 /* gallery page */
 
 #gallery-container {
