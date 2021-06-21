@@ -566,12 +566,11 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 /* hero image and covering text for contact page */
 
 #contact-hero-container, 
-#contact-image,
 #contact-text-outer {
     height: max(70vh, 560px); 
 }
 
-#contact-image {
+#contact-hero-container {
     background: #ac2c00 url('../images/contact-page/bondi.jpeg') center center / cover no-repeat fixed; 
 }
 
@@ -743,8 +742,7 @@ button:hover {
         width: 520px; 
     }
 
-    #contact-hero-container, 
-    #contact-image {
+    #contact-hero-container {
         min-height: 650px; 
     }
 
@@ -983,8 +981,7 @@ button:hover {
         width: 700px; 
     }
     
-    #contact-hero-container, 
-    #contact-image {
+    #contact-hero-container {
         min-height: 680px; 
     }
 
@@ -1073,8 +1070,7 @@ button:hover {
 
     .hero-container, 
     #hero-image, 
-    #contact-hero-container, 
-    #contact-image {
+    #contact-hero-container {
         height: calc(100vh - 323px); /* note that min-height from 1440px+ media query still sets a min height */
     }
 
