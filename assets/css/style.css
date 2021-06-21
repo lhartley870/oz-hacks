@@ -283,8 +283,7 @@ footer {
 }
 
 .hack-two-media {
-    grid-area: hack-two-media; 
-    width: 100%; 
+    grid-area: hack-two-media;  
 }
 
 .hack-three {
