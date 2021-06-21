@@ -376,8 +376,8 @@ https://stackoverflow.com/questions/43954836/disabling-blackbars-on-youtube-embe
     /* 
     clip-path required as browser rounds off numbers slightly incorrectly 
     when calculating the video size which causes youtube's iframe black background colour
-    to show as a thin black line down the right or left sides of the videos when playing on 
-    some screen widths - clip-path is the suggested bug fix discussed here 
+    to show as a thin black line down the right/left/top/bottom of the videos when 
+    playing on some screen widths - clip-path is the suggested bug fix discussed here 
     https://github.com/twbs/bootstrap/issues/26284 and implemented below but using 2px 
     instead of 1px as 1px still had the black background showing through
     */
