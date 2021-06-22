@@ -413,6 +413,7 @@ https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-differen
 */ 
 #page-container {
     display: grid; 
+    padding-bottom: 5%; 
 }
 
 #gallery-container {
@@ -446,7 +447,6 @@ https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-differen
     grid-template-rows: repeat(24, auto); 
     height: 100%; 
     margin: 0 auto; 
-    padding-bottom: 5%; 
     row-gap: 35px; 
     width: 90%;  
 } 
@@ -827,12 +827,15 @@ button:hover {
             ". hack-six-media hack-six-media .";
     }
 
+    #page-container {
+        padding-bottom: 1.5%; 
+    }
+
     #gallery-container { 
         gap: initial; 
         grid-auto-rows: minmax(80px, auto); 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
         grid-template-rows: initial; 
-        padding-bottom: 1.5%; 
     }
 
     .gallery-heading {
@@ -1099,7 +1102,7 @@ button:hover {
         font-size: 0.7em; 
     }
 
-    #gallery-container { 
+    #page-container {
         padding-bottom: 0.5%; 
     }
 } 
@@ -1170,9 +1173,9 @@ button:hover {
         box-shadow: 0 0 60px 40px #dc9c85;       
     }
 
-    #gallery-container { 
+    #page-container {
         padding-bottom: 0; 
-    }
+    } 
 }
 
 /* for extra extra large screen sizes of 2500px and up */
