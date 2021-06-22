@@ -1043,6 +1043,30 @@ button:hover {
         }
     }
 
+    /* 
+    negative margin required on iframes as the clip-path on iframe embedded videos to 
+    stop the youtube black background showing through causes there to be a gap between 
+    the video and the hack text box next to it in screens 1440px+ wide - the negative
+    margin brings the edges of each video and text box next to it together without a gap
+    */ 
+    .video-container > iframe {
+        margin: -2px; 
+    }
+
+    /*
+    even with the negative margin on iframes above, the embedded videos on the when in oz
+    page still have a gap between them and the text box next to them - splitting the negative
+    margin required between the when in oz page iframe div containers and the text boxes next to 
+    them gives the best result in terms of minimising a black line appearing down the right hand side of 
+    the iframe videos */
+    .when-in-oz-video {
+        margin-right: -2px; 
+    }
+
+    .video-text {
+        margin-left: -3px; 
+    }
+
     .gallery-heading {
         font-size: 1.4em;
     }
