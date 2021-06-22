@@ -827,12 +827,15 @@ button:hover {
             ". hack-six-media hack-six-media .";
     }
 
+    #page-container {
+        margin-bottom: 1.5%; 
+    }
+
     #gallery-container { 
         gap: initial; 
         grid-auto-rows: minmax(80px, auto); 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
         grid-template-rows: initial; 
-        padding-bottom: 1.5%; 
     }
 
     .gallery-heading {
@@ -1099,8 +1102,8 @@ button:hover {
         font-size: 0.7em; 
     }
 
-    #gallery-container {
-        padding-bottom: 0.5%; 
+    #page-container {
+        margin-bottom: 0.5%; 
     }
 } 
 
@@ -1166,8 +1169,8 @@ button:hover {
         box-shadow: 0 0 60px 40px #dc9c85;       
     }
 
-    #gallery-container {
-        padding-bottom: 0; 
+    #page-container {
+        margin-bottom: 0; 
     } 
 }
 
