@@ -836,7 +836,6 @@ button:hover {
         grid-auto-rows: minmax(80px, auto); 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
         grid-template-rows: initial; 
-        width: 80%; 
     }
 
     .gallery-heading {
