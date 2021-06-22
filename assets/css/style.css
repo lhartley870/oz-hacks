@@ -836,6 +836,7 @@ button:hover {
         grid-auto-rows: minmax(80px, auto); 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
         grid-template-rows: initial; 
+        width: 80%; 
     }
 
     .gallery-heading {
@@ -947,7 +948,7 @@ button:hover {
     }
 
     .photo-container > p { 
-        font-size: 0.55em; 
+        font-size: 0.5em; 
         padding: 0;
     }
 
@@ -1099,7 +1100,7 @@ button:hover {
     }
 
     .photo-container > p { 
-        font-size: 0.7em; 
+        font-size: 0.6em; 
     }
 
     #page-container {
@@ -1162,7 +1163,7 @@ button:hover {
     }
 
     .photo-container > p {  
-        font-size: 0.9em;  
+        font-size: 0.7em;  
     }
 
     .photo-container:hover {
@@ -1207,5 +1208,9 @@ button:hover {
 
     .photo-container {
         padding: 0 0 6em 0; 
+    }
+
+    .photo-container > p {  
+        font-size: 0.9em;  
     }
 }
