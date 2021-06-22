@@ -947,7 +947,7 @@ button:hover {
     }
 
     .photo-container > p { 
-        font-size: 0.5em; 
+        font-size: 0.55em; 
         padding: 0;
     }
 
@@ -1099,7 +1099,7 @@ button:hover {
     }
 
     .photo-container > p { 
-        font-size: 0.6em; 
+        font-size: 0.7em; 
     }
 
     #page-container {
@@ -1162,7 +1162,7 @@ button:hover {
     }
 
     .photo-container > p {  
-        font-size: 0.7em;  
+        font-size: 0.9em;  
     }
 
     .photo-container:hover {
@@ -1207,9 +1207,5 @@ button:hover {
 
     .photo-container {
         padding: 0 0 6em 0; 
-    }
-
-    .photo-container > p {  
-        font-size: 0.9em;  
     }
 }
