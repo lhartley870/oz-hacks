@@ -1075,7 +1075,7 @@ button:hover {
     negative margin on the video containers improves the appearance in safari 
     */ 
     .video-container {
-        margin-bottom: -2px; 
+        margin-bottom: -4px; 
     }
 
     .gallery-heading {
