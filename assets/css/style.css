@@ -404,6 +404,13 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* gallery page */
 
+/* 
+making the section container of the gallery grid display as a grid itself and adding a height of
+100% to #gallery-container has fixed the bug where the space around some of the photo
+captions is larger than for others on ipad mini (Chrome, Safari, Edge and Firefox) and Safari desktop 
+browser for screens 1024px+ wide - solution derived from answer given by hrood on Stack Overflow - 
+https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-different-in-safari
+*/ 
 #page-container {
     display: grid; 
 }
