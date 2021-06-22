@@ -129,6 +129,11 @@ nav {
     color: #025; 
 } 
 
+/* styling active page with a coloured underline taken from Code Institute Love Running project */
+.active {
+    border-bottom: 2px solid #ac2c00; 
+} 
+
 /* hero image and covering text for home page */
 
 section {
