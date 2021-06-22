@@ -1068,14 +1068,11 @@ button:hover {
     }
 
     /* 
-    negative bottom margin required on iframe containers as grid animation does not work in safari browser
-    so for screens 1440px+ wide, the video and hack boxes have a column gap but should have no row gap, 
-    however, the negative margins on the iframe videos create a larger row gap between the bottom of 
-    the videos and text boxes underneath than between the hack photos and text boxes underneath - the 
-    negative margin on the video containers improves the appearance in safari 
+    negative bottom margin brings the bottom of the hack videos more in line with the accompanying text boxes
+    next to them 
     */ 
     .video-container {
-        margin-bottom: -4px; 
+        margin-bottom: -2px; 
     }
 
     .gallery-heading {
