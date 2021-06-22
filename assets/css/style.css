@@ -580,6 +580,10 @@ https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-differen
     padding-top: 1%; 
 }
 
+#gallery-footer {
+    margin-top: 5%; 
+}
+
 /* hero image and covering text for contact page */
 
 #contact-hero-container, 
