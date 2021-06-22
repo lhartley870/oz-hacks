@@ -778,6 +778,10 @@ button:hover {
     .photo-container > p {
         font-size: 0.9em; 
     }
+
+    .photo-container {
+        padding: 5% 5% 15% 5%; 
+    }
 }
 
 /* for medium screen sizes of 850px and up */
