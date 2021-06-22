@@ -566,7 +566,7 @@ https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-differen
     background-color: #eee; 
     border: 1px solid #fff;
     box-shadow: 0px 2px 15px #333;  
-    padding: 5% 5% 10% 5%; 
+    padding: 5% 5% 15% 5%; 
 }
 
 .photo-container > p {
@@ -1146,10 +1146,6 @@ button:hover {
      #gallery-container { 
         grid-auto-rows: minmax(140px, auto); 
     } 
-
-    .photo-container > p {  
-        padding: 3% 0; 
-    }
 }
 
 /* for extra large screen sizes of 1900px and up */
