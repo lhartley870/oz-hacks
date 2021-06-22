@@ -404,6 +404,10 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 
 /* gallery page */
 
+#page-container {
+    display: grid; 
+}
+
 #gallery-container {
     display: grid; 
     grid-template-areas: 
