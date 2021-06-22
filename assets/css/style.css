@@ -437,6 +437,7 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
         ". west-photo-five west-photo-five west-photo-five west-photo-five"; 
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(24, auto); 
+    height: 100%; 
     margin: 0 auto; 
     padding-bottom: 5%; 
     row-gap: 35px; 
