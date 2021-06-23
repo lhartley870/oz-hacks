@@ -1103,6 +1103,10 @@ button:hover {
         margin-bottom: -2px; 
     }
 
+    #gallery-container {
+        width: 70%;  
+    }
+
     .gallery-heading {
         font-size: 1.4em;
     }
