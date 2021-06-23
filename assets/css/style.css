@@ -1111,10 +1111,6 @@ button:hover {
         font-size: 1.4em;
     }
 
-    .photo-container {
-        padding: 0 0 4em 0;  
-    }
-
     #gallery-footer {
         margin-top: 0.5%; 
     }
@@ -1170,13 +1166,13 @@ button:hover {
         margin-left: 10%; 
     }
 
-    .photo-container > p {  
-        font-size: 0.9em;  
+    #gallery-container {
+        width: 60%; 
     }
 
     .photo-container:hover {
         box-shadow: 0 0 60px 40px #dc9c85;       
-    }
+    } 
 }
 
 /* for extra extra large screen sizes of 2500px and up */
