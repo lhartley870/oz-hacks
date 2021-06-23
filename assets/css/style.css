@@ -1206,7 +1206,11 @@ button:hover {
         } 
     } 
 
+    .photo-container > p { 
+        font-size: 0.8em; 
+    }
+
     .photo-container {
-        padding: 0 0 6em 0; 
+        padding: 0 0 4em 0; 
     }
 }
