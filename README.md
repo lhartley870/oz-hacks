@@ -42,6 +42,21 @@ The Gallery page has a standalone structure with the photos appearing to be pola
 
 ### Fonts
 
+I used [Google Fonts](https://fonts.google.com/) for the website fonts. The selected fonts and their fallbacks, should they not import into the site correctly, are as follows:
+
+Selected Font | Fallback Font
+------------- | --------------
+Fontdiner Swanky | Cursive
+Roboto | Sans-Serif
+Courier Prime | Monospace
+Rock Salt | Cursive
+
+I selected Fontdiner Swanky as the font for the OzHacks logo and headings throughout the site as it has a fun and energetic feel appropriate for the subject matter of the site. Google Fonts suggested the Roboto font as a popular pairing with Fontdiner Swanky. The combination is complimentary with Roboto being a clear and easily readable font for use throughout the majority of the website. 
+
+Courier Prime was selected for the Home Page cover text as it has the appearance of text typed on a computer which is key to the typing animation that appears on the Home Page. 
+
+Rock Salt was selected for use on the Gallery Page as it has a handwritten appearance and I wanted the captions to appear as though they had been handwritten underneath the photos as if someone had made a scrapbook of their backpacking travels.   
+
 ### Colours
 
 ## Features
