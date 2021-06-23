@@ -842,7 +842,7 @@ button:hover {
 
     #gallery-container { 
         gap: initial; 
-        grid-auto-rows: minmax(80px, auto); 
+        grid-auto-rows: minmax(50px, auto); 
         grid-template-columns: 1fr 1fr 1fr 5% 1fr 1fr 1fr;
         grid-template-rows: initial; 
     }
@@ -1154,10 +1154,6 @@ button:hover {
 
     .section-container {
         font-size: 26px; 
-    } 
-
-     #gallery-container { 
-        grid-auto-rows: minmax(140px, auto); 
     } 
 }
 
