@@ -30,6 +30,20 @@ I used [Balsamiq](https://www.balsamiq.com) to create Wireframe mockups for brow
 
 ## Design
 
+### Page Designs
+
+The pages are designed to flow as the user takes each step through the journey of the website. 
+
+The Home Page has a large hero background image of a campervan synonymous with the user's backpacker journey and visit to the website starting. The cover text is in a box with rounded corners for larger screens and the box covers the whole background image for smaller screens and is partially transparent, revealing the hero image behind. This layout is repeated on the final Contact page with a sunset hero background image synonymous with the user's steps on the website coming to a close. The colour scheme for the cover text box is switched with the first page having a cream cover box and navy text and the Contact page flipping that to cream text and a navy cover box. The first and last pages having a matching layout brings the user full circle. 
+
+The Before You Go and When in Oz pages have the same layout with the text boxes and photos/videos either being stacked on top of each other for smaller screens or being side by side for larger screens. The layout, whether on larger or smaller screens, creates a flow down the page encouraging the user to keep scrolling down to find out the next hack for backpacking Australia. On larger screens the hack text box and media appear on different sides of the screen as you scroll down creating a flow across as well as down the page. The hack text boxes and accompanying videos/images all have curved corners matching the cover text box on the Home and Contact pages.  
+
+The Gallery page has a standalone structure with the photos appearing to be polaroids for smaller screens and having an overlapping structure on larger screens. The flow of the Gallery page does, however, link back to the Before You Go and When in Oz Pages with the first polaroid being on the left of the screen, the second being on the right etc and the overlapping structure on larger screens creating a familiar flow across as well as down the page. 
+
+### Fonts
+
+### Colours
+
 ## Features
 ### Existing Features
 #### Home Page
