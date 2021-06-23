@@ -1103,14 +1103,8 @@ button:hover {
         margin-bottom: -2px; 
     }
 
-    #page-container {
-        margin-left: auto; 
-        margin-right: auto; 
-        width: 70%
-    }
-
     #gallery-container {
-        width: 100%;  
+        width: 70%;  
     }
 
     .gallery-heading {
@@ -1119,10 +1113,6 @@ button:hover {
 
     .photo-container {
         padding: 0 0 4em 0;  
-    }
-
-    .photo-container > p { 
-        font-size: 0.7em; 
     }
 
     #gallery-footer {
