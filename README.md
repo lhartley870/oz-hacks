@@ -103,6 +103,15 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 ## Features
 ### Existing Features
 #### Home Page
+
+    The Home page is designed to quickly give the user an idea of what the website is about, draw the user in and encourage them to continue exploring the rest of the site.
+
+* **Central Welcome Message and Hero Image**
+
+    The Home page has a camper van hero image which fills the whole page bar the header and footer to grab the user's attention. The welcome message appears as though it has just been typed with the signature of the site author at the end of the message being animated. This animation draws attention to the welcome message which helps users feel a connection to the author, provides reassurance that the author has first-hand experience to be able to provide useful hacks and encourages the user to continue browsing the site.
+
+    The hero image and overlaying text box structure is repeated on the Contact page to create a sense of consistency and familiarity for the user. 
+
 * **Navigation Bar**
 
     The website is set up to take the user through a logical journey of separated steps via the easy-to-use navigation bar which includes links to all the pages and is the same on each page. Running left to right, the navigation bar reflects the stages the user is likely to go through in terms of both the stages of their trip and their likely primary and secondary goals for visiting the website as mentioned above. This helps the user find what they are looking for quickly and intuitively and provides a logical flow to the whole site. Its appearance on each page as part of a 'fixed/sticky header', which remains visible at all times at the top of the screen when scrolling, prevents visitors having to use the 'back' button. 
@@ -121,13 +130,10 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 
     The footer contains links to external useful websites for flights, hostels, visas and tripadvisor for users that want to further plan their trip. The links have a relevant logo to highlight what the link is for. As with the page navigation links in the header, the icons initially appear in the Sea Shell colour, turning Midnight Blue once visited with a Sea Shell underline when the icons are hovered over. This gives the user a sense of predictable interaction. 
 
-* **Central Welcome Message and Hero Image**
-
-    The Home page has a camper van hero image which fills the whole page bar the header and footer to grab the user's attention. The welcome message appears as though it has just been typed with the signature of the site author at the end of the message being animated. This animation draws attention to the welcome message which helps users feel a connection to the author and her experience and encourages the user to continue browsing the site.
-
-    The hero image and overlaying text box structure is repeated on the Contact page to create a sense of consistency and familiarity for the user.  
-
 #### Before You Go and When in Oz Pages
+
+    These pages represent the main goals of the user in finding out hacks both before the user goes to Australia and when they are there to make their backpacking experience as successful as it can be. 
+
 * **Presentation of Hacks**
 
     Both of the hacks pages follow the same layout for predictability and familiarity purposes.  
@@ -144,8 +150,8 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 
 #### Gallery Page
     
-    The main purpose of the site is to provide useful hacks for backpacking Australia and the Gallery serves a secondary useful function to users in providing inspiration for places to visit in Australia.
-    
+    With the main purpose of the site being to provide useful hacks for backpacking Australia, the Gallery serves a secondary useful function to users in providing inspiration for places to visit in Australia.
+
 * **Arrangement of Photos**
 
     On smaller screens the Gallery page consists of images of Australia which appear to be polaroids. The polaroids are on opposite sides of the screen as you go down the page. On larger screens the Gallery page provides an overlapping/stacked structure of different sized photos as you go down the page. As with the hacks pages, the stacking down and across the page on all screen sizes creates content hinting encouraging the user to keep scrolling down.
