@@ -143,14 +143,20 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
     When these two pages are loaded on larger screens, where the hack text box and accompanying video/image are adjacent to each other, there is an animation where a row gap opens up between each hack and media pairing and a column gap closes up between the hack text boxes and their accompanying media. This animation feature is designed to provide a point of interest when these two pages are visited and represents the text for the hack and the corresponding video/image coming together to inform the user. 
 
 #### Gallery Page
-
+    
+    The main purpose of the site is to provide useful hacks for backpacking Australia and the Gallery serves a secondary useful function to users in providing inspiration for places to visit in Australia.
+    
 * **Arrangement of Photos**
 
-    The Gallery page provides an overlapping/stacked photo structure as you go down the page to create the idea of a scrapbook of travelling photos. As with the hacks, the stacking down the page creates content hinting encouraging the user to scroll to the bottom of the page. 
+    On smaller screens the Gallery page consists of images of Australia which appear to be polaroids. The polaroids are on opposite sides of the screen as you go down the page. On larger screens the Gallery page provides an overlapping/stacked structure of different sized photos as you go down the page. As with the hacks pages, the stacking down and across the page on all screen sizes creates content hinting encouraging the user to keep scrolling down.
 
-    When hovered over on a desktop, the relevant photo appears to come to the top of the pile for full viewing.
-    
-    Each photo has a caption stating the place name and the photos are grouped depending on the area of Australia to help the user quickly scroll to the area that they are interested in knowing more about. 
+    The structure of the Gallery on both smaller and larger screens is designed to create the idea of a scrapbook of travelling photos with handwritten captions underneath stating the locations of the photos. As with the typing effect of the welcome message on the Home page, this is designed to create a connection between the user and the author as though the user is looking through a friend's photo scrapbook. 
+
+    The photos are grouped depending on the area of Australia to help the user quickly scroll to the area that they are interested in knowing more about. The areas are set out in a logical order of North, East, South and West connecting back to the compass logo in the header. 
+
+*   **Hover Effect**
+
+    On larger screens where the photos are stacked on top of each other, when hovered over (or tapped on touch screens), the relevant photo appears to come to the top of the pile for full viewing and has a shadow effect in the Dark Salmon colour to focus the user on that photo and its caption. 
     
 #### Contact Page
 
