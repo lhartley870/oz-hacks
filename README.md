@@ -59,6 +59,43 @@ Rock Salt was selected for use on the Gallery Page as it has a handwritten appea
 
 ### Colours
 
+The colour scheme used on the site is as follows: 
+
+Colour Name | Hexadecimal Code
+------------ ---------
+Firebrick       | #ac2c00
+Dark Salmon     | #dc9c85
+Tan             | #d2b48c
+Sky Blue        | #88aee1
+Midnight Blue   | #025
+Sea Shell       | #fff5ed
+
+As one of the main colours associated with Australia is the rusty red colour of the outback and Uluru as an iconic Australian landmark, I used [Eye Dropper](https://eyedropper.org/) on a photo of Uluru to obtain the Firebrick colour hex code. I then used [ColorSpace](https://mycolor.space/?hex=%23AC2C00&sub=1) to generate a colour palette using Firebrick as the base colour. The Dark Salmon, Tan and Sky Blue colours were then generated, along with Firebrick, as the 'Pin Palette'. I chose this palette as I felt it was reflective of the colours of Australia and gave a nice look. The Dark Salmon with the Firebrick created a sunset type aesthetic whilst the Tan and Sky Blue gave a seaside/beach type aesthetic. The Sea Shell colour was taken from the 'Natural Palette' which also included the Tan and Firebrick colours. 
+
+When I selected the image for the compass animation I again used [Eye Dropper](https://eyedropper.org/) on the navy colour appearing in the compass image to obtain the Midnight Blue hex code. I felt that out of the existing colours only Firebrick was dark enough to be used as the main text colour throughout the site against the Sea Shell background but I found it more visually appealing to use Midnight Blue as the predominant text colour with Firebrick being used more sparingly as more of a feature colour. Using Midnight Blue as the main text colour also provided a colour link back to the compass image which appears in the header on every page.
+
+I used the ColorSpace Gradient tool which can be found [here](https://mycolor.space/gradient?ori=to+right&hex=%23DC9C85&hex2=%23D2B48C&sub=1) to generate the gradient colour CSS code used for the header using a left to right gradient with a start colour of Dark Salmon and an end colour of Tan. 
+
+I used [Color-Hex](https://www.color-hex.com/color/fff5ed) to convert the Sea Shell and Midnight Blue hex codes into rgb colour codes so that I could use rgba values for the partly transparent cover text boxes on the Home and Contact pages.  
+
+I also used [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), a colour blindness simulator, to test my website colour palette early on to make sure that the choice of colours and contrasts would still be visually appealing to people with different types of colour blindness. The combination of orange/pink based colours and blue based colours means that the site offers an appealing colour experience for all types of colour blindness tested using the simulator:
+
+1. Anomalous Trichromacy: 
+    * Red-Weak/Protanomaly
+    * Green-Weak/Deuteranomaly
+    * Blue-Weak/Tritanomaly
+
+2. Dichromatic:
+   * Red-Blind/Protanopia
+   * Green-Blind/Deuteranopia
+   * Blue-Blind/Tritanopia
+
+3. Monochromatic:
+   * Monochromacy/Achromatopsia
+   * Blue Cone Monochromacy
+
+Even though no colours can be seen with Monochromacy/Achromatopsia except for black, white and grey, the site is still visually appealing through the use of contrast between darker and lighter colours including the partly transparent cover text boxes on the Home and Contact pages, the inset shadow effect on the hack text boxes, the shadow effect on the polaroid photos in the gallery and the shadow effect when hovering over gallery photos on larger screens. 
+
 ## Features
 ### Existing Features
 #### Home Page
