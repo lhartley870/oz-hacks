@@ -105,24 +105,27 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 #### Home Page
 * **Navigation Bar**
 
-    The website is set up to take the user through a logical journey of separated steps via the easy-to-use navigation bar which includes links to all the pages and is the same on each page. Running left to right, the navigation bar reflects the stages the user is likely to go through in terms of both the stages of their trip and their likely primary and secondary goals for visiting the website as mentioned above. This helps the user find what they are looking for quickly and intuitively and provides a logical flow to the whole site. Its appearance on each page prevents visitors having to use the 'back' button. 
-    [Info about feeback of nav bar]
+    The website is set up to take the user through a logical journey of separated steps via the easy-to-use navigation bar which includes links to all the pages and is the same on each page. Running left to right, the navigation bar reflects the stages the user is likely to go through in terms of both the stages of their trip and their likely primary and secondary goals for visiting the website as mentioned above. This helps the user find what they are looking for quickly and intuitively and provides a logical flow to the whole site. Its appearance on each page as part of a 'fixed/sticky header', which remains visible at all times at the top of the screen when scrolling, prevents visitors having to use the 'back' button. 
+
+    The website page links appear in the cream Sea Shell colour initially and once visited turn to the dark Midnight Blue colour. This helps the user keep track of which pages on the site they have visited and gives an attractive appearance as when the pages are visited the Midnight Blue colour matches up with the Oz Hacks logo and compass in the header giving a sense of completeness. This encourages the user to keep going along the navigation bar visiting all the pages until they have all turned Midnight Blue. The contrast between the lightness of the Sea Shell colour and the darkness of the Midnight Blue also means that it is easy for users with Monochromacy/Achromatopsia colour blindness to see which pages they have visited. 
+
+    A Firebrick coloured line remains under the relevant page name when the user is on that page, so that the user can tell at a glance where they are on the website. A Sea Shell coloured line appears under the relevant page name when the user hovers over it, highlighting an action the user can take to get to the other pages.
+
 * **Logo**
-    The rotating compass logo provides a point of interest when arriving at the home page and is a consistent feature across all the pages. The compass imagery is part of the travelling theme of the website designed to evoke excitement about an upcoming or existing backpacking experience. 
 
-    The Oz Hacks logo is also a consistent feature across all pages and when clicked on takes the user back to the home page which is a predictable and standard website convention. 
+    The rotating compass logo provides a point of interest when arriving at the Home page and is a consistent feature in the 'sticky header' across all the pages. The compass imagery is part of the travelling theme of the website designed to evoke excitement about an upcoming or existing backpacking experience. The rotation animation adds to the interest but is slow enough to not be distracting. 
 
-* **Header and Footer**
-    
-    The header contains the navigation links and has a background image of Uluru which is one of the most recognisable Australian landmarks as part of the consistent Australian and travelling imagery across the site designed to provide a positive user reaction for the target audience. 
+    The Oz Hacks logo is also a consistent feature across all pages and when clicked on takes the user back to the Home page which is a predictable and standard website convention. 
 
-    The footer contains contrasting ocean imagery and links to external useful websites for flights, hostels, visas and tripadvisor for Australian backpackers for users that want to further plan their trip. The links have a relevant logo and state what the link is for to provide clarity. [info about feedback of links]
+* **Footer**
 
-* **Central Welcome Message**
+    The footer contains links to external useful websites for flights, hostels, visas and tripadvisor for users that want to further plan their trip. The links have a relevant logo to highlight what the link is for. As with the page navigation links in the header, the icons initially appear in the Sea Shell colour, turning Midnight Blue once visited with a Sea Shell underline when the icons are hovered over. This gives the user a sense of predictable interaction. 
 
-    The welcome box has a small image to the left in keeping with the backpacking theme and a larger text box to the right which contains a welcome message. The message appears in the box as though it is being typed with a signature of the site author at the end of the message. This animation draws attention to the welcome message which helps users feel a connection to the author and her experience and encourages the user to continue browsing the site.
+* **Central Welcome Message and Hero Image**
 
-    The image and text box structure is repeated througout the Before You Go and When In Oz hacks pages to create consistency and familiarity for the user.  
+    The Home page has a camper van hero image which fills the whole page bar the header and footer to grab the user's attention. The welcome message appears as though it has just been typed with the signature of the site author at the end of the message being animated. This animation draws attention to the welcome message which helps users feel a connection to the author and her experience and encourages the user to continue browsing the site.
+
+    The hero image and overlaying text box structure is repeated on the Contact page to create a sense of consistency and familiarity for the user.  
 
 #### Before You Go and When in Oz Pages
 * **Presentation of Hacks**
