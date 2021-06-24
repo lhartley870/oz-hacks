@@ -3,7 +3,7 @@ Oz Hacks is a site intended to provide practical and useful hacks for backpackin
 
 The live project can be viewed [here](https://lhartley870.github.io/oz-hacks/index.html). 
 
-![Screenshots of live website Home page](https://ibb.co/y8K2xJw)
+![Responsive view of live website Home page](/readme-documents/screenshots/home-page-screenshots.png)
 
 ## UX (User Experience) 
 ### Users
