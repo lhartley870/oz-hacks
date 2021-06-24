@@ -166,20 +166,19 @@ With the main purpose of the site being to provide useful hacks for backpacking 
     
 #### Contact Page
 
+This page brings the user's journey through the website to a close and gives the user the opportunity to ask for any advice/raise questions further to reviewing the information on the site. 
+
 * **Structure**
 
-    The Contact page has a similar structure to the Home Page to bring everything full circle and complete the user's journey through the site. 
+    The Contact page has a similar structure to the Home page to bring everything full circle, offering familiarity at the beginning and end of the user's experience.  
 
-* **Content**
+* **Contact Form**
 
-    The page contains a form that visitors to the site can use if they have any queries or comments for the site author. The user is asked to provide their full name and email address and there is a button at the bottom of the form to submit it. 
-
-* **Feedback**
-
-    [Include details of form feedback using methods other than colour]
+    The user is asked to provide their full name and email address and there is a box for them to type out what advice they need. 
     
+    The user is also asked to confirm for how long they are planning to stay in Australia by choosing from a dropdown list and to select a radio button to confirm whether they are planning to work and travel or just travel in Australia. These are key questions that the user will need to consider as part of their trip and will aid the user by providing the author with the background information she will need to know in order to effectively respond to any advice requests without having to ask the user additional questions first. The dropdown list provides an extensive range of time periods that the user can easily and quickly select from and there are only three radio button options which again the user can complete quickly and easily without having to type anything out.  
     
-      On a tablet or mobile, the photos appear one at a time with horizontal scrolling to better suit the device type. 
+    The Send button is large and clear at the bottom of the form and has a Sea Shell coloured shadow when hovered over (or tapped on touch screens). 
 
 #### Responsive Design
 
@@ -206,13 +205,3 @@ With the main purpose of the site being to provide useful hacks for backpacking 
 ## Deployment
 
 ## Credits 
-
-
-
-
-
-
-
-
-The site also has separate pages for hacks applicable before a user travels to Australia and hacks 
-
