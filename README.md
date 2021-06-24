@@ -1,6 +1,10 @@
 # Oz Hacks
 Oz Hacks is a site intended to provide practical and useful hacks for backpacking around Australia. The site is targeted at anyone of any age who is either planning to go backpacking or who is already backpacking in Australia. Oz Hacks will be useful for travellers as it provides top tips specifically for backpacking around Australia as opposed to anywhere else accompanied by applicable image, video and external link content.
 
+The live project can be viewed [here](https://lhartley870.github.io/oz-hacks/index.html). 
+
+![Screenshots of live website Home page](https://ibb.co/y8K2xJw)
+
 ## UX (User Experience) 
 ### Users
 Users of this website are typically going to be people who are searching for:
