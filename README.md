@@ -104,7 +104,7 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 ### Existing Features
 #### Home Page
 
-    The Home page is designed to quickly give the user an idea of what the website is about, draw the user in and encourage them to continue exploring the rest of the site.
+The Home page is designed to quickly give the user an idea of what the website is about, draw the user in and encourage them to continue exploring the rest of the site.
 
 * **Central Welcome Message and Hero Image**
 
@@ -132,7 +132,7 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 
 #### Before You Go and When in Oz Pages
 
-    These pages represent the main goals of the user in finding out hacks both before the user goes to Australia and when they are there to make their backpacking experience as successful as it can be. 
+These pages represent the main goals of the user in finding out hacks both before the user goes to Australia and when they are there to make their backpacking experience as successful as it can be. 
 
 * **Presentation of Hacks**
 
@@ -150,7 +150,7 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 
 #### Gallery Page
     
-    With the main purpose of the site being to provide useful hacks for backpacking Australia, the Gallery serves a secondary useful function to users in providing inspiration for places to visit in Australia.
+With the main purpose of the site being to provide useful hacks for backpacking Australia, the Gallery serves a secondary useful function to users in providing inspiration for places to visit in Australia.
 
 * **Arrangement of Photos**
 
