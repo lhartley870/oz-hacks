@@ -66,7 +66,7 @@ Rock Salt was selected for use on the Gallery Page as it has a handwritten appea
 The colour scheme used on the site is as follows: 
 
 Colour Name | Hexadecimal Code
------------- ---------
+------------| ---------
 Firebrick       | #ac2c00
 Dark Salmon     | #dc9c85
 Tan             | #d2b48c
