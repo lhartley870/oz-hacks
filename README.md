@@ -130,13 +130,17 @@ Even though no colours can be seen with Monochromacy/Achromatopsia except for bl
 #### Before You Go and When in Oz Pages
 * **Presentation of Hacks**
 
-    Both of the hacks pages following the same layout for predictability across the site and follow the smaller image/video and larger text box structure of the Home Page. 
+    Both of the hacks pages follow the same layout for predictability and familiarity purposes.  
 
-    Each hack has a corresponding text box and either a video or image next to it to help the user further understand the hack. The hacks are piled one on top of the other creating content hinting to keep the user scrolling down the page until all the hacks have been seen. Where applicable the text for the hacks has external links where the user can find out further information relating to the hack to provide added value to the user. 
+    Each hack has a text box which provides information on the hack and an accompanying related video or image. The photos are designed to provide inspiring relevant imagery and the videos enhance the hacks by providing further/more detailed information beyond the text to help the user achieve their goal of successfully backpacking Australia. On smaller screens each hack text box is stacked on top of its accompanying image/video going down the page. On larger screens, each hack text box is adjacent to its accompanying media with the text box and media switching sides as you go down the screen. Both of these structures create content hinting to keep the user scrolling down the page until all the hacks have been seen. 
+    
+* **External Links**
+
+    Where applicable the text for the hacks has external links where the user can find out further information relating to the hack to provide added value to the user. These links appear in the Sky Blue colour to differentiate them from the rest of the text and once clicked on turn Midnight Blue in line with the rest of the hack text. This behaviour mirrors that the user will have experienced with the header and footer links for consistency. Again, as with the header and footer, the links have a lighter Sky Blue underline when hovered over to indicate to the user that there is an action for them to take. To ensure that the user can still easily find any links they have already visited but want to re-visit, the links are also in a larger font size. 
 
 * **Animation**
 
-    When these two pages are loaded, the boxes running either side of the centre of the screen come in from the right and left and appear to race each other until they meet in the centre. This animation feature is designed to provide a point of interest when these two pages are first opened and represents the text for the hack and the corresponding video/image coming together to inform the user. 
+    When these two pages are loaded on larger screens, where the hack text box and accompanying video/image are adjacent to each other, there is an animation where a row gap opens up between each hack and media pairing and a column gap closes up between the hack text boxes and their accompanying media. This animation feature is designed to provide a point of interest when these two pages are visited and represents the text for the hack and the corresponding video/image coming together to inform the user. 
 
 #### Gallery Page
 
