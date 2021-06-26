@@ -671,6 +671,10 @@ button:hover {
     box-shadow: 0 0 10px 5px #fff5ed;  
 } 
 
+#stay-option {
+    background-color: #025; 
+}
+
 /* media queries */
 
 /* for larger mobile screen sizes of 376px and up */
