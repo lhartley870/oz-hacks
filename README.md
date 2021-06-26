@@ -212,13 +212,28 @@ This page brings the user's journey through the website to a close and gives the
 * Add a dark mode for the site. 
     
 ## Technologies Used
-* HTML5 programming language for the structure and content of the website.
-* CSS3 for styling the look of the website. 
-* Font Awesome 
-* GIT
-* GitHub
-* Gitpod
-* Google Fonts
+
+### Languages 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) programming language for the structure and content of the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for styling the look of the website.
+
+### Libraries, Resources and Programs
+* [Git](https://git-scm.com/) was the version control system used via the Gitpod terminal to commit and push code to GitHub.
+* [GitHub](https://github.com/) was the git repository hosting service used to store code pushed from Git and to deploy the website live on the internet.
+* [Gitpod](https://www.gitpod.io/) was the online IDE (Integrated Development Environment)/editor used to create, modify and preview the project code. 
+* [Google Fonts](https://fonts.google.com/) was used to import all of the fonts used on the website into the style.css file. 
+* [Font Awesome](https://fontawesome.com/) was used to provide all the icons throughout the site.  
+* [Balsamiq](https://www.balsamiq.com) was used to prepare all of the Wireframes for the site. 
+* [ColorSpace](https://mycolor.space/) was used to generate the 'Pin Palette' and 'Natural Palette' colour schemes from which most of the colours for the website were taken. The Gradient tool was also used to generate the CSS code for the header gradient colour. 
+* [Eye Dropper](https://eyedropper.org/) was used to find out the hex codes for the rust red colour in a photo of the Australian landmark Uluru and for the navy colour in the compass logo image. 
+* [Color-Hex](https://www.color-hex.com/color/fff5ed) was used to convert the Sea Shell and Midnight Blue hex codes into rgb colour codes so that rgba values could be used for the partly transparent cover text boxes on the Home and Contact pages.  
+* [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), a colour blindness simulator, was used to test the website colour palette to make sure that the choice of colours and contrasts would still be visually appealing to people with different types of colour blindness. 
+* [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the screenshot shown in this README.md file showing how the website looks on different device types. 
+* [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed) provided free photos and images used throughout the site.
+* [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and [CSS-Tricks](https://css-tricks.com/) were used for general guidance and learning.  
+* [YesViz](https://yesviz.com/viewport/) and [Screen Size Map](https://screensizemap.com/) were used for awareness of different device viewport sizes for responsive design purposes.
+* [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used for testing the html and css code for the site.
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) were used for preparing the README.md and TESTING.md files.
 
 ## Testing
 
