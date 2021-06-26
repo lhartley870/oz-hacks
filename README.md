@@ -205,7 +205,11 @@ This page brings the user's journey through the website to a close and gives the
     For the Gallery page the overlapping photos appearing on a dektop are changed to a single photo with horizontal scrolling for tablet and mobile. 
 
 ### Further Feature Ideas
-[                     ]
+* Implement the necessary back-end functionality so that the Contact form information when submitted goes through to a designated email address. At present, the form is not functional for submission and the form element has the action attribute removed to prevent an error message appearing if anyone tries to submit the contact form. 
+* For smaller screens where the photo gallery appears as polaroids, have a photo carousel slider that enables one polaroid at a time to take up the main page section with the user being able to slide across to the next photo on touch screens. 
+* Implement a hamburger menu for mobile devices if any additional pages are added to the site as the current site navigation in the header could become unmanageable. 
+* Implement a solution that would allow only image stubs of the embedded YouTube videos to load when the page is loaded with the player only being loaded once the user clicks on the video to help minimise/remove the initial slight delay in the videos appearing on the Before You Go and When in Oz pages when those pages are loaded. 
+* Add a dark mode for the site. 
     
 ## Technologies Used
 * HTML5 programming language for the structure and content of the website.
