@@ -671,8 +671,8 @@ button:hover {
     box-shadow: 0 0 10px 5px #fff5ed;  
 } 
 
-#stay-option {
-    background-color: #025; 
+.form-answer > option {
+    background-color: #dc9c85; 
 }
 
 /* media queries */
