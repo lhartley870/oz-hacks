@@ -224,6 +224,7 @@ This page brings the user's journey through the website to a close and gives the
 * [Google Fonts](https://fonts.google.com/) was used to import all of the fonts used on the website into the style.css file. 
 * [Font Awesome](https://fontawesome.com/) was used to provide all the icons throughout the site.  
 * [Balsamiq](https://www.balsamiq.com) was used to prepare all of the Wireframes for the site. 
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to inspect the project code throughout creation of the site. 
 * [ColorSpace](https://mycolor.space/) was used to generate the 'Pin Palette' and 'Natural Palette' colour schemes from which most of the colours for the website were taken. The Gradient tool was also used to generate the CSS code for the header gradient colour. 
 * [Eye Dropper](https://eyedropper.org/) was used to find out the hex codes for the rust red colour in a photo of the Australian landmark Uluru and for the navy colour in the compass logo image. 
 * [Color-Hex](https://www.color-hex.com/color/fff5ed) was used to convert the Sea Shell and Midnight Blue hex codes into rgb colour codes so that rgba values could be used for the partly transparent cover text boxes on the Home and Contact pages.  
@@ -237,6 +238,60 @@ This page brings the user's journey through the website to a close and gives the
 
 ## Testing
 
+Please see the separate [TESTING.md file](TESTING.md) for details of the project testing carried out. 
+
 ## Deployment
 
 ## Credits 
+
+### Code
+
+### Media
+
+#### Ilustrations
+
+With thanks, the [compass illustration](https://www.rawpixel.com/image/394679/free-illustration-vector-compass-map-compass-icon) appearing in the header on all of the website pages is from [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed) but no illustrator identity was provided.
+
+#### Photos
+
+With thanks, the photos appearing on the website were taken by the following photographers: 
+
+* From [Unsplash](https://unsplash.com/):
+    * Home page - hero [camper van photo](https://unsplash.com/photos/kSJTEv9w5l4) by Simon Rae
+    * Before You Go page:
+        * [Camper in a sleeping bag photo](https://unsplash.com/photos/S5WS8jNDSqA) by Emerson Ward
+        * [Kindle photo](https://unsplash.com/photos/3gC4gBnD3Xs) by Perfecto Capucine
+        * [Aeroplane window photo](https://unsplash.com/photos/p9vr45T2scg) by Blake Guidry
+    * When in Oz page:
+        * [Melbourne class tram photo](https://unsplash.com/photos/xM9KZlD7dro) by Daniel Pelaez Duque
+    * Contact page:
+        * Hero [Surfers on Bondi Beach photo](https://unsplash.com/photos/pzM4E7OhWLk) by Alex King
+
+* From [Pexels](https://www.pexels.com/):
+    * When in Oz page:
+        * [Hostel room photo](https://www.pexels.com/photo/woman-in-red-t-shirt-sitting-on-black-chair-5158980/) by Cottonbro
+
+* From [Pixabay](https://pixabay.com/):
+    * When in Oz page:
+        *[Credit card photo](https://pixabay.com/photos/money-card-business-credit-card-256319/) by Michal Jarmoluk
+
+#### Videos
+
+All the embedded videos used on the website are from [YouTube](https://www.youtube.com/). The YouTuber content creators are as follows:
+
+* Before You Go page:
+    * [Osprey Fairview Women's Travel Pack video](https://www.youtube.com/watch?v=13mqns50ImE) by Enwild
+    * [10 Minimalist Packing Tips video](https://www.youtube.com/watch?v=HhaJBpNr5zs) by Pack Hacker
+    * [Working Holiday Visa video](https://www.youtube.com/watch?v=LE8xpSc-zeU) by Lauren Meisner
+* When in Oz page:
+    * [Top 10 Destinations in Australia for 2021 video](https://www.youtube.com/watch?v=Uu4z4t1CXUk) by MojoTravels
+    * [Travelling Australia - How Much do you need to Budget? video](https://www.youtube.com/watch?v=I4D84vzvASo) by Stoked For Travel
+    * [50+ Australian Slang Words You Need to Learn video](https://www.youtube.com/watch?v=Ei7230KxvCg) by Aussie English
+
+### Content
+
+### Acknowledgments
+
+Many thanks to:
+* My mentor, Gerard McBride, for his help and guidance.
+* The Code Institute tutors for their support. 
