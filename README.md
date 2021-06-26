@@ -25,12 +25,28 @@ Users of this website are typically going to be people who are searching for:
 
 ## Wireframes
 
-I used [Balsamiq](https://www.balsamiq.com) to create Wireframe mockups for browser, tablet and mobile views which can be found here: 
-* Home 
-* Before You Go 
-* When In Oz 
-* Gallery
-* Contact
+I used [Balsamiq](https://www.balsamiq.com) to create Wireframe mockups for desktop, tablet and mobile devices which can be found here: 
+* [Home Page](/readme-documents/wireframes/home-page-wireframes.png) 
+* [Before You Go](/readme-documents/wireframes/before-you-go-wireframes.png) 
+* [When In Oz](/readme-documents/wireframes/when-in-oz-wireframes.png) 
+* [Gallery](/readme-documents/wireframes/gallery-page-wireframes.png) 
+* [Contact](/readme-documents/wireframes/contact-page-wireframes.png) 
+
+The Wireframes were a useful aid prior to starting to build the site but the design did evolve in the following respects and for the following reasons:
+
+### Header and Footer
+* Having photos in the header and footer did not look good once built and so the header and footer were given coloured backgrounds instead. 
+* Having the three elements of the header (compass logo, Oz Hacks logo and navigation bar) built as three separate bordered boxes looked old fashioned and so the borders were removed to give one borderless block header.
+* Having gaps between the header and footer and the right and left edges of the page looked odd and was replaced with a header and footer that took up 100% of the width of the page.
+* The labels in the footer that went with the icon links to external websites were removed to give a less cluttered appearance. The icons themselves indicate what the links are for and are referenced on the Before You Go and When in Oz pages in more detail in any case. 
+* On tablet devices, the page navigation links were initially going to move underneath the header but there was enough room for the links to appear horizontally in the header whilst still being readable so they were moved within the header for a neater appearance.  
+* Initially a hamburger menu was going to be used for page navigation on mobile devices but without the use of JavaScript this was very complex, caused issues with accessibility and ultimately was not required as the mobile view still looked good by stacking the navigation links on top of each other. 
+
+### Photo and Text Box Theme
+* The Wireframes were based on there being a theme throughout the site of having a text box adjoined to a smaller video or image. With the Home Page and Contact page this would have looked too cluttered against a background hero image. The theme was therefore abandoned for the Home and Contact pages and was adapted for the Before You Go and When in Oz pages on larger screens by having a large text box stacked on top of a smaller video/image box for screens 1024px - 1439px wide and by having adjacent equally sized text boxes and video/image boxes for screens 1440px+ wide.
+  
+### Animation for Hacks Pages
+* The intial animation idea for the Before You Go and When in Oz pages on larger screens was to have all the boxes on the left move from the left edge of the page to the centre and to have all the boxes on the right move from the right edge of the page to the centre, meeting in the middle. CSS grid was used for the layout of the hacks pages as it was an efficient way of re-arranging the hacks pages for different screen sizes. As the animation options for CSS grid are limited, the initial animation idea was swapped for a grid animation where the row gaps between each hack and media pairing open up and the column gap between the hacks and their corresponding media closes to bring the hack text and accompanying media together.
 
 ## Design
 
