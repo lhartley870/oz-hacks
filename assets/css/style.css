@@ -708,9 +708,9 @@ so that the option wording can be seen
 
 /* for mobile screen sizes in landscape view */
 @media screen and (orientation:landscape)
-and (min-device-width: 568px)
+and (min-device-width: 500px)
 and (max-device-width: 900px)  
-and (min-device-height: 320px) 
+and (min-device-height: 300px) 
 and (max-device-height: 500px) {
 
     .hacks-container {
