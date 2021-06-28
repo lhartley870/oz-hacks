@@ -706,6 +706,31 @@ so that the option wording can be seen
 
 /* media queries */
 
+/* for mobile screen sizes in landscape view */
+
+@media screen and (orientation:landscape)
+and (min-width: 568px)
+and (max-width: 900px)  
+and (min-height: 320px) 
+and (max-height: 500px) {
+
+    .hacks-container {
+        grid-template-areas:
+            "hack-one hack-one hack-one hack-one"
+            ". hack-one-media hack-one-media ."
+            "hack-two hack-two hack-two hack-two"
+            ". hack-two-media hack-two-media ."
+            "hack-three hack-three hack-three hack-three"
+            ". hack-three-media hack-three-media ."
+            "hack-four hack-four hack-four hack-four"
+            ". hack-four-media hack-four-media ."
+            "hack-five hack-five hack-five hack-five"
+            ". hack-five-media hack-five-media ."
+            "hack-six hack-six hack-six hack-six"
+            ". hack-six-media hack-six-media .";
+    }
+}
+
 /* for larger mobile screen sizes of 376px and up */
 @media screen and (min-width: 376px) {
 
