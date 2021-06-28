@@ -8,15 +8,15 @@
 }
 
 html {
-    min-height: -webkit-fill-available; 
+    max-height: -webkit-fill-available; 
 }
 
 body {
     background-color: #fff5ed; 
     color: #025; 
     font-family: Roboto, sans-serif; 
-    min-height: 100vh; 
-    min-height: -webkit-fill-available; 
+    max-height: 100vh; 
+    max-height: -webkit-fill-available; 
 }
 
 /* header */
