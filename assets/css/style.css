@@ -7,10 +7,16 @@
     text-decoration: none; 
 }
 
+html {
+    min-height: -webkit-fill-available; 
+}
+
 body {
     background-color: #fff5ed; 
     color: #025; 
     font-family: Roboto, sans-serif; 
+    min-height: 100vh; 
+    min-height: -webkit-fill-available; 
 }
 
 /* header */
@@ -160,8 +166,8 @@ section {
     is used so that the Home page header, section and footer will adjust to fill different screen heights without 
     the page overflowing and the user having to scroll down 
     */
-     height: min(calc(100vh - 225px), 70vh);
-     /*min-height: 300px; */
+    height: min(calc(100vh - 225px), 70vh);
+    min-height: 300px; 
 }
 
 #hero-image {
