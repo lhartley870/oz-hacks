@@ -25,7 +25,7 @@ Users of this website are typically going to be people who are searching for:
 
 ## Wireframes
 
-I used [Balsamiq](https://www.balsamiq.com) to create Wireframe mockups for desktop, tablet and mobile devices which can be found here: 
+I used [Balsamiq](https://www.balsamiq.com) to create Wireframe mockups for laptop/large monitor, tablet and mobile devices which can be found here: 
 * [Home Page](/readme-documents/wireframes/home-page-wireframes.png) 
 * [Before You Go](/readme-documents/wireframes/before-you-go-wireframes.png) 
 * [When In Oz](/readme-documents/wireframes/when-in-oz-wireframes.png) 
@@ -232,7 +232,7 @@ This page brings the user's journey through the website to a close and gives the
 * [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the screenshot shown in this README.md file showing how the website looks on different device types. 
 * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed) provided free photos and images used throughout the site.
 * [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and [CSS-Tricks](https://css-tricks.com/) were used for general guidance and learning.  
-* [YesViz](https://yesviz.com/viewport/) and [Screen Size Map](https://screensizemap.com/) were used for awareness of different device viewport sizes for responsive design purposes.
+* [YesViz](https://yesviz.com/viewport/) and [Screen Size Map](https://screensizemap.com/) were used for awareness of the viewport sizes of different device screens for responsive design purposes and [What is my Viewport](https://whatismyviewport.com/) was used to confirm the viewport screen sizes of my devices for testing the project. 
 * [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used for testing the html and css code for the site.
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) were used for preparing the README.md and TESTING.md files.
 
