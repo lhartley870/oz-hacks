@@ -16,8 +16,9 @@
 
 2. As a first time user of the site, I want to be able to easily navigate the site so that I can find exactly what I want quickly.
     * The navigation links to the different website pages are clearly set out in the header bar and the names of the pages clearly indicate what they are about. Having the site navigation at the top of the page is a common website convention that the user will be familiar with. 
-    * When landing on the Home page, the user can, at a glance, see that the word 'Home' in the header is navy whereas the rest of the page names are cream and that the word 'Home' is underlined in a rust red colour whereas the other page names are not. This intuitively tells the user that a page name will turn navy once visited, blending in with the compass logo and Oz Hacks logo in the header bar, and that a rust red underline indicates the page that the user is currently on. The changing colour of the page links enables the user to easily keep track of which pages on the site they have visited.  
+    * When landing on the Home page, the user can, at a glance, see that the word 'Home' in the header is underlined in a rust red colour whereas the other page names are not. This intuitively tells the user that a rust red underline indicates the page that the user is currently on. 
     * A cream (Sea Shell) coloured line appears underneath each page name when hovered over, indicating an action that the user can take to navigate to another page. 
+    * When any of the page navigation links are visited the cream (Sea Shell) colour of the link turns navy (Midnight Blue), blending in with the compass logo and Oz Hacks logo in the header bar. The changing colour of the page links enables the user to easily keep track of which pages on the site they have visited.  
     * The header bar is 'fixed/sticky', remaining at the top of the page at all times, even when the user scrolls down. This means that the site navigation is always quick and easy to reach, avoiding the user have to click the 'back' button or scroll back up to the top of the page to navigate to another site page. 
 
 3. As a first time user of the site planning to backpack around Australia, I want to be able to find travel hacks that are applicable before I fly so that I can best plan my trip. 
@@ -62,3 +63,51 @@
     * The colour scheme has been carefully chosen to look attractive and is based on the Firebrick rust colour of the iconic Australian landmark Uluru. The Firebrick, Dark Salmon and Tan colours are reminiscent of sunsets and the outback with the Midnight Blue reminiscent of the desert sky at night and the cream Sea Shell, Tan and Sky Blue colours are reminiscent of the beach/coast. The outback and the beach are the key landscapes in Australia. 
     * There is Australian imagery throughout the site with the Home page having a hero image of a camper van at Manly Beach in Sydney and the Contact page having a hero image of surfers at Bondi Beach in Sydney. The Gallery page is full of images of places to visit across the whole of Australia. 
 
+## Manual Testing of Functionality and Responsiveness on Every Page
+
+The manual testing of the website was carried out on the following devices:
+
+1. Mobile phone (Apple iPhone 5S with a device viewport size of 320px by 568px)
+2. Mobile phone (Apple iphone 11 with a device viewport size of 414px by 896px)
+3. Tablet (Apple iPad mini with a device viewport size of 768px by 1024px)
+4. Laptop (Apple Macbook Pro with a device viewport size of 1440px by 900px)
+5. A large monitor (Asus monitor with a device viewport size of 1920px by 1080px) connected to the Macbook Pro
+
+The website was tested on the following browsers on all of the above devices:
+
+1. [Google Chrome](https://www.google.co.uk/chrome/?brand=FHFK&gclid=EAIaIQobChMI3b-xi9y38QIVBrTtCh2I1g3AEAAYASAAEgJN5vD_BwE&gclsrc=aw.ds)
+2. [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+3. [Firefox](https://www.mozilla.org/en-GB/firefox/new/)
+4. [Safari](https://www.apple.com/uk/safari/) 
+
+The testing comments below apply to all of the above devices and browsers, unless otherwise specified. 
+
+### Home Page
+
+1. The typing animation on page load and constant compass logo rotation animation work as expected. 
+2. A cream Sea Shell coloured line appears under each of the page navigation links in the header and the footer icon links when hovering over them on the laptop and large monitor and when tapping on them on the touch screen devices. 
+3. A rust Firebrick coloured line appears under the Home page navigation link as expected to indicate that the user is on the Home page.  
+4. Clicking on all of the other site page links in the header takes the user through to the relevant page as expected on all devices. 
+5. Clicking on all of the footer icon links takes the user through to the expected external sites, with each external site opening up in a new tab. 
+6. The colour of the header page links and footer external icon links turns from cream (Sea Shell) to navy (Midnight Blue) once visited. 
+7. Clicking on the Oz Hacks title logo Home page link keeps the user on the Home page. Whether the link works on the laptop and monitor was tested by deleting the Oz Hacks website from the browser history so that all of the page navigation links went back to cream (Sea Shell) and clicking on the Oz Hacks title logo which kept the user on the Home page and turned the Home page navigation link to navy (Midnight Blue) indicating that the Home page had been visited and the Oz Hacks Home page link worked. Further, the typing animation which is triggered by the page loading started again when the Oz Hacks logo link was clicked, indicating that the link worked. On the tablet and mobile devices tested, when visiting the Home page, the 'Home' link to the Home page was navy from the outset even when the browser history was cleared but tapping the Oz Hacks logo triggered the typing animation indicating that the link works. 
+8. The Home page appears as expected on all browsers on the laptop and monitor screens with the page adjusting itself to the available viewport height without the user having to scroll down at all. This was the intention of setting flexible viewport height values for the header, main section and footer so that the full Home page would always appear within the available screen viewport height without the page overspilling and the user having to scroll down to see the full footer. For Chrome and Edge, if the toolbar is hidden on the laptop and monitor, the Home page expands to take up the extra available screen viewport height as expected. On Safari when the toolbar is hidden a white strip remains at the top of the screen in place of the toolbar. However, other websites were visited and it was found that this behaviour occurs for those as well so this was found to be a general Safari browser behaviour and not something unique to the Oz Hacks site. It is not possible to hide the toolbar in the Firefox browser without implementing add-ons but when the Home page was tested on the monitor it adjusted to take up the new viewport height available so this indicates that the viewport height adjustment is working as expected for the Home page on laptop and monitor screens.  
+9. The sizing of the header, background hero image section and footer of the Home page when switching between laptop and monitor screens is as expected. The font sizes become bigger on the monitor screen as expected. 
+10. On tablet, the Home page appears as expected in all browsers in both portrait and landscape view (save as set out in point 11 below). The header, background hero image section and footer re-size between the portrait and landscape views as expected and all the font sizes adjust as expected. The cream/Sea Shell cover text box is closer to the left edge of the screen than for the laptop and monitor screens in landscape mode and is flush to the left hand edge of the screen in portrait mode, all as expected. 
+11. On tablet, the Home page only fits within the available viewport height, without having to scroll down to see the rest of the footer, in the Edge and Firefox browsers in portrait view. In the Chrome, Safari, Edge and Firefox browsers in landscape view the footer is fully or almost fully cut off and in the Chrome and Safari browsers in portrait view it is partially cut off. Having done some research into this, it seems this may be because the browsers count the address bar as part of the viewport height so a 100vh value will include the address bar as well as the website. Whilst this doesn't affect the functionality of the Home page it is not the view intended by the creator for the Home page. Please see the Unfixed Bugs section below for how to potentially deal with this in a future release using JavaScript.
+12. On the mobile phones tested, the Home page appears as expected in all browsers in both portrait and landscape view (save as set out in point 13 below). The header, background hero image section and footer re-size between the portrait and landscape views as expected and all the font sizes adjust as expected. The cream/Sea Shell cover text box covers the entirety of the background image as expected on the iPhone 11 in portrait view and in both portrait and landscape view on the iPhone 5S and the page navigation links are stacked on top of each other instead of being adjacent to each other in portrait view on the iPhone 11 and in both portrait and landscape view on the iPhone 5S. The landscape view on the iPhone 11 is the same as the portrait view for the iPad mini. 
+13. Similarly to the tablet, the Home page does not fit within the available viewport height in portrait view without having to scroll down to see the rest of the footer in any of the browsers on either device, with the exception of the Edge and Firefox browsers on the iPhone 11. It was never intended that the entirety of the Home page would fit within a mobile landscape view and so the scrolling required there is expected. As mentioned in point 11 above, please refer to the Unfixed Bugs section for further discussion of this.    
+
+### Before You Go Page
+
+### When in Oz Page
+
+### Gallery Page
+
+### Contact Page
+
+## Further Testing
+
+## Fixed Bugs
+
+## Unfixed Bugs
