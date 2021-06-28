@@ -20,7 +20,12 @@ header {
     https://mycolor.space/gradient?ori=to+right&hex=%23DC9C85&hex2=%23D2B48C&sub=1 */ 
     background-image: linear-gradient(to right, #dc9c85, #daa285, #d8a886, #d5ae88, #d2b48c);
     display: flex; 
-    height: max(150px, 20vh);
+    /* 
+    setting a vh value for the header height with a min height of 150px is used so that the Home page 
+    header, section and footer will adjust to fill different screen heights without the page overflowing
+    and the user having to scroll down 
+    */
+    height: max(150px, 20vh); 
     position: fixed;
     top: 0;  
     width: 100%;
@@ -30,6 +35,11 @@ header {
 .header-container {
     align-items: center; 
     display: flex;  
+    /* 
+    setting a vh value for the header height with a min height of 150px is used so that the Home page 
+    header, section and footer will adjust to fill different screen heights without the page overflowing
+    and the user having to scroll down 
+    */
     height: max(150px, 20vh); 
     justify-content: center;
 } 
@@ -136,6 +146,8 @@ nav {
 
 /* hero image and covering text for home page */
 
+/* the section element needs a margin-top equivalent to the size of the sticky header so that the top of the section does
+not disappear behind the sticky header */
 section {
     margin-top: max(150px, 20vh); 
 }
@@ -143,8 +155,13 @@ section {
 .hero-container, 
 #hero-image,
 #home-text-outer {
+    /* 
+    using vh values for the main Home page section with a height of whichever is the smaller of the two values  
+    is used so that the Home page header, section and footer will adjust to fill different screen heights without 
+    the page overflowing and the user having to scroll down 
+    */
      height: min(calc(100vh - 225px), 70vh);
-     min-height: 300px; 
+     /*min-height: 300px; */
 }
 
 #hero-image {
@@ -224,6 +241,11 @@ footer {
     align-items: center; 
     background-color: #88aee1;
     display: flex;  
+    /* 
+    setting a vh value for the footer height with a min height of 75px is used so that the Home page 
+    header, section and footer will adjust to fill different screen heights without the page overflowing
+    and the user having to scroll down 
+    */
     height: max(75px, 10vh);
 }
 
@@ -368,8 +390,8 @@ footer {
 }
 
 /* 
-code to remove black bars either side of embedded videos and maintain
-aspect ratio adapted from an answer given by Michael Coker on Stack Overflow - 
+code to remove black bars above and below embedded videos on smaller screens and maintain the
+aspect ratio of embedded videos adapted from an answer given by Michael Coker on Stack Overflow - 
 https://stackoverflow.com/questions/43954836/disabling-blackbars-on-youtube-embed-iframe
 */ 
 .video-container {
@@ -671,6 +693,13 @@ button:hover {
     box-shadow: 0 0 10px 5px #fff5ed;  
 } 
 
+/* 
+for Firefox and Edge browsers on desktop the background
+colour of the options when the dropdown bar is clicked on
+is white so the Sea Shell (#fff5ed) wording is very difficult 
+to see - background-colour changed to Dark Salmon (#dc9c85) 
+so that the option wording can be seen 
+*/ 
 .form-answer > option {
     background-color: #dc9c85; 
 }
