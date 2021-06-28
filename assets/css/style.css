@@ -7,16 +7,10 @@
     text-decoration: none; 
 }
 
-html {
-    max-height: -webkit-fill-available; 
-}
-
 body {
     background-color: #fff5ed; 
     color: #025; 
     font-family: Roboto, sans-serif; 
-    max-height: 100vh; 
-    max-height: -webkit-fill-available; 
 }
 
 /* header */
