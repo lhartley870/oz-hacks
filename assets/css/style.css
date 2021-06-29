@@ -758,8 +758,8 @@ and (max-height: 500px) {
     }
 } 
 
-/* for larger mobile screen sizes of 450px and up */
-@media screen and (min-width: 450px) {
+/* for small to medium screen sizes of 485px and up */
+@media screen and (min-width: 485px) {
     
     .photo-container > p {
         font-size: 0.7em; 
