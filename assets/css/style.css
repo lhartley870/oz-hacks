@@ -161,6 +161,8 @@ section {
     the page overflowing and the user having to scroll down 
     */
     height: min(calc(100vh - 225px), 70vh);
+    /* min-height needs to be set for the hero section so that the cover text does not spill underneath the header 
+    and on top of the footer when mobile devices are turned to landscape orientation */
     min-height: 300px; 
 }
 
@@ -434,8 +436,8 @@ https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-wi
 /* 
 making the section container of the gallery grid display as a grid itself and adding a height of
 100% to #gallery-container has fixed the bug where the space around some of the photo
-captions is larger than for others on ipad mini (Chrome, Safari, Edge and Firefox) and Safari desktop 
-browser for screens 1024px+ wide - solution derived from answer given by hrood on Stack Overflow - 
+captions is larger than for others on ipad mini (Chrome, Safari, Edge and Firefox) and Safari browser on laptop
+for screens 1024px+ wide - solution derived from answer given by hrood on Stack Overflow - 
 https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-different-in-safari
 */ 
 #page-container {
@@ -590,6 +592,8 @@ https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-differen
 } 
 
 .photo-container {
+    /* polaroid effect was adapted from this Line25 tutorial - 
+    https://line25.com/tutorials/how-to-create-a-pure-css-polaroid-photo-gallery */
     background-color: #eee; 
     border: 1px solid #fff;
     box-shadow: 0px 2px 15px #333;  
@@ -694,7 +698,7 @@ button:hover {
 } 
 
 /* 
-for Firefox and Edge browsers on desktop the background
+for Firefox and Edge browsers on laptop the background
 colour of the options when the dropdown bar is clicked on
 is white so the Sea Shell (#fff5ed) wording is very difficult 
 to see - background-colour changed to Dark Salmon (#dc9c85) 
@@ -712,7 +716,8 @@ and (min-width: 500px)
 and (max-width: 900px)  
 and (min-height: 300px) 
 and (max-height: 500px) {
-
+    /* added so that the videos and photos are not too big on the Before You Go and
+    When in Oz pages on mobile phones in landscape view and can be more easily viewed */
     .hacks-container {
         grid-template-areas:
             "hack-one hack-one hack-one hack-one"
@@ -917,6 +922,7 @@ and (max-height: 500px) {
         margin: auto;
     }
 
+    /* gallery changes to overlapping structure instead of polaroid effect */
     #north-heading {
         grid-area: 1 / 5 / 3 / 8; 
     }
@@ -1041,6 +1047,9 @@ and (max-height: 500px) {
         z-index: 1;         
     }
 
+    /* top margin applied to footer on gallery page only as adding bottom margin
+    or bottom padding to the grid section container (#page-container) causes display issues on iPad mini
+    in landscape view and Safari browser on laptop */
     #gallery-footer {
         margin-top: 1.5%; 
     }
