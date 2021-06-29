@@ -276,6 +276,22 @@ With thanks, the photos appearing on the website were taken by the following pho
         * [Aeroplane window photo](https://unsplash.com/photos/p9vr45T2scg) by Blake Guidry
     * When in Oz page:
         * [Melbourne class tram photo](https://unsplash.com/photos/xM9KZlD7dro) by Daniel Pelaez Duque
+    * Gallery page: 
+        * [Uluru photo](https://unsplash.com/photos/IKlpLl7HVo0) by Jason H
+        * [Crocodile photo](https://unsplash.com/photos/qdg2Hxyjz4M) by Simon Watkinson
+        * [Sydney Opera House photo](https://unsplash.com/photos/r2L6vCKaVRk) by Srikant Sahoo
+        * [Coastal Walk Sydney photo](https://unsplash.com/photos/-fCvu160WRs) by Laura Cros
+        * [Blue Mountains photo](https://unsplash.com/photos/-8fBv_bR4pU) by Quentin Grignet
+        * [Whitehaven Beach photo](https://unsplash.com/photos/AEGEMP8L9TE) by Calvin Shelwell
+        * [Surfers Paradise photo](https://unsplash.com/photos/mKwBMtDSZes) by Caleb Russell
+        * [Fraser Island shipwreck photo](https://unsplash.com/photos/7zMGEK4PAuw) by Andreas Dress
+        * [Bathing Boxes photo](https://unsplash.com/photos/H54c-6zu_BU) by Kon Karampelas
+        * [Hosier Lane photo](https://unsplash.com/photos/wolwSgRH3XI) by Linda Xu
+        * [Seal photo](https://unsplash.com/photos/m1V93jKlElk) by Danny Lau
+        * [Whale Shark photo](https://unsplash.com/photos/SiLz-4N33sk) by Jeremy Bishop
+        * [Pink Lake photo](https://unsplash.com/photos/QXAQKirGGpw) by Jake Stone
+        * [Pinnacles photo](https://unsplash.com/photos/gF0IZVVKrD0) by Tobias Keller
+        * [Quokka photo](https://unsplash.com/photos/4cT6YwMkHyg) by Christine Mendoza
     * Contact page:
         * Hero [Surfers on Bondi Beach photo](https://unsplash.com/photos/pzM4E7OhWLk) by Alex King
 
@@ -285,7 +301,11 @@ With thanks, the photos appearing on the website were taken by the following pho
 
 * From [Pixabay](https://pixabay.com/):
     * When in Oz page:
-        *[Credit card photo](https://pixabay.com/photos/money-card-business-credit-card-256319/) by Michal Jarmoluk
+        * [Credit card photo](https://pixabay.com/photos/money-card-business-credit-card-256319/) by Michal Jarmoluk\
+    * Gallery page:
+        * [Twelve Apostles photo](https://pixabay.com/photos/twelve-apostles-australia-rocks-2372379/) (no author given just ID 12019/10259)
+
+* The Gallery page photos of the Devils Marbles, Byron Bay Lighthouse, Umpherston Sinkhole and Perth Botanical Gardens were taken by the developer. 
 
 #### Videos
 
