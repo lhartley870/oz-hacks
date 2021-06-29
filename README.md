@@ -235,6 +235,7 @@ This page brings the user's journey through the website to a close and gives the
 * [YesViz](https://yesviz.com/viewport/) and [Screen Size Map](https://screensizemap.com/) were used for awareness of the viewport sizes of different device screens for responsive design purposes and [What is my Viewport](https://whatismyviewport.com/) was used to confirm the viewport screen sizes of my devices for testing the project. 
 * [Can I Use?](https://caniuse.com/) was used for checking browser compatibility.
 * [Compressor](https://compressor.io/) was used for compressing photos used on the site. 
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to check the contrast of text colours against their background colours. 
 * [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used for testing the html and css code for the site.
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) were used for preparing the README.md and TESTING.md files.
 
