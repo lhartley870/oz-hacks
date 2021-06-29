@@ -138,7 +138,23 @@ The site was created using the Chrome browser and Chrome DevTools and was fully 
 
 ## Further Testing
 
+### Friends and Family
+
+Friends and family were sent a link to the site to highlight any user experience or appearance issues. The following devices and browsers were tested without any issues being flagged:
+* iPhone XS - Safari browser
+* iPhone 12 - Safari browser
+* Moto G9 Plus - Chrome browser
+* Amazon Fire HD 10 - Chrome browser 
+* Windows 10 LG 24UD58 24 inch 4K UHD monitor - Microsoft Edge browser
+* Samsung A21 - Chrome browser
+
+### Colour Contrast Tool
+
+The text colours and their background colours were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). Only the navy/Midnight Blue and rust/Firebrick colours were deemed acceptable on the checker for text on all of the coloured backgrounds used. However, where text is in the cream/Sea Shell colour and the light blue/Sky Blue colour, I chose to keep these colours as they are largely used for unvisited links and change to the darker navy colour when the links are visited. Also, for colour blind users with Monochromacy/Achromatopsia who can only see black, white and grey, the contrast between the cream/Sea Shell and navy/Midnight Blue and light blue/Sky Blue and navy/Midnight Blue colours allows such users to easily distinguish which links have been visited and which have not, whereas such users would not be able to tell the difference if the rust/Firebrick colour was used for unvisited links, turning to navy/Midnight Blue for visited links.   
+
 ## Fixed Bugs
+
+* 
 
 ## Unfixed Bugs
 
