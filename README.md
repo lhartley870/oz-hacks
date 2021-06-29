@@ -233,6 +233,8 @@ This page brings the user's journey through the website to a close and gives the
 * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed) provided free photos and images used throughout the site.
 * [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and [CSS-Tricks](https://css-tricks.com/) were used for general guidance and learning.  
 * [YesViz](https://yesviz.com/viewport/) and [Screen Size Map](https://screensizemap.com/) were used for awareness of the viewport sizes of different device screens for responsive design purposes and [What is my Viewport](https://whatismyviewport.com/) was used to confirm the viewport screen sizes of my devices for testing the project. 
+* [Can I Use?](https://caniuse.com/) was used for checking browser compatibility.
+* [Compressor](https://compressor.io/) was used for compressing photos used on the site. 
 * [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used for testing the html and css code for the site.
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) were used for preparing the README.md and TESTING.md files.
 
