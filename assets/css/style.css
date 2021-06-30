@@ -591,12 +591,12 @@ https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-differen
     background-color: #eee; 
     border: 1px solid #fff;
     box-shadow: 0px 2px 15px #333;  
-    padding: 5% 5% 20% 5%; 
+    padding: 5% 5% 26% 5%; 
 }
 
 .photo-container > p {
     font-family:'Rock Salt', cursive;
-    font-size: 0.5em; 
+    font-size: 0.8em; 
     padding-top: 1%; 
 }
 
@@ -757,11 +757,17 @@ and (max-height: 500px) {
     }
 } 
 
-/* for small to medium screen sizes of 485px and up */
-@media screen and (min-width: 485px) {
+/* for small to medium screen sizes of 488px and up */
+@media screen and (min-width: 488px) {
     
     .photo-container > p {
         font-size: 0.7em; 
+    } 
+    
+    /* photo container bottom padding can be reduced now that captions
+    fit on single line */
+    .photo-container { 
+        padding: 5% 5% 20% 5%; 
     }
 }
 
