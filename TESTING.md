@@ -18,14 +18,20 @@ Initially when the project was run through the html and css validators there wer
 
 ## UX (User Experience) Stories Testing
 1. As a first time user of the site, I want to see what the site is all about and the experience of the author so that I can decide whether it is worth exploring the site further.
+
+    ![Responsive view of live website Home page](/readme-documents/screenshots/home-page-screenshots.png)
+
     * Upon visiting the Home page the user is greeted with a large hero camper van background photo and a rotating compass logo in the header, both highlighting the theme of travelling/adventure and a clear website name in the header bar of 'Oz Hacks for backpacking Australia' immediately telling the user what the website is about.  
     * The partially transparent text overlay box with a text animation draws the eye of the user as if a message is being typed by the author just for them. The message is clear to read and brief, highlighting that the author has first hand experience of backpacking in Australia for two years.   
 
 2. As a first time user of the site, I want to be able to easily navigate the site so that I can find exactly what I want quickly.
+
+    ![View of header bar on larger screens](/readme-documents/screenshots/header-larger-screens.png)
+    ![View of header bar on smaller screens](/readme-documents/screenshots/header-smaller-screens.png)
+    
     * The navigation links to the different website pages are clearly set out in the header bar and the names of the pages clearly indicate what they are about. Having the site navigation at the top of the page is a common website convention that the user will be familiar with. 
     * When landing on the Home page, the user can, at a glance, see that the word 'Home' in the header is underlined in a rust red colour whereas the other page names are not. This intuitively tells the user that a rust red underline indicates the page that the user is currently on. 
-    * A cream (Sea Shell) coloured line appears underneath each page name when hovered over, indicating an action that the user can take to navigate to another page. 
-    * When any of the page navigation links are visited the cream (Sea Shell) colour of the link turns navy (Midnight Blue), blending in with the compass logo and Oz Hacks logo in the header bar. The changing colour of the page links enables the user to easily keep track of which pages on the site they have visited.  
+    * A cream (Sea Shell) coloured line appears underneath each page name when hovered over or focussed on, indicating an action that the user can take to navigate to another page. 
     * The header bar is 'fixed/sticky', remaining at the top of the page at all times, even when the user scrolls down. This means that the site navigation is always quick and easy to reach, avoiding the user have to click the 'back' button or scroll back up to the top of the page to navigate to another site page. 
 
 3. As a first time user of the site planning to backpack around Australia, I want to be able to find travel hacks that are applicable before I fly so that I can best plan my trip. 
