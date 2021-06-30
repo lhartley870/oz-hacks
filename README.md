@@ -218,17 +218,18 @@ This page brings the user's journey through the website to a close and gives the
 * [Font Awesome](https://fontawesome.com/) was used to provide all the icons throughout the site.  
 * [Balsamiq](https://www.balsamiq.com) was used to prepare all of the Wireframes for the site. 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to inspect the project code throughout creation of the site. 
-* [ColorSpace](https://mycolor.space/) was used to generate the 'Pin Palette' and 'Natural Palette' colour schemes from which most of the colours for the website were taken. The Gradient tool was also used to generate the CSS code for the header gradient colour. 
+* [ColorSpace](https://mycolor.space/) was used to generate the colour palettes from which most of the colours for the website were taken. The Gradient tool was also used to generate the CSS code for the header gradient colour. 
 * [Eye Dropper](https://eyedropper.org/) was used to find out the hex codes for the rust red colour in a photo of the Australian landmark Uluru and for the navy colour in the compass logo image. 
 * [Color-Hex](https://www.color-hex.com/color/fff5ed) was used to convert the Sea Shell and Midnight Blue hex codes into rgb colour codes so that rgba values could be used for the partly transparent cover text boxes on the Home and Contact pages.  
 * [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), a colour blindness simulator, was used to test the website colour palette to make sure that the choice of colours and contrasts would still be visually appealing to people with different types of colour blindness. 
-* [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the screenshot shown in this README.md file showing how the website looks on different device types. 
+* [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the screenshots showing how the website looks on different device types. 
 * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed) provided free photos and images used throughout the site.
 * [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and [CSS-Tricks](https://css-tricks.com/) were used for general guidance and learning.  
-* [YesViz](https://yesviz.com/viewport/) and [Screen Size Map](https://screensizemap.com/) were used for awareness of the viewport sizes of different device screens for responsive design purposes and [What is my Viewport](https://whatismyviewport.com/) was used to confirm the viewport screen sizes of my devices for testing the project. 
+* [YesViz](https://yesviz.com/viewport/) and [Screen Size Map](https://screensizemap.com/) were used for awareness of the viewport sizes of different device screens for responsive design purposes and [What is my Viewport?](https://whatismyviewport.com/) was used to confirm the viewport screen sizes of my devices for testing the project. 
 * [Can I Use?](https://caniuse.com/) was used for checking browser compatibility.
 * [Compressor](https://compressor.io/) was used for compressing photos used on the site. 
-* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to check the contrast of text colours against their background colours. 
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to check the contrast of foreground text colours against their background colours.
+* [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF) was used to generate a suitable link text colour to use within the Midnight Blue hack text with a background colour of Sea Shell.   
 * [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used for testing the html and css code for the site.
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) were used for preparing the README.md and TESTING.md files.
 
@@ -268,7 +269,7 @@ With thanks, the photos appearing on the website were taken by the following pho
         * [Kindle photo](https://unsplash.com/photos/3gC4gBnD3Xs) by Perfecto Capucine
         * [Aeroplane window photo](https://unsplash.com/photos/p9vr45T2scg) by Blake Guidry
     * When in Oz page:
-        * [Melbourne class tram photo](https://unsplash.com/photos/xM9KZlD7dro) by Daniel Pelaez Duque
+        * [Melbourne classic tram photo](https://unsplash.com/photos/xM9KZlD7dro) by Daniel Pelaez Duque
     * Gallery page: 
         * [Uluru photo](https://unsplash.com/photos/IKlpLl7HVo0) by Jason H
         * [Crocodile photo](https://unsplash.com/photos/qdg2Hxyjz4M) by Simon Watkinson
@@ -294,7 +295,7 @@ With thanks, the photos appearing on the website were taken by the following pho
 
 * From [Pixabay](https://pixabay.com/):
     * When in Oz page:
-        * [Credit card photo](https://pixabay.com/photos/money-card-business-credit-card-256319/) by Michal Jarmoluk\
+        * [Credit card photo](https://pixabay.com/photos/money-card-business-credit-card-256319/) by Michal Jarmoluk
     * Gallery page:
         * [Twelve Apostles photo](https://pixabay.com/photos/twelve-apostles-australia-rocks-2372379/) (no author given just ID 12019/10259)
 
