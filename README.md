@@ -278,7 +278,7 @@ In order to work on a repository you have forked, you will need to clone it to y
 5. Change the current working directory to the one where you want the cloned directory to be located.  
 6. Type 'git clone' and then paste the URL you copied earlier. It will look like this with your username instead of 'YOUR-USERNAME' and the name of the forked repository you are cloning instead of 'NAME OF REPOSITORY YOU ARE CLONING': 
 
-'$ git clone https://github.com/YOUR-USERNAME/NAME OF REPOSITORY YOU ARE CLONING'
+![View of terminal command to clone fork](/readme-documents/screenshots/terminal-clone.png)
 
 7. Press enter and your local clone will be created. 
 
