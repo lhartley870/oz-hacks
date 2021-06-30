@@ -89,7 +89,7 @@ Tan             | #d2b48c
 Sky Blue        | #88aee1
 Midnight Blue   | #025
 Sea Shell       | #fff5ed
-Teal            | #237b75
+Teal            | #227c79
 
 As one of the main colours associated with Australia is the rusty red colour of the outback and Uluru as an iconic Australian landmark, I used [Eye Dropper](https://eyedropper.org/) on a photo of Uluru to obtain the Firebrick colour hex code. I then used [ColorSpace](https://mycolor.space/?hex=%23AC2C00&sub=1) to generate a colour palette using Firebrick as the base colour. The Dark Salmon, Tan and Sky Blue colours were then generated, along with Firebrick, as the 'Pin Palette'. I chose this palette as I felt it was reflective of the colours of Australia and gave a nice look. The Dark Salmon with the Firebrick created a sunset type aesthetic whilst the Tan and Sky Blue gave a seaside/beach type aesthetic. The Sea Shell colour was taken from the 'Natural Palette' which also included the Tan and Firebrick colours. 
 
@@ -229,7 +229,8 @@ This page brings the user's journey through the website to a close and gives the
 * [Can I Use?](https://caniuse.com/) was used for checking browser compatibility.
 * [Compressor](https://compressor.io/) was used for compressing photos used on the site. 
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to check the contrast of foreground text colours against their background colours.
-* [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF) was used to generate a suitable link text colour to use within the Midnight Blue hack text with a background colour of Sea Shell.   
+* [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF) was used to generate a suitable link text colour to use amongst the Midnight Blue hack text with a background colour of Sea Shell. 
+* [Lighthouse reports](https://developers.google.com/web/tools/lighthouse) were run on all the pages of the live site within the Chrome browser.   
 * [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used for testing the html and css code for the site.
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) were used for preparing the README.md and TESTING.md files.
 
