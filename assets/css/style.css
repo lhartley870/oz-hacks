@@ -616,7 +616,7 @@ https://stackoverflow.com/questions/55347359/why-is-css-grid-row-height-differen
 }
 
 #contact-text-outer {
-    background: rgba(0, 34, 85, 0.5);  
+    background: rgba(0, 34, 85, 0.7);  
 }
 
 .contact-text-inner {
@@ -662,9 +662,9 @@ select {
 }
 
 button {
-    background-color: #dc9c85; 
+    background-color: #fff5ed; 
     border-radius: 15px; 
-    color: #fff5ed;   
+    color: #025;   
     font-family: 'Fontdiner Swanky', cursive;   
     font-size: 1.2em; 
     padding: 10px; 
@@ -688,7 +688,7 @@ button {
 }
  
 button:hover {
-    box-shadow: 0 0 10px 5px #fff5ed;  
+    box-shadow: 0 0 10px 7px #dc9c85;  
 } 
 
 /* 
@@ -699,7 +699,7 @@ to see - background-colour changed to Dark Salmon (#dc9c85)
 so that the option wording can be seen 
 */ 
 .form-answer > option {
-    background-color: #dc9c85; 
+    background-color: #025; 
 }
 
 /* media queries */
