@@ -205,7 +205,26 @@ The foreground text colours and their background colours were tested using the [
     * [results against #4b6286](/readme-documents/contrast-checker-results/contact-contrast-4b6286.png)
     * [results against #33253c](/readme-documents/contrast-checker-results/contact-contrast-33253c.png)
 
-The [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF) was used to generate Teal as a suitable link text colour to use amongst the Midnight Blue hack text with a background colour of Sea Shell. The results can be found [here](/readme-documents/contrast-checker-results/link-contrast.png)     
+The [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF) was used to generate Teal as a suitable link text colour to use amongst the Midnight Blue hack text with a background colour of Sea Shell. The results can be found [here](/readme-documents/contrast-checker-results/link-contrast.png)  
+
+### Lighthouse Reports
+
+[Lighthouse reports](https://developers.google.com/web/tools/lighthouse) were run on all the pages of the live site within the Chrome browser. Initial reports highlighted some issues that were rectified, such as the text being too small for the gallery photo captions for some mobile devices and the IntroTravel link wording being 'here' on the When in Oz page was identified as a *'link without descriptive text'* issue. Each report was run for the mobile and desktop versions of each page. The Accessibility, Best Practices and SEO scores remained the same when the same report was re-run for a page but the performance scores varied when reports were re-run. Each report was therefore run 5 times consecutively to give an average performance score. The results are as follows: 
+
+* [Home page mobile results](/readme-documents/lighthouse-results/home-lighthouse-mobile.png) with an average performance score of 94.4.
+* [Home page desktop results](/readme-documents/lighthouse-results/home-lighthouse-desktop.png) with an average performance score of 99.4.
+* [Before You Go page mobile results](/readme-documents/lighthouse-results/before-go-lighthouse-mobile.png) with an average performance score of 94.6.
+* [Before You Go page desktop results](/readme-documents/lighthouse-results/before-go-lighthouse-desktop.png)  with an average performance score of 99.4. 
+* [When in Oz page mobile results](/readme-documents/lighthouse-results/when-oz-lighthouse-mobile.png) with an average performance score of 98. 
+* [When in Oz page desktop results](/readme-documents/lighthouse-results/when-oz-lighthouse-desktop.png)  with an average performance score of 98.8. 
+* [Gallery page mobile results](/readme-documents/lighthouse-results/gallery-lighthouse-mobile.png) - all 5 reports run had the same performance score of 99. 
+* [Gallery page desktop results](/readme-documents/lighthouse-results/gallery-lighthouse-desktop.png) - all 5 reports run had the same performance score of 100. 
+* [Contact page mobile results](/readme-documents/lighthouse-results/contact-lighthouse-mobile.png)  - with an average performance score of 95.8.
+* [Contact page desktop results](/readme-documents/lighthouse-results/contact-lighthouse-desktop.png)  - all 5 reports run had the same performance score of 100. 
+
+Scores for Accessibility, Best Practices and Performance were 100 for all reports apart from: 
+* 93 for Best Practices for mobile and desktop on the Before You Go and When in Oz pages due to third party cookie issues. 
+* 97 for SEO for mobile only on the Contact page due to the radio buttons being small. 
 
 ## Fixed Bugs
 
