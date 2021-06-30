@@ -126,18 +126,15 @@ nav {
 } 
 
 .header-links a {
-    color: #fff5ed; 
+    color: #025; 
     font-size: 0.8em; 
     font-weight: 500; 
 }
 
-.links a:hover {
+.links a:hover, 
+.links a:focus {
     border-bottom: 2px solid #fff5ed;
 }
-
-.links a:visited {
-    color: #025; 
-} 
 
 /* styling active page with a coloured underline taken from Code Institute Love Running project */
 .active {
@@ -262,7 +259,7 @@ footer {
 }
 
 .icon-links a {
-    color: #fff5ed; 
+    color: #025; 
     font-size: 1em; 
 }
 
