@@ -362,6 +362,7 @@ All the embedded videos used on the website are from [YouTube](https://www.youtu
 ### Content
 
 * All content was written by the developer although the information for hack 5 (Key Travel Documents) on the Before You Go page was largely taken from the [Australian Government's visa page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder) which has a link in the footer, the information for hack 3 on the When in Oz page was largely taken from [Commonwealth Bank's website](https://www.commbank.com.au/moving-to-australia/banking.html) which is a link within that hack text and some of the public transport card information for hack 5 (City Transport) on the When in Oz page was taken from [this Rocky Travel blog](https://www.rockytravel.net/blog/australia-public-transport-cards-review/). 
+* This [Code Institute sample README file](https://github.com/Code-Institute-Solutions/SampleREADME) was used for guidance in preparing this README file and for the Deployment section along with this [GitHub Docs guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and this [GitHub Guide](https://guides.github.com/activities/forking/). 
 
 ### Acknowledgments
 
