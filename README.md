@@ -37,16 +37,16 @@ The Wireframes were a useful aid prior to starting to build the site but the des
 ### Header and Footer
 * Having photos in the header and footer did not look good once built and so the header and footer were given coloured backgrounds instead. 
 * Having the three elements of the header (compass logo, Oz Hacks logo and navigation bar) built as three separate bordered boxes looked old fashioned and so the borders were removed to give one borderless block header.
-* Having gaps between the header and footer and the right and left edges of the page looked odd and was replaced with a header and footer that took up 100% of the width of the page.
+* Having gaps between the header and footer on the right and left edges of the page looked odd and was replaced with a header and footer that took up 100% of the width of the page.
 * The labels in the footer that went with the icon links to external websites were removed to give a less cluttered appearance. The icons themselves indicate what the links are for and are referenced on the Before You Go and When in Oz pages in more detail in any case. 
 * On tablet devices, the page navigation links were initially going to move underneath the header but there was enough room for the links to appear horizontally in the header whilst still being readable so they were moved within the header for a neater appearance.  
 * Initially a hamburger menu was going to be used for page navigation on mobile devices but without the use of JavaScript this was very complex, caused issues with accessibility and ultimately was not required as the mobile view still looked good by stacking the navigation links on top of each other. 
 
 ### Photo and Text Box Theme
-* The Wireframes were based on there being a theme throughout the site of having a text box adjoined to a smaller video or image. With the Home Page and Contact page this would have looked too cluttered against a background hero image. The theme was therefore abandoned for the Home and Contact pages and was adapted for the Before You Go and When in Oz pages on larger screens by having a large text box stacked on top of a smaller video/image box for screens 1024px - 1439px wide and by having adjacent equally sized text boxes and video/image boxes for screens 1440px+ wide.
+* The Wireframes were based on there being a theme throughout the site of having a text box adjoined to a smaller video or image. With the Home Page and Contact page this would have looked too cluttered against a background hero image. The theme was therefore abandoned for the Home and Contact pages and was adapted for the Before You Go and When in Oz pages on larger screens by having a large text box stacked on top of a smaller video/image for screens 1024px - 1439px wide and by having adjacent equally sized text boxes and videos/images for screens 1440px+ wide.
   
 ### Animation for Hacks Pages
-* The intial animation idea for the Before You Go and When in Oz pages on larger screens was to have all the boxes on the left move from the left edge of the page to the centre and to have all the boxes on the right move from the right edge of the page to the centre, meeting in the middle. CSS grid was used for the layout of the hacks pages as it was an efficient way of re-arranging the hacks pages for different screen sizes. As the animation options for CSS grid are limited, the initial animation idea was swapped for a grid animation where the row gaps between each hack and media pairing open up and the column gap between the hacks and their corresponding media closes to bring the hack text and accompanying media together.
+* The initial animation idea for the Before You Go and When in Oz pages on larger screens was to have all the text boxes and videos/images on the left move from the left edge of the page to the centre and to have all the text boxes and videos/images on the right move from the right edge of the page to the centre, meeting in the middle. CSS grid was used for the layout of the hacks pages as it was an efficient way of re-arranging the hacks pages for different screen sizes. As the animation options for CSS grid are limited, the initial animation idea was swapped for a grid animation where the row gaps between each hack and media pairing open up and the column gap between the hacks and their corresponding media closes to bring the hack text and accompanying media together.
 
 ## Design
 
@@ -71,7 +71,7 @@ Roboto | Sans-Serif
 Courier Prime | Monospace
 Rock Salt | Cursive
 
-I selected Fontdiner Swanky as the font for the OzHacks logo and headings throughout the site as it has a fun and energetic feel appropriate for the subject matter of the site. Google Fonts suggested the Roboto font as a popular pairing with Fontdiner Swanky. The combination is complimentary with Roboto being a clear and easily readable font for use throughout the majority of the website. 
+I selected Fontdiner Swanky as the font for the Oz Hacks logo and headings throughout the site as it has a fun and energetic feel appropriate for the subject matter of the site. Google Fonts suggested the Roboto font as a popular pairing with Fontdiner Swanky. The combination is complimentary with Roboto being a clear and easily readable font for use throughout the majority of the website. 
 
 Courier Prime was selected for the Home Page cover text as it has the appearance of text typed on a computer which is key to the typing animation that appears on the Home Page. 
 
@@ -89,10 +89,13 @@ Tan             | #d2b48c
 Sky Blue        | #88aee1
 Midnight Blue   | #025
 Sea Shell       | #fff5ed
+Teal            | #237b75
 
 As one of the main colours associated with Australia is the rusty red colour of the outback and Uluru as an iconic Australian landmark, I used [Eye Dropper](https://eyedropper.org/) on a photo of Uluru to obtain the Firebrick colour hex code. I then used [ColorSpace](https://mycolor.space/?hex=%23AC2C00&sub=1) to generate a colour palette using Firebrick as the base colour. The Dark Salmon, Tan and Sky Blue colours were then generated, along with Firebrick, as the 'Pin Palette'. I chose this palette as I felt it was reflective of the colours of Australia and gave a nice look. The Dark Salmon with the Firebrick created a sunset type aesthetic whilst the Tan and Sky Blue gave a seaside/beach type aesthetic. The Sea Shell colour was taken from the 'Natural Palette' which also included the Tan and Firebrick colours. 
 
 When I selected the image for the compass animation I again used [Eye Dropper](https://eyedropper.org/) on the navy colour appearing in the compass image to obtain the Midnight Blue hex code. I felt that out of the existing colours only Firebrick was dark enough to be used as the main text colour throughout the site against the Sea Shell background but I found it more visually appealing to use Midnight Blue as the predominant text colour with Firebrick being used more sparingly as more of a feature colour. Using Midnight Blue as the main text colour also provided a colour link back to the compass image which appears in the header on every page.
+
+The Teal colour was generated by using ColorSpace to generate colour palettes using Midnight Blue as a base colour. The [Small Switch Palette](https://mycolor.space/?hex=%23002255&sub=1) was generated which had a colour of #278f8c. Inputting this colour into the [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF) along with the background colour of Sea Shell and the body text colour of Midnight Blue and sliding the scale along until a pass was reached for all categories gave the Teal link colour to be used for links within the hack text.  
 
 I used the ColorSpace Gradient tool which can be found [here](https://mycolor.space/gradient?ori=to+right&hex=%23DC9C85&hex2=%23D2B48C&sub=1) to generate the gradient colour CSS code used for the header using a left to right gradient with a start colour of Dark Salmon and an end colour of Tan. 
 
