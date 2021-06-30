@@ -367,13 +367,13 @@ footer {
 }
 
 .hacks-text a {
-    color: #2d7c78; 
+    color: #227c79; 
     font-size: 1.3em; 
 }
 
 .hacks-text a:hover,
 .hacks-text a:focus {
-    border-bottom: 2px solid #2d7c78;
+    border-bottom: 2px solid #227c79;
 }
 
 .hacks-text i {
