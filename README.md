@@ -13,19 +13,19 @@ Users of this website are typically going to be people who are searching for:
 3. Potentially, inspiration for good places to visit in Australia as a secondary reason for visiting the site following on from the primary reason at 1 and/or 2.
 
 ### User Stories
-* As a first time user of the site, I want to see what the site is all about and the experience of the author so that I can decide whether it is worth exploring the site further.
-* As a first time user of the site, I want to be able to easily navigate the site so that I can find exactly what I want quickly. 
-* As a first time user of the site planning to backpack around Australia, I want to be able to find travel hacks that are applicable before I fly so that I can best plan my trip. 
-* As a first time user of the site already backpacking in Australia, I want to be able to find travel hacks that are applicable to me now so that I can improve my current backpacking experience. 
+* As a first-time user of the site, I want to see what the site is all about and the experience of the author so that I can decide whether it is worth exploring the site further.
+* As a first-time user of the site, I want to be able to easily navigate the site so that I can find exactly what I want quickly. 
+* As a first-time user of the site planning to backpack around Australia, I want to be able to find travel hacks that are applicable before I fly so that I can best plan my trip. 
+* As a first-time user of the site already backpacking in Australia, I want to be able to find travel hacks that are applicable to me now so that I can improve my current backpacking experience. 
 * As a returning user to the site having found the hacks useful, I want some inspiration for places to visit to inform my upcoming trip. 
 * As a returning user to the site having found the hacks useful, I want to contact the site author for advice on a specific issue to assist me ahead of my trip. 
 * As a returning user to the site having found the hacks useful, I want to explore some of the hacks further to help me plan my trip more fully. 
 * As a returning user to the site having found the hacks useful, I want some useful links to book my flights and organise my visa. 
-* As a user of the site I want a comforting familiar layout as I explore the site with an attractive colour scheme and Australian imagery so that I can be inspired and excited about my upcoming/existing backpacking experience. 
+* As a user of the site, I want a comforting familiar layout as I explore the site with an attractive colour scheme and Australian imagery so that I can be inspired and excited about my upcoming/existing backpacking experience. 
 
 ## Wireframes
 
-I used [Balsamiq](https://www.balsamiq.com) to create Wireframe mockups for laptop/large monitor, tablet and mobile devices which can be found here: 
+I used [Balsamiq](https://www.balsamiq.com) to create Wireframe mock-ups for laptop/large monitor, tablet and mobile devices which can be found here: 
 * [Home Page](/readme-documents/wireframes/home-page-wireframes.png) 
 * [Before You Go](/readme-documents/wireframes/before-you-go-wireframes.png) 
 * [When In Oz](/readme-documents/wireframes/when-in-oz-wireframes.png) 
@@ -39,7 +39,7 @@ The Wireframes were a useful aid prior to starting to build the site but the des
 * Having the three elements of the header (compass logo, Oz Hacks logo and navigation bar) built as three separate bordered boxes looked old fashioned and so the borders were removed to give one borderless block header.
 * Having gaps between the header and footer on the right and left edges of the page looked odd and was replaced with a header and footer that took up 100% of the width of the page.
 * The labels in the footer that went with the icon links to external websites were removed to give a less cluttered appearance. The icons themselves indicate what the links are for and are referenced on the Before You Go and When in Oz pages in more detail in any case. 
-* On tablet devices, the page navigation links were initially going to move underneath the header but there was enough room for the links to appear horizontally in the header whilst still being readable so they were moved within the header for a neater appearance.  
+* On tablet devices, the page navigation links were initially going to move underneath the header but there was enough room for the links to appear horizontally in the header whilst still being readable, so they were moved within the header for a neater appearance.  
 * Initially a hamburger menu was going to be used for page navigation on mobile devices but without the use of JavaScript this was very complex, caused issues with accessibility and ultimately was not required as the mobile view still looked good by stacking the navigation links on top of each other. 
 
 ### Photo and Text Box Theme
@@ -91,7 +91,7 @@ Midnight Blue   | #025
 Sea Shell       | #fff5ed
 Teal            | #227c79
 
-As one of the main colours associated with Australia is the rusty red colour of the outback and Uluru as an iconic Australian landmark, I used [Eye Dropper](https://eyedropper.org/) on a photo of Uluru to obtain the Firebrick colour hex code. I then used [ColorSpace](https://mycolor.space/?hex=%23AC2C00&sub=1) to generate a colour palette using Firebrick as the base colour. The Dark Salmon, Tan and Sky Blue colours were then generated, along with Firebrick, as the 'Pin Palette'. I chose this palette as I felt it was reflective of the colours of Australia and gave a nice look. The Dark Salmon with the Firebrick created a sunset type aesthetic whilst the Tan and Sky Blue gave a seaside/beach type aesthetic. The Sea Shell colour was taken from the 'Natural Palette' which also included the Tan and Firebrick colours. 
+As one of the main colours associated with Australia is the rusty red colour of the outback and Uluru as an iconic Australian landmark, I used [Eye Dropper](https://eyedropper.org/) on a photo of Uluru to obtain the Firebrick colour hex code. I then used [ColorSpace](https://mycolor.space/?hex=%23AC2C00&sub=1) to generate a colour palette using Firebrick as the base colour. The Dark Salmon, Tan and Sky Blue colours were then generated, along with Firebrick, as the 'Pin Palette'. I chose this palette as I felt it was reflective of the colours of Australia and gave a nice look. The Dark Salmon with the Firebrick created a sunset type of aesthetic whilst the Tan and Sky Blue gave a seaside/beach type of aesthetic. The Sea Shell colour was taken from the 'Natural Palette' which also included the Tan and Firebrick colours. 
 
 When I selected the image for the compass animation I again used [Eye Dropper](https://eyedropper.org/) on the navy colour appearing in the compass image to obtain the Midnight Blue hex code. I felt that out of the existing colours only Firebrick was dark enough to be used as the main text colour throughout the site against the Sea Shell background but I found it more visually appealing to use Midnight Blue as the predominant text colour with Firebrick being used more sparingly as more of a feature colour. Using Midnight Blue as the main text colour also provided a colour link back to the compass image which appears in the header on every page.
 
@@ -293,14 +293,14 @@ For more information on forking and cloning repositories, see [GitHub Docs](http
 * The code for the compass logo rotation animation was adapted from this [Flaviocopes](https://flaviocopes.com/rotate-image/) site. 
 * The code for styling the navigation link for the page the user is on with a coloured underline was adapted from the Code Institute 'Love Running' project as well as the html for the footer external links.  
 * The typing animation code for the Home page was adapted from this [CSS-Tricks post by Geoff Graham](https://css-tricks.com/snippets/css/typewriter-effect/). 
-* The code to remove the black bars above and below the YouTube embedded videos by maintaining the aspect ration of the videos on the Before You Go and When in Oz pages was taken from [this Stack Overflow solution by Michael Coker](https://stackoverflow.com/questions/43954836/disabling-blackbars-on-youtube-embed-iframe). 
+* The code to remove the black bars above and below the YouTube embedded videos by maintaining the aspect ratio of the videos on the Before You Go and When in Oz pages was taken from [this Stack Overflow solution by Michael Coker](https://stackoverflow.com/questions/43954836/disabling-blackbars-on-youtube-embed-iframe). 
 * Code to remove black edging on the embedded YouTube videos was adapted from the code suggested by Patrick Grey in [this GitHub post](https://github.com/twbs/bootstrap/issues/26284).
 * The code to make the photos on the Before You Go and When in Oz pages fit within their grid areas was adapted from [this answer given by Michael Benjamin on Stack Overflow](https://stackoverflow.com/questions/46090760/controlling-the-size-of-an-image-within-a-css-grid-layout). 
-* The polaroid effect for the gallery photos on smaller screens was adapated from [this Line25 tutorial](https://line25.com/tutorials/how-to-create-a-pure-css-polaroid-photo-gallery).
+* The polaroid effect for the gallery photos on smaller screens was adapted from [this Line25 tutorial](https://line25.com/tutorials/how-to-create-a-pure-css-polaroid-photo-gallery).
 
 ### Media
 
-#### Ilustrations
+#### Illustrations
 
 With thanks, the [compass illustration](https://www.rawpixel.com/image/394679/free-illustration-vector-compass-map-compass-icon) appearing in the header on all of the website pages is from [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed) but no illustrator identity was provided.
 
